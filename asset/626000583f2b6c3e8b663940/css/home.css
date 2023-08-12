@@ -2507,6 +2507,8 @@ textarea.w-select {
 .invert {
   max-width: 130px;
   padding-bottom: 7px;
+  margin-top: 9px;
+  margin-left: 6px;
 }
 
 .text-block-4 {
@@ -3585,7 +3587,7 @@ textarea.w-select {
 }
 
 .enphaseplatinuminstaller {
-  width: 75%;
+  width: 100%;
   max-width: none;
   margin-bottom: 100px;
   padding-bottom: 0px;
