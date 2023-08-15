@@ -14,6 +14,142 @@ body {
   
 }
 
+.gallery{
+  width: 900px;
+  display: flex;
+  overflow-x: scroll;
+}
+.gallery div{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  flex: none;
+}
+.gallery div img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: transform 0.9s;
+}
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+.gallery-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10% auto; */
+  padding:  3% 10%;
+}
+
+#backBtn, #nextBtn{
+  width: 50px;
+  cursor: pointer;
+  margin: 40px;
+}
+.gallery div img:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text-span-70 {
   color: black;
 }
@@ -2652,8 +2788,7 @@ textarea.w-select {
 .invert {
   max-width: 130px;
   padding-bottom: 7px;
-  margin-top: 9px;
-  margin-left: 6px;
+ 
 }
 
 .text-block-4 {
@@ -5215,7 +5350,7 @@ textarea.w-select {
 }
 
 .container-3 {
-  position: relative;
+  position: inherit;
   z-index: 2;
   max-width: 1380px;
   margin-top: 10px;
@@ -5225,6 +5360,7 @@ textarea.w-select {
   flex: 0 auto;
   background-color: #000;
   border-radius: 10px;
+  
 }
 
 .container-3.inner-padding-medium {
@@ -6460,12 +6596,19 @@ textarea.w-select {
   top: 352px;
 }
 
-/* .black-background {
+ .black-background {
   overflow: hidden;
   background-color: #77bf58;
   margin-bottom: 5px;
-} */
-
+  
+} 
+.section-full._4{
+  background-image:
+  linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+ url("./../../img/tree.jpg");
+ background-position: 0px 0px ,0px 0px, 50% 50%;
+ background-size: auto, auto, cover;
+}
 .black-background.cni {
   position: static;
   z-index: 100;
@@ -9085,7 +9228,7 @@ textarea.w-select {
   height: 100%;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(299deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("file:///C:/Users/Admin/Documents/Projects/solar%20projects/NewProject/asset/img/Tried%20of%20electricity%20bills.png");
+  background-image: linear-gradient(299deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("./../../img/Tried\ of\ electricity\ bills.png");
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, cover;
 }
@@ -14956,6 +15099,17 @@ textarea.w-select {
   .white-label._6.bp._3 {
     left: 85px;
   }
+  .w-slider-mask {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  height: 100%;
+  white-space: nowrap
+}
+
 
   .white-label._6.bp._5 {
     left: 539px;
@@ -30349,7 +30503,7 @@ textarea.w-select {
 #services {
   margin: 34px;
   display: flex;
-
+/* height: 100%; */
 }
 
 #services-container {
@@ -30363,6 +30517,7 @@ textarea.w-select {
   border-radius: 28px;
   background: #e3e3e3;
   margin-bottom: 20px;
+  transition: transform 0.4s;
 }
 
 #services .box img {
@@ -30389,12 +30544,38 @@ textarea.w-select {
 #services-container {
   background-image:
     linear-gradient(180deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("./../../img/whyusback.jpg");
+    url("./../../img/soll.jpg");
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, cover;
+  /* height: 600px; */
 }
 
+#services .box:hover{
+  transform: scale(1.1);
+}
 
+#progress{
+  position: fixed;
+  bottom: 29px;
+  right: 10px;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+      /* background-color: green; */
+  }
+  #progress-value{
+      display: block;
+      height: calc(100% - 15px);
+      width: calc(100% - 15px);
+      background-color: white;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-size: 25px;
+  }
 
 
 
