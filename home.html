@@ -2,7 +2,7 @@
 <!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Sat Mar 25 2023 15:35:10 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-domain="ecoeco.webflow.io" data-wf-page="626000583f2b6c1d1966393f" data-wf-site="626000583f2b6c3e8b663940"
     data-wf-status="1">
-<!-- https://assets.website-files.com/626000583f2b6c3e8b663940/css/ecoeco.webflow.6e110ab06.css -->
+
 
 <head>
     <meta charset="utf-8" />
@@ -76,7 +76,14 @@
     /* clients */
 
 
+    @media screen and (max-width: 990px) {
 
+        .wrapper .carousel {
+            grid-auto-columns: calc((7% / 1) - 12px);
+        }
+
+        /* grid-auto-columns: calc((7% / 1) - 12px); */
+    }
 
     body {
         min-height: 100vh;
@@ -86,7 +93,7 @@
         background-color: #EFEFEF;
     }
 
-    
+
 
 
 
@@ -94,103 +101,119 @@
 
 
     .wrapper {
-  max-width: 1100px;
-  width: 100%;
-  position: relative;
-  padding: 50px;
-}
-.wrapper i {
-  top: 50%;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  font-size: 1.25rem;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-  transform: translateY(-50%);
-  transition: transform 0.1s linear;
-}
-.wrapper i:active{
-  transform: translateY(-50%) scale(0.85);
-}
-.wrapper i:first-child{
-  left: -22px;
-}
-.wrapper i:last-child{
-  right: -22px;
-}
-.wrapper .carousel{
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 3) - 12px);
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 16px;
-  border-radius: 8px;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-}
-.carousel::-webkit-scrollbar {
-  display: none;
-}
-.carousel.no-transition {
-  scroll-behavior: auto;
-}
-.carousel.dragging {
-  scroll-snap-type: none;
-  scroll-behavior: auto;
-}
-.carousel.dragging .card {
-  cursor: grab;
-  user-select: none;
-}
-.carousel :where(.card, .img) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.carousel .card {
-  scroll-snap-align: start;
-  height: 300px;
-  list-style: none;
-  background: #fff;
-  cursor: pointer;
-  /* padding-bottom: 15px; */
-  flex-direction: column;
-  border-radius: 8px;
-}
-.carousel .card .img {
-  /* background: #8B53FF; */
-  height: 148px;
-  width: 148px;
-  border-radius: 0%;
-  border: 2px solid #77bf58;
-}
-.card .img img {
-  width: 140px;
-  height: 140px;
-  border-radius: 0%;
-  object-fit: cover;
-  border: 4px solid #fff;
-}
-.carousel .card h2 {
-  font-weight: 500;
-  font-size: 1.56rem;
-  margin: 30px 0 5px;
-}
-.carousel .card span {
-  color: #6A6D78;
-  font-size: 1.31rem;
-}
+        max-width: 1100px;
+        width: 100%;
+        position: relative;
+        padding: 50px;
+    }
 
-/* .wrapper.carousel.card.img img{
+    .wrapper i {
+        top: 50%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        font-size: 1.25rem;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+    }
+
+    .wrapper i:active {
+        transform: translateY(-50%) scale(0.85);
+    }
+
+    .wrapper i:first-child {
+        left: -22px;
+    }
+
+    .wrapper i:last-child {
+        right: -22px;
+    }
+
+    .wrapper .carousel {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 12px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+
+    .carousel::-webkit-scrollbar {
+        display: none;
+    }
+
+    .carousel.no-transition {
+        scroll-behavior: auto;
+    }
+
+    .carousel.dragging {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+    }
+
+    .carousel.dragging .card {
+        cursor: grab;
+        user-select: none;
+    }
+
+    .carousel :where(.card, .img) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel .card {
+        scroll-snap-align: start;
+        max-width: 65%;
+        height: 222px;
+        list-style: none;
+        background: #fff;
+        cursor: pointer;
+        /* padding-bottom: 15px; */
+        flex-direction: column;
+        border-radius: 8px;
+    }
+
+    .carousel .card .img {
+        /* background: #8B53FF; */
+        height: 148px;
+        width: 148px;
+        border-radius: 0%;
+        border: 2px solid #77bf58;
+    }
+
+    .card .img img {
+        width: 140px;
+        height: 140px;
+        border-radius: 0%;
+        object-fit: cover;
+        border: 4px solid #fff;
+    }
+
+    .carousel .card h2 {
+        font-weight: 500;
+        font-size: 1.0rem;
+        margin: 13px 0 5px;
+    }
+
+    .carousel .card span {
+        color: #6A6D78;
+        font-size: 1.31rem;
+    }
+
+    /* .wrapper.carousel.card.img img{
     max-width: 102%;
 } */
-/* @media screen and (max-width: 900px) {
+    /* @media screen and (max-width: 900px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);
   }
@@ -201,9 +224,52 @@
     grid-auto-columns: 100%;
   }
 } */
+/* contact */
+.nande{
+    display: flex;
+    margin-bottom: 5px;
+}
+#contacus input{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    
+}
+#contacus input:hover{
+     border: 2px solid #77bf58;
+     
+}
+#contacus select:hover{
+      border: 2px solid #77bf58;
+}
+#contacus select{
+    border: 2px solid rgb(0, 0, 0);
+
+    border-radius: 5px;
+}
+#contacus label{
+   color: #ebf4e8;
+   margin-bottom: 0px;
+   font-size: 16px;
+}
+#contacus textarea{
+    border: 2px solid rgb(0, 0, 0);
+
+    border-radius: 5px;
+}
+#contacus textarea:hover{
+   border: 2px solid #77bf58;
+}
+#contacus{
+    background-image:
+     linear-gradient(180deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+    url("../NewProject/asset/img/Contact.jpg");
+    background-position: 0px 0px ,0px 0px, 50% 50%;
+    background-size: auto ,auto,cover;
+    padding-bottom: 25px;
+}
 </style>
 
-<body class="body" style="    background-color: #bfffbf;">
+<body class="body" style="    background-color: #88ff88;">
     <div id="progress">
         <span id="progress-value">&#x1F815;
         </span>
@@ -215,18 +281,18 @@
                 <div class="logog" style="display: flex;">
 
                     <img src="asset/img/sym.png" alt="" style="    
-                 /* max-width: 7%; */
-                 /* vertical-align: middle; */
-                 display: inline-block;
-                 justify-content: center;
-                 align-items: center;
-                 /* text-align: center; */
-                 /* padding-left: 1px; */
-                 padding: 5px;
-                 /* left: 10px; */
-                 margin-left: 5px;
-                 width: 800px;
-                 height: 65px;
+                 max-width: 18%;
+    /* vertical-align: middle; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* padding-left: 1px; */
+    padding: 5px;
+    /* left: 10px; */
+    margin-left: 5px;
+    width: 200px;
+    height: 65px;
                 ">
 
 
@@ -370,9 +436,8 @@
                                         commercial
                                         roof top solar installer.</span>
                                 </div>
-                                <div class="w-layout-grid grid-buttons inner-padding-small padding-top"><a
-                                        href="quote.html" class="button-2 color-line-white _2 w-inline-block"
-                                        style="padding: 10px;">
+                                <div class="w-layout-grid grid-buttons inner-padding-small padding-top"><a href="#contacus"
+                                        class="button-2 color-line-white _2 w-inline-block" style="padding: 10px;">
                                         <div>GET A FREE QUOTE</div>
                                     </a></div>
                             </div>
@@ -423,7 +488,7 @@
             <div class="w-slider-nav w-round"></div>
         </div>
         <div class="container-3 w-container"
-            style="background-image:
+            style=" margin-left: 13px; margin-right: 13px; background-image:
     linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
    url(asset/img/HD-wallpaper-best-solar-company-in-ghaziabad-solar-rooftop-solar-energy-sun-solar-energy-solar-panel.jpg); background-size: auto, auto, cover;  background-position: 0px 0px,0px 0px, 50% 50%;">
             <div class="w-layout-grid main-grid no-gap inner-padding-small">
@@ -509,7 +574,10 @@
     background-color: #77bf58;
     height: 253px;
     border-radius: 5px;
-    padding-top: 10px;">
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-left: 13px;
+    margin-right: 13px;">
             <h2 class="special" style="    text-align: center;
         color: white;
        font-size: 40px;
@@ -636,113 +704,228 @@
             </div>
 
         </section>
-        
+
         <div class="client">
-            
-        <h2 style="font-size: 32px;
+
+            <h2 style="font-size: 32px;
         line-height: 36px;
       text-align: center;
         padding-top: 30px;
        font-family: inherit;
     ">SOME OF OUR ESTEEMED ROOFTOP SOLAR CLIENTS</h2>
-        <div class="wrapper" style="padding-top: 23px;">
-        <i id="left" class="fa-solid fa-angle-left"><img src="asset/img/pngwing.com (1).png" alt="" style="max-width: 103%;"></i>
-        <ul class="carousel">
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/a765da5c255511eaa21f0aec9a8a582c.avif" alt="img" draggable="false"  style="max-width: 103%;" ></div>
-            <h2>Hotel Gopi Krishna</h2>  </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/APSPDCL-Logo.jpg" alt="img" draggable="false" style="max-width: 103%;" ></div>
-            <h2>APSPDCL</h2>
-     
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/Bharat-Petroleum.png" alt="img" draggable="false" style="max-width: 103%;" ></div>
-            <h2>Bharath Petroleum</h2>
-         
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/c145fb77e37a599d2eb2c67a37fa9dc6.png" alt="img" draggable="false" style="max-width: 103%;" ></div>
-            <h2>WAAREE</h2>
-   
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/care-and-cure-hospitals-anantapur-logo.jpg" alt="img" draggable="false" style="max-width: 103%;" ></div>
-            <h2>Care and Cure Hospitals</h2>
-         
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/Copy of swaasthya_logo.png" alt="img" draggable="false" style="max-width: 103%; width: 140px ;height: 40px;padding-left: 18px;" ></div>
-            <h2>Swaastya Hospitals</h2>
-       
-          </li>
-         
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/logo.png" alt="img" draggable="false" style="max-width: 103%; height: 45px;" ></div>
-            <h2>MG brothers</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/maxresdefault (1).jpg" alt="img" draggable="false" style="max-width: 103%;" ></div>
-            <h2>GRR Convention</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/maxresdefault.jpg" alt="img" draggable="false" style="max-width: 103%;" ></div>
-            <h2>One Humanity</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/Original-ORC-Vector-LOGO-5-600x106.png" alt="img" draggable="false" style="max-width: 103%; height: 30px;" ></div>
-            <h2>Om Shanti Retreat Centre</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/Peepal-LogoFull.png" alt="img" draggable="false" style="max-width: 103%; height: 142px; width: 100px;"  ></div>
-            <h2>The Peepal Grove School</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/roohoot-logo-retina.png" alt="img" draggable="false" style="height: 60px; max-width: 103%; background-color: rgb(148, 141, 141);" ></div>
-            <h2>roothoot</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/Tamil_Nadu_Electricity_Board_(TNEB)_Logo.jpg" alt="img" draggable="false" style="max-width: 103%; height: 128px;" ></div>
-            <h2>TNEB</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/tsf.jpg" alt="img" draggable="false" style="max-width: 103%;height: 68px;" ></div>
-            <h2> The Sastang Foundation</h2>
-       
-          </li>
-        
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/TTD.png" alt="img" draggable="false" style="max-width: 103%;height: 144px;" ></div>
-            <h2>TTD</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/unnamed (1).jpg" alt="img" draggable="false" style="max-width: 103%;" ></div>
-            <h2>Accord School</h2>
-       
-          </li>
-          <li class="card">
-            <div class="img"><img src="asset/img/Our clients/unnamed.jpg" alt="img" draggable="false" style="max-width: 103%;" ></div>
-            <h2>MG Bros</h2>
-       
-          </li>
-        </ul>
-        <i id="right" class="fa-solid fa-angle-right"><img src="asset/img/front.png" alt="" style="max-width: 103%;"></i>
-      </div>      
-</div>
+            <div class="wrapper" style="padding-top: 23px;">
+                <i id="left" class="fa-solid fa-angle-left"><img src="asset/img/pngwing.com (1).png" alt=""
+                        style="max-width: 103%;"></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/a765da5c255511eaa21f0aec9a8a582c.avif"
+                                alt="img" draggable="false" style="max-width: 103%;"></div>
+                        <h2>Hotel Gopi Krishna</h2>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/APSPDCL-Logo.jpg" alt="img" draggable="false"
+                                style="max-width: 103%;"></div>
+                        <h2>APSPDCL</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/Bharat-Petroleum.png" alt="img"
+                                draggable="false" style="max-width: 103%;"></div>
+                        <h2>Bharath Petroleum</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/c145fb77e37a599d2eb2c67a37fa9dc6.png" alt="img"
+                                draggable="false" style="max-width: 103%;"></div>
+                        <h2>WAAREE</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/care-and-cure-hospitals-anantapur-logo.jpg"
+                                alt="img" draggable="false" style="max-width: 103%; "></div>
+                        <h2 style="font-size: 0.8rem;">Care and Cure Hospitals</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/Copy of swaasthya_logo.png" alt="img"
+                                draggable="false"
+                                style="max-width: 103%; width: 140px ;height: 40px;padding-left: 18px;"></div>
+                        <h2>Swaastya Hospitals</h2>
+
+                    </li>
+
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/logo.png" alt="img" draggable="false"
+                                style="max-width: 103%; height: 45px;"></div>
+                        <h2>MG brothers</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/maxresdefault (1).jpg" alt="img"
+                                draggable="false" style="max-width: 103%;"></div>
+                        <h2>GRR Convention</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/maxresdefault.jpg" alt="img" draggable="false"
+                                style="max-width: 103%;"></div>
+                        <h2>One Humanity</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/Original-ORC-Vector-LOGO-5-600x106.png"
+                                alt="img" draggable="false" style="max-width: 103%; height: 30px; font-size: 0.8rem;">
+                        </div>
+                        <h2 style=" font-size: 0.8rem;">Om Shanti Retreat Centre</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/Peepal-LogoFull.png" alt="img"
+                                draggable="false"
+                                style="max-width: 103%; height: 142px; width: 100px; font-size: 0.8rem;"></div>
+                        <h2 style="font-size: 0.8rem;">The Peepal Grove School</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/roohoot-logo-retina.png" alt="img"
+                                draggable="false"
+                                style="height: 60px; max-width: 103%; background-color: rgb(148, 141, 141);"></div>
+                        <h2>roothoot</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/Tamil_Nadu_Electricity_Board_(TNEB)_Logo.jpg"
+                                alt="img" draggable="false" style="max-width: 103%; height: 128px;"></div>
+                        <h2>TNEB</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/tsf.jpg" alt="img" draggable="false"
+                                style="max-width: 103%;height: 68px; font-size: 0.8rem;"></div>
+                        <h2 style="font-size: 0.8rem;"> The Sastang Foundation</h2>
+
+                    </li>
+
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/TTD.png" alt="img" draggable="false"
+                                style="max-width: 103%;height: 144px;"></div>
+                        <h2>TTD</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/unnamed (1).jpg" alt="img" draggable="false"
+                                style="max-width: 103%;"></div>
+                        <h2>Accord School</h2>
+
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="asset/img/Our clients/unnamed.jpg" alt="img" draggable="false"
+                                style="max-width: 103%;"></div>
+                        <h2>MG Bros</h2>
+
+                    </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"><img src="asset/img/front.png" alt=""
+                        style="max-width: 103%;"></i>
+            </div>
+        </div>
+
+
+        <div id="contacus" style="margin-left: 13px; margin-bottom: 13px; margin-right: 13px; border-radius: 10px;">
+            <h2 style="
+            line-height: 36px;
+              padding-top: 20px;
+            padding-left: 70px;
+            color: #77bf58;
+            padding-bottom: 10px;
+            font-family: system-ui;
+            font-size: 2.3rem;"> <span  style="font-size: 2.5rem;">Are You Ready</span>  <br>
+                To Start a Project With Us.Enquire Now..
+            </h2>
+            <form style="margin: auto; width: 474px;">
+
+                <div class="nande">
+                    <div class="name" style="margin-right: 10px;">
+                        <label for="name" >Name</label> 
+                        <input type="text" placeholder="ENTER YOUR NAME" name="name" id="name" style="width: 225px;">
+                    </div>
+                    <div class="mail">
+                        <label for="mail">Email</label> 
+                        <input type="email" placeholder="ENTER YOUT EMAIL" class="mail" id="mail" style="width: 225px;">
+                    </div>
+
+
+                </div>
+                <div class="nande">
+                
+                    <div class="number" style="margin-right: 10px;">
+                        <label for="num">PH:Number</label> 
+                        <input type="text" placeholder="YOUR MOBILE NUMBER"   name="num" id="num" style="width: 225px;">
+                    </div>
+                    <div class="city">
+                        <label for="city">City</label> 
+                                                <select name="city" id="city" style="width: 225px;">
+                            <option value="none" selected></option>
+                            <option value="kavali ">kavali</option>
+                            <option value="nellore">nellore</option>
+                            <option value="chennai">chennai</option>
+                            <option value="ongole">ongole</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="nande">
+                    <div class="snf" style="margin-right: 10px;">
+
+                        <label for="snf">Solar Need For</label> 
+                        <select name="snf" id="snf" style="width: 225px;">
+                            <option value="none" selected></option>
+                            <option value="voi ">Villa Or Individual House</option>
+                            <option value="foa">Flat or Apartment</option>
+                            <option value="bissines">Business</option>
+                        </select>
+
+                    </div>
+                    <div class="smaeb">
+                        <label for="smaeb">Your Average Monthly Electricity Bill</label> 
+                        <select name="smaeb" id="smaeb" style="width: 225px;">
+                            <option value="none" selected></option>
+                            <option value="lt ">Less Than 1500</option>
+                            <option value="mt">More Than 1500</option>
+                            <option value="suc">Under Construction</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="nande">
+                    <div class="textarea">
+                        <label for="text">Your Comments</label> 
+                        <textarea name="text" id="text" cols="59" rows="7" ></textarea>
+                    </div>
+
+                </div>
+                <div class="submit">
+                    <input type="reset" value="Reset " style="padding: 5px 25px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    border-radius: 20px;">
+                    <input type="submit" value="Submit" style="padding: 5px 25px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    border-radius: 20px;">
+                </div>
+            </form>
+        </div> 
+
+
 
         <div class="footer-3">
             <div class="custom_container">
                 <div class="footer-disclaimer">
                     <div class="imagebar" style="display: flex;">
-                        <img src="asset/img/sym.png" alt="" class="none" style="height: 55px; width: 255px;">
+                        <img src="asset/img/sym.png" alt="" class="none" style="    height: 55px;
+                        width: 50px;">
                         <p style="padding-left: 12px; padding-top: 16px;"><span style="color: orange;">INDO</span><span
                                 style="color: rgb(0, 151, 0);">
                                 GREEN</span><span style="color: rgb(49, 166, 212);">
@@ -770,7 +953,7 @@
                                 src="asset/img/link.png" loading="lazy" alt="" class="social-icon invert" /></a></div>
                 </div>
 
-                <div class="footer_nav">
+                <div id="foot" class="footer_nav">
                     <div class="footer_nav_block">
                         <div class="footer_nav_headin">Empresa</div><a href="/espanol/nosotros/ecocentro"
                             class="footer_nav_item w-inline-block">
@@ -840,7 +1023,7 @@
             </div>
 
         </div>
-    
+
 
 
     </div>
@@ -850,27 +1033,7 @@
     <script src="https://assets.website-files.com/626000583f2b6c3e8b663940/js/webflow.5a8785acc.js"
         type="text/javascript"></script>
     <script>
-        // let scrollContainer = document.querySelector(".gallery");
-
-        // let backBtn = document.getElementById("backBtn");
-        // let nextBtn = document.getElementById("nextBtn");
-
-        // scrollContainer.addEventListener("wheel", (evt) => {
-        //     evt.preventDefault();
-        //     scrollContainer.scrollLeft += evt.deltaY;
-        //     //  scrollContainer.style.scrollBehavior = "smooth";
-        // });
-
-        // nextBtn.addEventListener("click", () => {
-        //     scrollContainer.style.scrollBehavior = "smooth";
-        //     scrollContainer.scrollLeft += 900;
-        // });
-        // backBtn.addEventListener("click", () => {
-        //     scrollContainer.style.scrollBehavior = "smooth";
-        //     scrollContainer.scrollLeft -= 900;
-
-        // });
-
+       
         let calcScrollValue = () => {
             let scrollProgress = document.getElementById
                 ("progress");
@@ -896,93 +1059,93 @@
         window.onload = calcScrollValue;
 
 
-     
+
 
 
         const wrapper = document.querySelector(".wrapper");
-const carousel = document.querySelector(".carousel");
-const firstCardWidth = carousel.querySelector(".card").offsetWidth;
-const arrowBtns = document.querySelectorAll(".wrapper i");
-const carouselChildrens = [...carousel.children];
+        const carousel = document.querySelector(".carousel");
+        const firstCardWidth = carousel.querySelector(".card").offsetWidth;
+        const arrowBtns = document.querySelectorAll(".wrapper i");
+        const carouselChildrens = [...carousel.children];
 
-let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+        let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
 
-// Get the number of cards that can fit in the carousel at once
-let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+        // Get the number of cards that can fit in the carousel at once
+        let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
 
-// Insert copies of the last few cards to beginning of carousel for infinite scrolling
-carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
-    carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
-});
+        // Insert copies of the last few cards to beginning of carousel for infinite scrolling
+        carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
+            carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+        });
 
-// Insert copies of the first few cards to end of carousel for infinite scrolling
-carouselChildrens.slice(0, cardPerView).forEach(card => {
-    carousel.insertAdjacentHTML("beforeend", card.outerHTML);
-});
+        // Insert copies of the first few cards to end of carousel for infinite scrolling
+        carouselChildrens.slice(0, cardPerView).forEach(card => {
+            carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+        });
 
-// Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
-carousel.classList.add("no-transition");
-carousel.scrollLeft = carousel.offsetWidth;
-carousel.classList.remove("no-transition");
-
-// Add event listeners for the arrow buttons to scroll the carousel left and right
-arrowBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-        carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
-    });
-});
-
-const dragStart = (e) => {
-    isDragging = true;
-    carousel.classList.add("dragging");
-    // Records the initial cursor and scroll position of the carousel
-    startX = e.pageX;
-    startScrollLeft = carousel.scrollLeft;
-}
-
-const dragging = (e) => {
-    if(!isDragging) return; // if isDragging is false return from here
-    // Updates the scroll position of the carousel based on the cursor movement
-    carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
-}
-
-const dragStop = () => {
-    isDragging = false;
-    carousel.classList.remove("dragging");
-}
-
-const infiniteScroll = () => {
-    // If the carousel is at the beginning, scroll to the end
-    if(carousel.scrollLeft === 0) {
-        carousel.classList.add("no-transition");
-        carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
-        carousel.classList.remove("no-transition");
-    }
-    // If the carousel is at the end, scroll to the beginning
-    else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+        // Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
         carousel.classList.add("no-transition");
         carousel.scrollLeft = carousel.offsetWidth;
         carousel.classList.remove("no-transition");
-    }
 
-    // Clear existing timeout & start autoplay if mouse is not hovering over carousel
-    clearTimeout(timeoutId);
-    if(!wrapper.matches(":hover")) autoPlay();
-}
+        // Add event listeners for the arrow buttons to scroll the carousel left and right
+        arrowBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+            });
+        });
 
-const autoPlay = () => {
-    if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
-    // Autoplay the carousel after every 2500 ms
-    timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
-}
-autoPlay();
+        const dragStart = (e) => {
+            isDragging = true;
+            carousel.classList.add("dragging");
+            // Records the initial cursor and scroll position of the carousel
+            startX = e.pageX;
+            startScrollLeft = carousel.scrollLeft;
+        }
 
-carousel.addEventListener("mousedown", dragStart);
-carousel.addEventListener("mousemove", dragging);
-document.addEventListener("mouseup", dragStop);
-carousel.addEventListener("scroll", infiniteScroll);
-wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
-wrapper.addEventListener("mouseleave", autoPlay);
+        const dragging = (e) => {
+            if (!isDragging) return; // if isDragging is false return from here
+            // Updates the scroll position of the carousel based on the cursor movement
+            carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+        }
+
+        const dragStop = () => {
+            isDragging = false;
+            carousel.classList.remove("dragging");
+        }
+
+        const infiniteScroll = () => {
+            // If the carousel is at the beginning, scroll to the end
+            if (carousel.scrollLeft === 0) {
+                carousel.classList.add("no-transition");
+                carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+                carousel.classList.remove("no-transition");
+            }
+            // If the carousel is at the end, scroll to the beginning
+            else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+                carousel.classList.add("no-transition");
+                carousel.scrollLeft = carousel.offsetWidth;
+                carousel.classList.remove("no-transition");
+            }
+
+            // Clear existing timeout & start autoplay if mouse is not hovering over carousel
+            clearTimeout(timeoutId);
+            if (!wrapper.matches(":hover")) autoPlay();
+        }
+
+        const autoPlay = () => {
+            if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+            // Autoplay the carousel after every 2500 ms
+            timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
+        }
+        autoPlay();
+
+        carousel.addEventListener("mousedown", dragStart);
+        carousel.addEventListener("mousemove", dragging);
+        document.addEventListener("mouseup", dragStop);
+        carousel.addEventListener("scroll", infiniteScroll);
+        wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+        wrapper.addEventListener("mouseleave", autoPlay);
 
 
     </script>
