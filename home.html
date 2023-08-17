@@ -57,6 +57,7 @@
     <link
         href="https://assets.website-files.com/626000583f2b6c3e8b663940/626000583f2b6c4e9d663b3a_ecocentro_favicon2.png"
         rel="apple-touch-icon" /> -->
+    <script src="https://kit.fontawesome.com/e0a695ba3a.js" crossorigin="anonymous"></script>
 </head>
 <style>
     .first {
@@ -224,49 +225,68 @@
     grid-auto-columns: 100%;
   }
 } */
-/* contact */
-.nande{
-    display: flex;
-    margin-bottom: 5px;
-}
-#contacus input{
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 5px;
-    
-}
-#contacus input:hover{
-     border: 2px solid #77bf58;
-     
-}
-#contacus select:hover{
-      border: 2px solid #77bf58;
-}
-#contacus select{
-    border: 2px solid rgb(0, 0, 0);
+    /* contact */
+    .nande {
+        display: flex;
+        margin-bottom: 10px;
+    }
 
-    border-radius: 5px;
-}
-#contacus label{
-   color: #ebf4e8;
-   margin-bottom: 0px;
-   font-size: 16px;
-}
-#contacus textarea{
-    border: 2px solid rgb(0, 0, 0);
+    #contacus input {
+        border: 2px solid #b3adad;
+        border-radius: 25px;
+        font-size: 17px;
+    }
 
-    border-radius: 5px;
-}
-#contacus textarea:hover{
-   border: 2px solid #77bf58;
-}
-#contacus{
-    background-image:
-     linear-gradient(180deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
-    url("../NewProject/asset/img/Contact.jpg");
-    background-position: 0px 0px ,0px 0px, 50% 50%;
-    background-size: auto ,auto,cover;
-    padding-bottom: 25px;
-}
+    #contacus input:hover {
+        border: 2px solid #77bf58;
+
+    }
+
+    #contacus select:hover {
+        border: 2px solid #77bf58;
+    }
+
+    #contacus select {
+        border: 2px solid #b3adad;
+        font-size: 17px;
+
+        border-radius: 25px;
+    }
+
+    #contacus label {
+        color: #ebf4e8;
+        margin-bottom: 0px;
+        font-size: 16px;
+        padding-left: 15px;
+        padding-bottom: 3px;
+    }
+
+    #contacus textarea {
+        border: 2px solid #b3adad;
+
+        border-radius: 10px;
+    }
+
+    #contacus textarea:hover {
+        border: 2px solid #77bf58;
+    }
+
+    #contacus {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+            url("../NewProject/asset/img/Contact.jpg");
+        background-position: 0px 0px, 0px 0px, 50% 50%;
+        background-size: auto, auto, cover;
+        padding-bottom: 19px;
+    }
+    /* f00ter */
+    .footer_nav_item.w-inline-block{
+        color:white ;
+        font-size: 15px;
+    }
+    .footer_nav_item.w-inline-block:hover{
+        color:rgb(211, 209, 209) ;
+    }
 </style>
 
 <body class="body" style="    background-color: #88ff88;">
@@ -436,8 +456,9 @@
                                         commercial
                                         roof top solar installer.</span>
                                 </div>
-                                <div class="w-layout-grid grid-buttons inner-padding-small padding-top"><a href="#contacus"
-                                        class="button-2 color-line-white _2 w-inline-block" style="padding: 10px;">
+                                <div class="w-layout-grid grid-buttons inner-padding-small padding-top"><a
+                                        href="#contacus" class="button-2 color-line-white _2 w-inline-block"
+                                        style="padding: 10px;">
                                         <div>GET A FREE QUOTE</div>
                                     </a></div>
                             </div>
@@ -502,7 +523,7 @@
                     <h2 class="heading-large text-white _80 left" style="font-size: 40px;">Indo Green Solar – Top Solar
                         EPC
                         Company in South India.</h2>
-                    <h3>LOANS AND EASY EMI OPTION
+                    <h3 style="color: white;">LOANS AND EASY EMI OPTION
                         AVAILABLE FOR SOLAR POWER PLANTS. </h3>
                     <p class="main-paragraph-3 bpt" style="color: #bfbfbf;">Get to know Indo Green Solar, the #1 Trusted
                         Solar EPC player in south India with in house
@@ -828,7 +849,7 @@
                 <i id="right" class="fa-solid fa-angle-right"><img src="asset/img/front.png" alt=""
                         style="max-width: 103%;"></i>
             </div>
-        </div>
+        </div> 
 
 
         <div id="contacus" style="margin-left: 13px; margin-bottom: 13px; margin-right: 13px; border-radius: 10px;">
@@ -839,47 +860,53 @@
             color: #77bf58;
             padding-bottom: 10px;
             font-family: system-ui;
-            font-size: 2.3rem;"> <span  style="font-size: 2.5rem;">Are You Ready</span>  <br>
+            font-size: 2.3rem;"> <span style="font-size: 2.5rem;">Are You Ready</span> <br>
                 To Start a Project With Us.Enquire Now..
             </h2>
-            <form style="margin: auto; width: 474px;">
+            <form style="margin: auto; width: 565px;">
 
                 <div class="nande">
-                    <div class="name" style="margin-right: 10px;">
-                        <label for="name" >Name</label> 
-                        <input type="text" placeholder="ENTER YOUR NAME" name="name" id="name" style="width: 225px;">
+                    <div class="name" style="margin-right: 30px; margin-bottom: 10px;">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="ENTER YOUR NAME" name="name" id="name" style="    width: 264px;
+                        padding: 10px;">
                     </div>
-                    <div class="mail">
-                        <label for="mail">Email</label> 
-                        <input type="email" placeholder="ENTER YOUT EMAIL" class="mail" id="mail" style="width: 225px;">
+                    <div class="mail" style="margin-bottom: 10px;">
+                        <label for="mail">Email</label>
+                        <input type="email" placeholder="ENTER YOUT EMAIL" class="mail" id="mail" style="    width: 264px;
+                        padding: 10px;">
                     </div>
 
 
                 </div>
                 <div class="nande">
-                
-                    <div class="number" style="margin-right: 10px;">
-                        <label for="num">PH:Number</label> 
-                        <input type="text" placeholder="YOUR MOBILE NUMBER"   name="num" id="num" style="width: 225px;">
+
+                    <div class="number" style="margin-right: 30px; margin-bottom: 10px;">
+                        <label for="num">PH:Number</label>
+                        <input type="text" placeholder="YOUR MOBILE NUMBER" name="num" id="num" style="    width: 264px;
+                        padding: 10px;">
                     </div>
-                    <div class="city">
-                        <label for="city">City</label> 
-                                                <select name="city" id="city" style="width: 225px;">
+                    <div class="city" style="margin-bottom: 10px;">
+                        <label for="city">City</label>
+                        <select name="city" id="city" style="    width: 264px;
+                                                padding: 10px;">
                             <option value="none" selected></option>
-                            <option value="kavali ">kavali</option>
-                            <option value="nellore">nellore</option>
-                            <option value="chennai">chennai</option>
-                            <option value="ongole">ongole</option>
+                            <option value=" "></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value="others">others</option>
                         </select>
                     </div>
 
                 </div>
 
                 <div class="nande">
-                    <div class="snf" style="margin-right: 10px;">
+                    <div class="snf" style="margin-right: 30px; margin-bottom: 10px;">
 
-                        <label for="snf">Solar Need For</label> 
-                        <select name="snf" id="snf" style="width: 225px;">
+                        <label for="snf">Solar Need For</label>
+                        <select name="snf" id="snf" style="    width: 264px;
+                        padding: 10px;">
                             <option value="none" selected></option>
                             <option value="voi ">Villa Or Individual House</option>
                             <option value="foa">Flat or Apartment</option>
@@ -887,9 +914,12 @@
                         </select>
 
                     </div>
-                    <div class="smaeb">
-                        <label for="smaeb">Your Average Monthly Electricity Bill</label> 
-                        <select name="smaeb" id="smaeb" style="width: 225px;">
+                    <div class="smaeb" style="
+                    margin-bottom: 10px;">
+                        <label for="smaeb" style="font-size: 15px; padding-left: 0px;">Your Average Monthly Electricity
+                            Bill</label>
+                        <select name="smaeb" id="smaeb" style="  width: 264px;
+                        padding: 10px;">
                             <option value="none" selected></option>
                             <option value="lt ">Less Than 1500</option>
                             <option value="mt">More Than 1500</option>
@@ -900,8 +930,8 @@
                 </div>
                 <div class="nande">
                     <div class="textarea">
-                        <label for="text">Your Comments</label> 
-                        <textarea name="text" id="text" cols="59" rows="7" ></textarea>
+                        <label for="text">Your Comments</label>
+                        <textarea name="text" id="text" cols="45" rows="5"></textarea>
                     </div>
 
                 </div>
@@ -909,14 +939,15 @@
                     <input type="reset" value="Reset " style="padding: 5px 25px;
     font-size: 15px;
     font-family: 'Open Sans';
-    border-radius: 20px;">
+    border-radius: 20px;
+    margin-right: 15px;">
                     <input type="submit" value="Submit" style="padding: 5px 25px;
     font-size: 15px;
     font-family: 'Open Sans';
     border-radius: 20px;">
                 </div>
             </form>
-        </div> 
+        </div>
 
 
 
@@ -936,79 +967,149 @@
                     <!-- <img
                     src="asset/img/626000583f2b6c382f663979_606d7f39cca14ebc69bb324e_Paneles-solares-ecocentro-logo (1).png"
                     loading="lazy" alt="" class="image-22" /> -->
-                    <div class="redessociales"><a href="https://www.facebook.com/ecocentromx" target="_blank"
+                    <div class="redessociales"><a href="https://www.facebook.com/IGS2010" target="_blank"
                             class="social-link w-inline-block"><img src="asset/img/facebook.png" loading="lazy" alt=""
-                                class="social-icon invert" /></a><a href="https://instagram.com/ecocentro"
-                            target="_blank" class="social-link w-inline-block"><img src="asset/img/insta.png"
-                                loading="lazy"
-                                sizes="(max-width: 767px) 17px, (max-width: 991px) 2vw, (max-width: 1279px) 17px, 1vw"
-                                srcset="https://assets.website-files.com/626000583f2b6c3e8b663940/626000583f2b6c1d74663993_instagram-p-500.png 500w, https://assets.website-files.com/626000583f2b6c3e8b663940/626000583f2b6c1d74663993_instagram.png 512w"
-                                alt="" class="social-icon invert" /></a><a
-                            href="https://www.youtube.com/channel/UCnJwkswVwKaXE0MKYQWWx0g" target="_blank"
-                            class="social-link w-inline-block"><img src="asset/img/play.png" loading="lazy"
-                                sizes="(max-width: 767px) 17px, (max-width: 991px) 2vw, (max-width: 1279px) 17px, 1vw"
-                                srcset="https://assets.website-files.com/626000583f2b6c3e8b663940/626000583f2b6c6fce663995_play-p-500.png 500w, https://assets.website-files.com/626000583f2b6c3e8b663940/626000583f2b6c6fce663995_play.png 512w"
-                                alt="" class="social-icon invert" /></a><a
-                            href="https://www.linkedin.com/company/ecocentro/" class="social-link w-inline-block"><img
-                                src="asset/img/link.png" loading="lazy" alt="" class="social-icon invert" /></a></div>
+                                class="social-icon invert" /></a>
+
+                        <a href="https://www.linkedin.com/company/89695441/admin/feed/posts"
+                            class="social-link w-inline-block"><img src="asset/img/link.png" loading="lazy" alt=""
+                                class="social-icon invert" /></a>
+                    </div>
                 </div>
 
-                <div id="foot" class="footer_nav">
+                <div id="foot" class="footer_nav" style="margin-left: -37px;">
                     <div class="footer_nav_block">
-                        <div class="footer_nav_headin">Empresa</div><a href="/espanol/nosotros/ecocentro"
-                            class="footer_nav_item w-inline-block">
-                            <div class="text-block-8">Nosotros</div>
-                        </a><a href="/espanol/recursos/preguntas-frecuentes" class="footer_nav_item w-inline-block">
-                            <div class="text-block-8">Preguntas Frecuentes</div>
-                        </a>
+                        <div class="footer_nav_headin">About Indo Green Solar</div>
+                        <div class="text-block-8" style="color: white;">Indo Green Solar is one of the leading solar EPC
+                            company in South India. We are offering solar rooftop and ground Mount projects on Easy EMI
+                            Model to the south Indian Customers.</div>
+
                     </div>
-                    <div class="footer_nav_block">
-                        <div class="footer_nav_headin">Soluciones</div><a
+                    <div class="footer_nav_block" style="margin-left: 30px;">
+                        <div class="footer_nav_headin">Usefull Links:</div><a
                             href="/espanol/soluciones-fotovoltaicas/paneles-solares-residenciales"
                             class="footer_nav_item w-inline-block">
-                            <div>Sistemas Residenciales</div>
+                            <div>Company Profile</div>
                         </a><a href="/espanol/soluciones-fotovoltaicas/instalaciones-fotovoltaicas-hibridas"
                             class="footer_nav_item w-inline-block">
-                            <div>Baterias Enphase IQ</div>
+                            <div>EPC</div>
                         </a><a href="/espanol/soluciones-fotovoltaicas/instalaciones-fotovoltaicas-comerciales"
                             class="footer_nav_item w-inline-block">
-                            <div>Comercial &amp; Industrial</div>
+                            <div>O&M</div>
                         </a><a href="/espanol/soluciones-fotovoltaicas/grid-independence"
                             class="footer_nav_item w-inline-block">
-                            <div>#GridIndependence</div>
+                            <div>SD</div>
                         </a><a href="/espanol/soluciones-fotovoltaicas/sistema-de-monitoreo-enlighten"
                             class="footer_nav_item w-inline-block">
-                            <div>Monitoreo</div>
-                        </a><a href="/espanol/soluciones-fotovoltaicas/sunna-luminarias-solares"
+                            <div>Capex Model</div>
+                        </a>
+                        <a href="/espanol/soluciones-fotovoltaicas/sunna-luminarias-solares"
                             class="footer_nav_item w-inline-block">
-                            <div>Luminarias</div>
+                            <div>Opex Model</div>
+                        </a>
+                        <a href="/espanol/soluciones-fotovoltaicas/sunna-luminarias-solares"
+                            class="footer_nav_item w-inline-block">
+                            <div>Utility Scale and Open Access</div>
+                        </a>
+                        <a href="/espanol/soluciones-fotovoltaicas/sunna-luminarias-solares"
+                            class="footer_nav_item w-inline-block">
+                            <div>Easy EMI Model</div>
                         </a>
                     </div>
                     <div class="footer_nav_block">
-                        <div class="footer_nav_headin">Proyectos</div><a href="/espanol/proyectos/casos-de-exito"
+                        <div class="footer_nav_headin">Address/contacts:</div>
+                        <div class="phone" style="display: flex; margin-left: -25px;">
+                            <i class="fa-solid fa-phone"
+                                style="color: white; padding-top: 19px; padding-right: 10px ;"></i>
+
+                            <div class="nums" style="color: white ; font-size: 18px; ">
+
+
+                                <div style="margin-bottom: 6px;"> +91-9885475559</div>
+
+                                <!-- <a href="sales@indogreensolar.com" class="footer_nav_item w-inline-block"> -->
+
+                                <div>+91-9391924356</div>
+
+                            </div>
+                        </div>
+                        <div class="mails" style="display: flex; margin-left: -25px; margin-top: 17px;">
+                            <i class="fa-solid fa-envelope"
+                                style="color: white; padding-top: 19px; padding-right: 10px ;"></i>
+                            <div class="accs" style="color: white ; font-size: 18px;">
+
+
+                                <div style="margin-bottom: 6px;">info@indogreensolar.com</div>
+
+                                <!-- <a href="sales@indogreensolar.com" class="footer_nav_item w-inline-block"> -->
+
+                                <div>sales@indogreensolar.com</div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- <a href="maito:info@indogreensolar.com"
                             class="footer_nav_item w-inline-block">
-                            <div>Casos de éxito</div>
-                        </a><a href="/espanol/proyectos/galeria-paneles-solares" class="footer_nav_item w-inline-block">
-                            <div>Galería de instalaciones</div>
-                        </a><a href="/espanol/proyectos/testimonios-paneles-solares"
-                            class="footer_nav_item w-inline-block">
-                            <div>Testimonios</div>
+
+                            <div>info@indogreensolar.com</div>
                         </a>
+                        <a href="sales@indogreensolar.com"
+                            class="footer_nav_item w-inline-block">
+                   
+                            <div>sales@indogreensolar.com</div>
+                        </a> -->
+                        <div class="register" style="margin-top: 17px; margin-left: -25px;">
+              
+                                <div style="display: flex;"> <i class="fa-solid fa-location-dot"
+                                        style=" font-size: 15px; color: white;padding-right: 10px; padding-top: 19px; "></i>
+                                    <div class="adre"  style=" font-size: 15px; color: white;">
+                                         20-1-91/I, opp. Sk Fast foods,<br>
+                                    TML By-pass Road,<br>
+                                    Tirupati, Andhra Pradesh 517501
+                                    </div>
+                                       
+                                </div>
+                                <div style="display: flex;" > <i class="fa-solid fa-location-dot"
+                                        style=" font-size: 15px; color: white;padding-right: 10px; padding-top: 38px; "></i>
+                                    <div class="adre"  style="margin-top: 15px; font-size: 15px; color: white;">
+                                        43-106/1-10A, Ward no-52, <br>
+                                        Nandamuri Nagar, <br>
+                                        Vijayawada, Andhra Pradesh 520015
+                                    </div>
+                                       
+                                </div>
+                           
+                        </div>
+
                     </div>
                     <div class="footer_nav_block">
-                        <div class="footer_nav_headin">Legales</div><a href="/espanol/legal/politicas-de-privacidad"
-                            class="footer_nav_item w-inline-block">
-                            <div>Políticas de Privacidad</div>
-                        </a><a href="https://www.apple.com/business/" class="footer_nav_item w-inline-block"></a>
-                    </div>
-                    <div class="footer_nav_block">
-                        <div class="footer_nav_headin">Datos de contacto</div><a href="tel:+529999444687"
-                            class="footer_nav_item w-inline-block">
-                            <div>(999) 944-46-87</div>
-                        </a><a href="mailto:hola@ecocentro.mx?subject=Ecocentro%20Web"
-                            class="footer_nav_item w-inline-block">
-                            <div>hola@ecocentro.mx</div>
-                        </a>
+                        <div class="footer_nav_headin">Check Our Location:</div>
+
+                        <div class="map" style="display: flex; margin-top: -16px; flex-direction: column; padding-top: 10px;  color: white; margin-right: -35px;">
+                            <h4 style="margin-top: 0px; 
+                            margin-bottom: 2px;
+                            padding-left: 25px;">Tirupati</h4>
+                            <div class="tirupati" style="display: flex; flex-direction: row;">
+                                <i class="fa-regular fa-map"
+                                style="padding-top: 10px; font-size: 17px; color: white; padding-right: 10px;"></i>
+                            <!-- <i class="fa-regular fa-map"></i> -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15509.204266886714!2d79.4284663645569!3d13.639441320396747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b0db8be4d59%3A0x649e7f60d94c8d0!2sIndo%20Green%20Solar!5e0!3m2!1sen!2sin!4v1692205589885!5m2!1sen!2sin"
+                                width="340" height="240" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <h4 style="margin-top: 16px; 
+                            margin-bottom: -6px;
+                            padding-left: 25px;">Vijayawada</h4>
+                           <div class="vijayawada" style="display: flex; flex-direction: row; margin-top: 10px;">
+                              <i class="fa-regular fa-map"
+                                style="padding-top: 10px; font-size: 17px; color: white; padding-right: 10px;"></i>
+                            <!-- <i class="fa-regular fa-map"></i> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8261.688363137226!2d80.63649107854451!3d16.544043404150422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35e5bb6062454d%3A0x9c0150caf1d10868!2sIndoGreen%20Solar%20Energy%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1692257052879!5m2!1sen!2sin" width="340" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           </div>
+                              
+                        </div>
                     </div>
                 </div>
                 <div class="footer_copyright">
@@ -1033,7 +1134,7 @@
     <script src="https://assets.website-files.com/626000583f2b6c3e8b663940/js/webflow.5a8785acc.js"
         type="text/javascript"></script>
     <script>
-       
+
         let calcScrollValue = () => {
             let scrollProgress = document.getElementById
                 ("progress");
