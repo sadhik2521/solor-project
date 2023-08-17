@@ -4569,7 +4569,9 @@ textarea.w-select {
 .social-icon.invert {
   margin-left: 0px;
   padding-bottom: 0px;
-  filter: invert(100%);
+  filter: invert(300%);
+  width: 27px;
+  max-width: 100%;
 }
 
 .footer_nav {
@@ -4607,8 +4609,8 @@ textarea.w-select {
 
 .social-link {
   display: flex;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   margin-left: 10px;
   justify-content: center;
   align-items: center;
