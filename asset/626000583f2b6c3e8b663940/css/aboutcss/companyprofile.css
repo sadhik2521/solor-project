@@ -20,18 +20,44 @@ body{
     max-width: 100%;
 }
 #cpcontainer h1{
-height: 100%;
 color: white;
-font-family: 'Open Sans';
-left: 37%;
-top: 30%;
 position: absolute;
 padding: 10px;
-justify-content: center;
-align-items: center;
-font-size: 70px;
 max-width: 100%;
+margin: 15px 0px ;
+font-family: 'lato';
+width: 100%;
+} 
+
+
+.vshead{
+    position: absolute;
+    padding-top: 53%;
+    padding-left: 125% ;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+  -webkit-background-clip: text;
+  background-position: -750px 0;
+  background-repeat: no-repeat;
+  width: 180%;
+  animation: backcolor 4s ease-in infinite ;
 }
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
+}
+/* .vshead h2{
+    margin: 15px 0px ;
+    font-size: 4.2rem;
+    font-family: 'lato';
+    width: 100%;
+} */
+
+
+
 
 .aboutids p{
     padding: 40px;
@@ -48,8 +74,16 @@ max-width: 100%;
 .matter1 {
    display: flex;
 
-   
 }
+.matter1 img:hover{
+  transform: scale(1.1);
+}  
+.matter2 img:hover{
+  transform: scale(1.1);
+}  
+.matter3 img:hover{
+   transform: scale(1.1);
+}  
 .matter1 p{
     padding: 0px 30px 30px 30px;
     line-height: 25px;

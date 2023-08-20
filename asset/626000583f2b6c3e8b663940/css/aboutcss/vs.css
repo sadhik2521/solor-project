@@ -1,0 +1,118 @@
+#vscontainer{
+    background-image:
+     linear-gradient(-116deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+    url("../../../img/aboutus/Vision\ &\ Strategy.jpg") ;
+    background-position: 0px 0px ,0px 0px, 50% 50%;
+    background-size: auto ,auto, cover;
+    height: 630px;
+    margin-top: -48px;
+    max-width: 100%;
+}
+.vshead{
+    position: absolute;
+    padding-top: 48%;
+    padding-left: 125% ;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+  -webkit-background-clip: text;
+  background-position: -750px 0;
+  background-repeat: no-repeat;
+  width: 180%;
+  animation: backcolor 4s ease-in infinite ;
+}
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
+}
+
+
+.vshead h2{
+    margin: 15px 0px ;
+    font-size: 4.2rem;
+    font-family: 'lato';
+    width: 100%;
+}
+
+.vision{
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.vision h3{
+   padding-left: 30px;
+   font-size: 40px;
+   margin-bottom: 0px;
+   font-family: revert;
+}
+
+.mission{
+    margin-top: 25px;
+    padding-left: 25px;
+}
+.mission h3{
+    padding-left: 30px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-family: revert;
+ }
+
+.ov{
+    margin-top: 25px;
+    padding-left: 25px;
+}
+.ov h3{
+    padding-left: 30px;
+    font-size: 40px;
+  font-family: revert; 
+     margin-bottom: 0px;
+ }
+.pops{
+     margin-top: 25px;
+     padding-left: 25px;
+}
+.pops h3{
+     margin-bottom: 0px;
+    padding-left: 40px;
+    font-family: revert;
+}
+
+ .pops p {
+        font-size: 19px;
+        padding-left: 37px;
+        padding-right: 90px;
+        font-family: 'open sans';  
+        margin-bottom: 16px;
+        padding-bottom: 20px;
+        line-height: 24px;
+        text-align: justify;
+    }
+ li{
+    font-size: 20px;
+    font-family: 'open sans';  
+    padding: 6px 0px ;
+ }
+ .paras{
+    padding-top: 15px;   
+ }
+ .tester{
+    padding-top: 15px;
+    animation-duration: 4s;
+    animation-name: sliden;
+ }
+@keyframes sliden {
+    from{
+        margin-left: 70%;
+    }
+    to{
+        margin-left: 0%;
+    }
+} 
+
+#VANDS{
+    background-color: #a9ffa9;
+    margin: 16px;
+    border-radius: 20px;
+}
