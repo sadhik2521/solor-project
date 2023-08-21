@@ -19,7 +19,7 @@
   -webkit-background-clip: text;
   background-position: -750px 0;
   background-repeat: no-repeat;
-  width: 180%;
+  width: 175%;
   animation: backcolor 4s ease-in infinite ;
 }
 @keyframes backcolor {

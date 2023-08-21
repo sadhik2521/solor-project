@@ -1,0 +1,57 @@
+#aarcontainer{
+    background-image:
+     linear-gradient(18deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, -0.45)), 
+    url("../../../img/aboutus/Achievements-\ Main\ Image.png") ;
+    background-position: 0px 0px ,0px 0px, 50% 50%;
+    background-size: auto ,auto, cover;
+    height: 566px;
+    margin-top: -20px;
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.vshead{
+    position: absolute;
+    text-align: center;
+    padding-top: 48%;
+    padding-left: 129% ;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+  -webkit-background-clip: text;
+  background-position: -750px 0;
+  background-repeat: no-repeat;
+  width: 175%;
+  animation: backcolor 4s linear infinite ;
+}
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
+}
+
+
+.vshead h2{
+    margin: 15px 0px ;
+    font-size: 4.2rem;
+    font-family: 'lato';
+    width: 117%;
+    line-height: 70px;
+}
+.headline{
+    text-align: center;
+    font-size: 45px;
+    line-height: 60px;
+    margin-top: 40px;
+}
+
+.msmehead{
+     text-align: center;
+     margin-bottom: 30px;
+} 
+.achievecontent{
+    margin-bottom: 30px;
+}
+
