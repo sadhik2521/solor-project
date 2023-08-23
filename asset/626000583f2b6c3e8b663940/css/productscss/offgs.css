@@ -1,0 +1,60 @@
+.wrappernav{
+    background-color: black;
+}
+.offgshead h1{
+    font-size: 45px;
+    line-height: 60px;
+    margin-top: 100px;
+}
+.offgshead{
+    text-align: center;
+}
+.offgsimg{
+    text-align: center;
+    margin-top: 20px ;
+}
+.offgsimg img{
+    max-width: 85%;
+    border-radius: 5px;
+    border-top-right-radius: 30px;
+}
+
+
+
+.head{
+    text-align: center;
+}
+.offg.head{
+    font-size: 49px;
+   
+    margin-top: 48px;
+}
+.offg{
+    margin-top: 43px;
+}
+.paras3 p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 20px;
+}
+.paras3{
+    padding-top: 28px;
+    padding-left: 330px;
+    padding-right: 55px;
+    font-family: 'Open Sans';
+}
+.offgsmatter{
+    background-color: #a1f8a1;
+    display: flex;
+    padding: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.inverter img{
+    max-width: 382%;
+    border-top-right-radius: 20px;
+}

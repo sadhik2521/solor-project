@@ -1,0 +1,110 @@
+.wrappernav{
+    background-color: black;
+}
+.sf{
+    margin-top: 100px;
+}
+.sfh1{
+
+}
+.sfh1 h1{
+    text-align: center;
+    font-size: 46px;
+    font-family: revert;
+}
+.wimsf{
+    padding-left: 63px;
+    padding-top: 6px;
+    padding-right: 76px;
+    font-family: 'Lato';
+}
+.wimsf p{
+    margin-top: -2px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify; 
+}
+.qus h3{
+    text-align: justify;
+}
+.sfimg{
+    text-align: center;
+}
+.sfimg img{
+    max-width: 90%;
+    border-top-right-radius: 35px;
+}
+.meterbox{
+    text-align: center;
+}
+.meterbox img{
+    max-width: 60%;
+    border-top-right-radius: 30px;
+}
+.sfcontent h4{
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+.sfcontent{
+    margin-top: 40px;
+}
+.matter{
+    padding: 18px 50px;
+    background-color: #a1f8a1;
+    margin: 28px;
+    border-radius: 10px;
+
+}
+.matter p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 33px;
+}
+.pics{
+    display: flex;
+    padding: 40px;
+    padding-top: 20px
+}
+.pics .solarbox{
+    max-width: 50%;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.pics .fence{
+    max-width: 100%;
+   padding-left: 20px;
+   border-radius: 10px;
+}
+  
+.pics .solarbox img{
+    border-radius: 10px;
+}
+.pics .fence img{
+   border-radius: 10px;
+}
+.points{
+    background-color: #a1f8a1;
+    margin: 25px;
+    padding: 45px;
+    padding-top: 15px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+.points h5{
+    font-size: 25px;
+}
+.points p{
+    margin-top: -10px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    
+}
+.bsf h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
