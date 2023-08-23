@@ -1,0 +1,89 @@
+.wrappernav{
+    background-color: black;
+}
+.swh{
+    margin-top: 100px;
+}
+.swhh1 h1{
+    text-align: center;
+    font-size: 46px;
+    font-family: revert;
+}
+.swhimg {
+    text-align: center;
+    margin-top: 30px;
+}
+.swhimg img{
+    width: 80%;
+    border-top-right-radius: 30px;
+}
+.bcoswh{
+    text-align: center;
+}
+.bcoswh h2{
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 34px;
+}
+.paras{
+    max-width: 52%;
+    padding: 5px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Open Sans';
+    padding-top: 38px;
+    line-height: 26px;
+}
+.paras p{
+    margin-bottom: 15px;
+}
+.maincontent{
+    background-color: #a1f8a1;
+    display: flex;
+    padding: 0px 40px;
+   margin-top:15px ;
+    margin-left:30px ;
+    margin-right:30px ;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+.bcoswhimg{
+    text-align: center;
+    place-items: center;
+    place-content: center;
+    margin-left: 54px;
+    margin-top: 19px;
+}
+.bcoswhimg img{    
+border-top-right-radius: 30px;
+}
+.ulcontent{
+    display: flex;
+    margin: 40px 60px;
+    background-color: #a1f8a1;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.ulcontent ul{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    line-height: 27px;
+    padding-top: 60px;
+}
+.benifitimg{
+    padding: 20px;
+}
+.benifitimg img{
+    width: 110%;
+}
+.benifits h4{
+    font-size: 25px;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+.benifits{
+    margin-top: 40px;
+}
