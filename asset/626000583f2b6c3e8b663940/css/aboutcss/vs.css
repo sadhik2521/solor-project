@@ -1,3 +1,9 @@
+body{
+    background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
+    height: 100vh;
+    background-size: cover;
+   background-position: center;
+   }
 #vscontainer{
     background-image:
      linear-gradient(-116deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
@@ -11,7 +17,7 @@
 .vshead{
     position: absolute;
     padding-top: 48%;
-    padding-left: 125% ;
+    padding-left: 120% ;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 1px #fff;
     color: transparent;
@@ -33,7 +39,7 @@
     margin: 15px 0px ;
     font-size: 4.2rem;
     font-family: 'lato';
-    width: 100%;
+    width: 110%;
 }
 
 .vision{

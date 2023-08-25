@@ -3,12 +3,11 @@
     padding: 0px;
 }
 body{
-    background-image:
-   url("/asset/img/depositphotos_11156689-stock-photo-texture-of-dark-green-leaf.jpg");
-   background-position: 0px 0px ,0px 0px ,50%  50%;
-   background-size: auto, auto ,cover;
-   background-repeat: no-repeat;
-}
+    background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
+    height: 100vh;
+    background-size: cover;
+   background-position: center;
+   }
 #cpcontainer{
     background-image:
      linear-gradient(40deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 

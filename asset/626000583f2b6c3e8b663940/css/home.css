@@ -26,6 +26,9 @@ html{
 body {
   margin: 0px;
   padding: 0px;
+ background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
+    background-size: cover;
+   background-position: center;
 }
 
 

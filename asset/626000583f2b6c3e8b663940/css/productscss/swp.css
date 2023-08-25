@@ -1,0 +1,53 @@
+body{
+    background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
+    height: 100vh;
+    background-size: cover;
+   background-position: center;
+   }
+.wrappernav{
+    background-color: black;
+}
+.swp{
+    margin-top: 100px;
+}
+.swph1 h1{
+    text-align: center;
+    font-size: 46px;
+    font-family: revert;
+}
+.swpmainimg{
+       text-align: center;
+       margin-top: 20px;
+}
+.swpmainimg img{
+       width: 81%;
+       border-top-right-radius: 80px;
+}
+.swph3{
+    text-align: center;
+    margin: 22px 0px;
+    padding-top: 20px;
+}
+.swph3 h3{
+font-size: 35px;
+}
+.firstpara{
+    background-color: #a1f8a1;
+    border-radius: 30px;
+    margin: 50px 40px;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+.firstpara p{
+    width: 55%;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: 'Open Sans';
+    padding: 20px;
+}
+.firstpara img{
+    width: 85%;
+}

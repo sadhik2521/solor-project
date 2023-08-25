@@ -1,3 +1,9 @@
+body{
+    background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
+    height: 100vh;
+    background-size: cover;
+   background-position: center;
+   }
 #aarcontainer{
     background-image:
      linear-gradient(18deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, -0.45)), 
