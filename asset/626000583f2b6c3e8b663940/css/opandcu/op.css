@@ -1,0 +1,94 @@
+body{
+    background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
+    height: 100vh;
+    background-size: cover;
+   background-position: center;
+   }
+#optitle{
+    background-image:
+     linear-gradient(40deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+    url("../../../img/ourprojects/ourprojectsmain.jpg") ;
+    background-position: 0px 0px ,0px 0px, 50% 50%;
+    background-size: auto ,auto, cover;
+    height: 343px;
+    margin-top: -22px;
+    max-width: 100%;
+}
+.titleh1{
+    text-align: center;
+}
+.titleh1 h1{
+    padding-top: 150px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 80px;
+}
+
+
+input{
+    display: none;
+  }  
+  .tag{
+    font-family: 'lato';
+           font-size: 1.5rem;
+           padding: 12px 1.8rem;
+           border-radius: 10px;
+           background-color: #c7ffbc;
+           color: #181717;
+           cursor: pointer;
+           display: inline-block;
+           margin: 1.5rem 7px;
+           border: 1px solid white;
+  }
+  .tag:hover{
+    background-color: #d6ffcd;
+    color: #424141;
+  }
+  .opimages{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+
+
+   .images a img:hover{
+    transform: scale(0.9);
+    filter: brightness(0.7);
+    
+  }
+ 
+  .images  img:hover{
+    filter: brightness(0.7);
+  } 
+  .images a img{
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out ;
+    margin: 10px;
+    border-radius: 15px;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  .images img{
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out ;
+    margin: 10px;
+    border-radius: 15px;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+
+
+  
+  #commercial:checked ~ .images > a img:not([class *="commercial"]),
+  #domestic:checked ~ .images > a img:not([class *="domestic"]){
+        width: 0px;
+        height: 0px;
+  }
+  
+  #commercial:checked ~ .images >  img:not([class *="commercial"]),
+  #domestic:checked ~ .images > img:not([class *="domestic"]){
+        width: 0px;
+        height: 0px;
+  }
