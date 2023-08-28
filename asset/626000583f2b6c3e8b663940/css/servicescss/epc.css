@@ -1,6 +1,5 @@
 body{
-    background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
-    height: 100vh;
+    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh;
     background-size: cover;
    background-position: center;
    }
@@ -36,6 +35,7 @@ body{
 }
 .epchead h3{
      font-size: 30px;   
+     color: #e5d9b6;
 }
 .epcpara p{
     padding: 6px 85px;
@@ -43,6 +43,7 @@ body{
     font-size: 18px;
      line-height: 25px;
      font-family: 'open sans';
+     color: #e5d9b6;
 }
 .epcimg{
     text-align: center;
@@ -51,6 +52,8 @@ body{
 .epcimg img{
     max-width: 65%;
     border-top-right-radius: 35px;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0);
+    filter: drop-shadow(2px 4px 6px black);
 }
 .csase{
     display: flex;

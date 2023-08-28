@@ -1,5 +1,5 @@
 body{
-    background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
+    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");
     height: 100vh;
     background-size: cover;
    background-position: center;
@@ -10,13 +10,13 @@ body{
     url("../../../img/aboutus/Vision\ &\ Strategy.jpg") ;
     background-position: 0px 0px ,0px 0px, 50% 50%;
     background-size: auto ,auto, cover;
-    height: 630px;
-    margin-top: -48px;
+    height: 405px;
+    margin-top: 0px;
     max-width: 100%;
 }
 .vshead{
     position: absolute;
-    padding-top: 48%;
+    padding-top: 30%;
     padding-left: 120% ;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 1px #fff;
