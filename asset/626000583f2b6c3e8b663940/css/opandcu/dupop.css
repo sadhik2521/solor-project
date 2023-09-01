@@ -1,0 +1,145 @@
+body{
+    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh;
+      background-size: cover;
+     background-position: center;
+     }
+  #optitle{
+      background-image:
+       linear-gradient(40deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+      url("../../../img/ourprojects/ourprojectsmain.jpg") ;
+      background-position: 0px 0px ,0px 0px, 50% 50%;
+      background-size: auto ,auto, cover;
+      height: 343px;
+      margin-top: -22px;
+      max-width: 100%;
+  }
+  .titleh1{
+      text-align: center;
+  }
+  .titleh1 h1{
+      padding-top: 150px;
+      color: white;
+      font-family: 'Open Sans';
+      font-size: 80px;
+  }
+  
+  /* 
+  input{
+      display: none;
+    }   */
+    .tab-container {
+      width: 100%;
+  }
+  .tab-content {
+    display: none;
+  }
+  
+    .tab{
+             font-family: 'lato';
+             font-size: 1.5rem;
+             padding: 12px 1.8rem;
+             border-radius: 10px;
+             background-color: #c7ffbc;
+             color: #181717;
+             cursor: pointer;
+             display: inline-block;
+             margin: 1.5rem 7px;
+             border: 1px solid white;
+             font-weight: 750;
+    }
+    .tab:hover{
+      background-color: #d6ffcd;
+      color: #424141;
+    }
+    .opimages{
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      padding: 20px;
+    }
+  
+     .images a img:hover{
+    filter: revert ;
+      
+    }
+    .images a p:hover{
+           text-decoration: underline ;
+    }
+   
+    /* .images  img:hover{
+      filter: brightness(0.7);
+    }  */
+    .images a img{
+      width: 300px;
+      height: 300px;
+      transition: all .4s ease-in-out ;
+      margin: 10px;
+      border-radius: 15px;
+      filter: drop-shadow(2px 4px 6px black);
+    }
+    .images img{  
+      width: 300px;
+      height: 300px;
+      transition: all .4s ease-in-out ;
+      border-radius: 15px;
+      filter: drop-shadow(2px 4px 6px black);
+    }
+  .flex1{
+    display: flex;
+    justify-content: center;
+  }
+    .flex2{
+      display: flex;
+    justify-content: center;
+  
+    }
+  .flex2 a{
+   background-color: #3a3a3a;
+   text-decoration: none;
+      margin-bottom: 20px;
+      margin-right: 10px;
+      padding-bottom: 10px;
+      border-radius: 20px;
+  }
+  .flex2 a p{
+    margin-bottom: 0px;
+    padding: 17px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: 600;
+  }
+  .flex2 a p:hover{
+     color:#cbc6c6 ;
+  }
+  .buttons{
+    text-align: center;
+      margin-top: 20px;
+      margin-bottom: -15px;
+     font-weight: 800;
+  }
+    /* medias */
+  
+    @media screen and (max-width: 1300px) {
+      .titleh1 h1{
+        padding-top: 150px;
+        color: red;
+        font-family: 'Open Sans';
+        font-size: 80px;
+    }
+    .flex1{
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+    @media screen and (max-width: 660px) {
+      .titleh1 h1{
+        color: rgb(0, 0, 0);
+    }
+    .flex2{
+      flex-direction: column;
+    }
+  }
+  

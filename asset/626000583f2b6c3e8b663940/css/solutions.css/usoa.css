@@ -1,6 +1,75 @@
 body{
-    background: url("../../../img/green-stripe-pattern-wallpaper-preview.jpg");
-    height: 100vh;
+    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh;
     background-size: cover;
    background-position: center;
    }
+   #usaoatitle{
+    background-image:
+     linear-gradient(40deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+    url('../../../img/solutions/usaoamain1.jpeg') ;
+    background-position: 0px 0px ,0px 0px, 50% 50%;
+    background-size: auto ,auto, cover;
+    height: 343px;
+    margin-top: -22px;
+    max-width: 100%;
+}
+.titleh1{
+    text-align: center;
+}
+.titleh1 h1{
+    padding-top: 150px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 60px;
+}
+.usoacontent{
+    display: flex;
+    padding: 140px;
+    padding-top: 59px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.matter{
+    margin: 29px;
+    padding: 20px;
+    padding-top: 34px;
+    border-radius: 10px;
+    margin-top:35px ;
+    margin-left: 10px;
+    padding-right: 0px;
+    background-color: #a1f8a1;
+}
+.matter p{
+    line-height: 24px;
+    font-family: 'open sans';
+    font-size: 17px;
+}
+.img img{
+    max-width: 132%;
+    border-radius: 5px;
+    border-top-right-radius: 20px;
+    box-shadow: 7px 7px 12px 0px rgb(117, 115, 115);
+}
+.tattops{
+    background-color: #a1f8a1;
+    margin: 45px;
+    padding: 30px;
+    font-family: 'open sans';
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.heads{
+    margin-bottom: 23px;
+}
+.heads h2{
+    margin-top: 0px;
+}
+.heads h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.tattopsmatter p{
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+}
