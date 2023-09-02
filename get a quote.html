@@ -30,7 +30,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
     <link href="asset/626000583f2b6c3e8b663940/css/home.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="asset/626000583f2b6c3e8b663940/css/opandcu/op.css">
+   <link rel="stylesheet" href="asset/626000583f2b6c3e8b663940/css/aboutcss/vs.css">
 
     <script src="asset/626000583f2b6c3e8b663940/js/swiper-bundle.min.js"></script>
     <script src="asset/626000583f2b6c3e8b663940/js/script.js"></script>
@@ -47,6 +47,65 @@
 </head>
 <style>
     
+.wrappernav{
+    background-color: black;
+}
+    
+    /* contact */
+    .nande {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    #contacus input {
+        border: 2px solid #b3adad;
+        border-radius: 25px;
+        font-size: 17px;
+    }
+
+    #contacus input:hover {
+        border: 2px solid #77bf58;
+
+    }
+
+    #contacus select:hover {
+        border: 2px solid #77bf58;
+    }
+
+    #contacus select {
+        border: 2px solid #b3adad;
+        font-size: 17px;
+
+        border-radius: 25px;
+    }
+
+    #contacus label {
+        color: #ebf4e8;
+        margin-bottom: 0px;
+        font-size: 16px;
+        padding-left: 15px;
+        padding-bottom: 3px;
+    }
+
+    #contacus textarea {
+        border: 2px solid #b3adad;
+
+        border-radius: 10px;
+    }
+
+    #contacus textarea:hover {
+        border: 2px solid #77bf58;
+    }
+
+    #contacus {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+            url(asset/img/contactusmain.png);
+        background-position: 0px 0px, 0px 0px, 50% 50%;
+        background-size: auto, auto, cover;
+        padding-bottom: 19px;
+    }
+
     /* f00ter */
     .footer_nav_item.w-inline-block {
         color: white;
@@ -190,359 +249,104 @@
                 </div>
             </div>
         </nav>
+        
+        <div id="contacus" style="margin-left: 13px; margin-top: 80px; margin-bottom: 13px; margin-right: 13px; border-radius: 10px;">
+            <h2 style="
+        line-height: 36px;
+          padding-top: 20px;
+        padding-left: 70px;
+        color: #77bf58;
+        padding-bottom: 10px;
+        font-family: system-ui;
+        font-size: 2.3rem;"> <span style="font-size: 2.5rem;">Are You Ready</span> <br>
+                To Start a Project With Us.Enquire Now..
+            </h2>
+            <form id="contct" style="margin: auto; width: 565px;">
 
-        <script>
-                 
-            var header  = document.getElementById("mydiv")
-            var btns = header.getElementsByClassName("btn");
-             
-            for (var i = 0; i < btns.length; i++){
-                btns[i].addEventListener("click", function (){
-                     var current =
-                      document.getElementsByClassName("active");
-                     current[0].className = 
-                     current[0].className.replace("active", "");
-                     this.className += " active";
-                })
-            }
-            
-            
-              </script>  
-        <div class="op">
-            <div id="optitle">
-                <div class="titleh1">
-                    <h1>Our Projects</h1>
-                </div>
-            </div>
-        
-           <div class="tab-container">
-                <div id="mydiv">
-                    <button class="tab" onclick="openTab(event, 'tab1')">All</button>
-                    <button class="tab " onclick="openTab(event, 'tab2')">Domestic</button>
-                    <button class="tab" onclick="openTab(event, 'tab3')">Commercial & Industrial</button>
-                </div>
-        
-        
-                <div id="tab1" class="tab-content">
-                    <div class="opimages">
-        
-                        <div class="images" style="text-align: center;">
-        
-        
-        
-                            <div class="flex1" style=" display: flex;">
-                                <div class="flex2">
-        
-                                    <a href="chandragiri.html">
-                                        <img src="asset/img/ourprojects/Chandragiri-6KWp/chandragirimain.jpeg" class=""
-                                            alt="">
-                                        <p>Chandragiri</p>
-                                    </a>
-        
-                                    <a href="chennupati.html"> <img
-                                            src="asset/img/ourprojects/Chennupati BPCL, 20KWp, Vijaywada/Chennupatimain.jpeg"
-                                            class="" alt="">
-                                        <p>Chennupati -HPCL</p>
-                                    </a>
-        
-        
-        
-                                </div>
-                                <div class="flex2">
-                                    <a href="hpclvizag.html"><img
-                                            src="asset/img/ourprojects/HPCL, Vizag, 5KWp/vizagmian.jpg" class="" alt="">
-                                        <p>Vizag -HPCL</p>
-                                    </a>
-        
-        
-                                    <a href="mantralayam.html"> <img
-                                            src="asset/img/ourprojects/HPCL- Mantralayam/mantralayammain.jpeg" class=""
-                                            alt="">
-                                        <p>Mantralayam -HPCL</p>
-                                    </a>
-        
-                                </div>
-                            </div>
-        
-        
-        
-        
-                            <div class="flex1" style="display: flex;  justify-content: center;">
-                                <div class="flex2">
-                                    <a href="pgs.html"><img src="asset/img/ourprojects/PGS/pgsmain.jpeg" class=""
-                                            alt="">
-                                        <p>PGS</p>
-                                    </a>
-        
-        
-                                    <a href="rft.html"> <img
-                                            src="asset/img/ourprojects/Root Fry Technoligies-10KWp, Tiruchanuru/rftmain.jpeg"
-                                            class="" alt="">
-                                        <p>Root Fry Technologies</p>
-                                    </a>
-                                </div>
-        
-        
-        
-                                <div class="flex2">
-                                    <a href="kbreddy.html"> <img src="asset/img/ourprojects/kbreddy/kbreddymain.jpg"
-                                            class="" alt="">
-                                        <p>KB Reddy -Chandragiri</p>
-                                    </a>
-        
-        
-        
-                                    <a href="km.html"><img
-                                            src="asset/img/ourprojects/Krishna Murthy-5KWp, TPTY/kmmain.jpg" class=""
-                                            alt="">
-                                        <p>Krisna Murthy -Tirupathi</p>
-                                    </a>
-        
-                                </div>
-        
-        
-                            </div>
-                            <div class="flex1" style="display: flex;  justify-content: center;">
-                                <div class="flex2">
-                                    <a href="damercherla.html"><img
-                                            src="asset/img/ourprojects/HPCL, Damercherla/damercherlamain.jpeg"
-                                            class="commercial" alt="">
-                                        <p>Damercherla -HPCL</p>
-                                    </a>
-                                    <a href="tptyairport.html"><img
-                                            src="asset/img/ourprojects/HPCL, TPTY Airport/tptymain.jpeg" class=""
-                                            alt="">
-                                        <p>Tirupathi Airport</p>
-                                    </a>
-        
-                                </div>
-        
-        
-        
-                                <div class="flex2">
-        
-                                    <a href="sk.html" class="">
-                                        <img src="asset/img/ourprojects/Satish Kumar- 10KWp, TPTY/skmain.jpg"
-                                            class="domestic">
-                                        <p>Satish Kumar -Tirupathi</p>
-                                    </a>
-        
-        
-        
-                                    <a href="vizag.html"><img src="asset/img/ourprojects/Vizag 3KWp/vizag2mian.jpeg"
-                                            class="" alt="">
-                                        <p>Vizag</p>
-                                    </a>
-        
-                                </div>
-        
-        
-                            </div>
-                            <div class="flex1" style="display: flex;  justify-content: center;">
-                                <div class="flex2">
-                                    <img src="asset/img/ourprojects/sustangfoundation.jpeg" class="" alt=""
-                                        style="margin: 10px;">
-        
-        
-        
-                                    <img src="asset/img/ourprojects/pavan ply woods.jpg" class="" alt=""
-                                        style="margin: 10px;">
-                                </div>
-        
-        
-        
-                                <div class="flex2">
-        
-                                    <img src="asset/img/ourprojects/omshantifoundationtpty.jpg" class="" alt=""
-                                        style="margin: 10px;">
-        
-                                    <img src="asset/img/ourprojects/hospital.jpeg"
-                                        class="" alt="" style="margin: 10px;">
-        
-        
-                                </div>
-        
-        
-                            </div>
-                            <div class="flex1" style="display: flex;  justify-content: center;">
-        
-                                <div class="flex2">
-                                    <img src="asset/img/ourprojects/IMG_20230629_123139898_HDR.jpg" class="" alt=""
-                                        style="margin: 10px;">
-        
-        
-        
-                                    <img src="asset/img/ourprojects/IMG_20230630_155334593_HDR.jpg" class="" alt=""
-                                        style="margin: 10px;">
-        
-                                </div>
-        
-                                <div class="flex2">
-                                    <img src="asset/img/ourprojects/IMG-20230618-WA0005.jpg" alt=""
-                                        style="margin: 10px;">
-                                    <img src="asset/img/ourprojects/IMG_20230505_180118949.jpg" alt=""
-                                        style="margin: 10px;">
-                                </div>
-        
-        
-                            </div>
-        
-        
-                        </div>
-        
+                <div class="nande">
+                    <div class="name" style="margin-right: 30px; margin-bottom: 10px;">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="ENTER YOUR NAME" name="name" id="name" required style="    width: 264px;
+                    padding: 10px;">
                     </div>
-        
-                  
-        
-                </div>
-        
-                <div id="tab2" class="tab-content">
-                    <div class="opimages">
-                        <div class="images" style="text-align: center;">
-                            
-                                <div class="flex1">
-                                           <div class="flex2">
-                                            <a href="chandragiri.html">
-                                                <img src="asset/img/ourprojects/Chandragiri-6KWp/chandragirimain.jpeg" class=""
-                                                    alt="">
-                                                <p>Chandragiri</p>
-                                            </a>
-        
-                                            <a href="sk.html" class="">
-                                                <img src="asset/img/ourprojects/Satish Kumar- 10KWp, TPTY/skmain.jpg"
-                                                    class="domestic">
-                                                <p>Satish Kumar -Tirupathi</p>
-                                            </a>
-                                           </div>
-                                           <div class="flex2">
-                                            <a href="kbreddy.html"> <img src="asset/img/ourprojects/kbreddy/kbreddymain.jpg"
-                                                    class="" alt="">
-                                                <p>KB Reddy -Chandragiri</p>
-                                            </a>
-        
-        
-        
-                                            <a href="km.html"><img
-                                                    src="asset/img/ourprojects/Krishna Murthy-5KWp, TPTY/kmmain.jpg" class=""
-                                                    alt="">
-                                                <p>Krisna Murthy -Tirupathi</p>
-                                            </a>
-        
-                                        </div>
-                                </div>
-        
-                        </div>
-        
+                    <div class="mail" style="margin-bottom: 10px;">
+                        <label for="mail">Email</label>
+                        <input type="email" placeholder="ENTER YOUT EMAIL" class="mail" id="mail" required style="    width: 264px;
+                    padding: 10px;">
                     </div>
+
+
                 </div>
-        
-                <div id="tab3" class="tab-content">
-                    <div class="opimages">
-                        <div class="images" style="text-align: center;">
-        
-                            
-                            <div class="flex1" style=" display: flex;">
-                                <div class="flex2">
-        
-                                    <a href="pgs.html"><img src="asset/img/ourprojects/PGS/pgsmain.jpeg" class=""
-                                        alt="">
-                                    <p>PGS</p>
-                                </a>
-        
-                                    <a href="chennupati.html"> <img
-                                            src="asset/img/ourprojects/Chennupati BPCL, 20KWp, Vijaywada/Chennupatimain.jpeg"
-                                            class="" alt="">
-                                        <p>Chennupati -HPCL</p>
-                                    </a>
-        
-        
-        
-                                </div>
-                                <div class="flex2">
-                                    <a href="hpclvizag.html"><img
-                                            src="asset/img/ourprojects/HPCL, Vizag, 5KWp/vizagmian.jpg" class="" alt="">
-                                        <p>Vizag -HPCL</p>
-                                    </a>
-        
-        
-                                    <a href="mantralayam.html"> <img
-                                            src="asset/img/ourprojects/HPCL- Mantralayam/mantralayammain.jpeg" class=""
-                                            alt="">
-                                        <p>Mantralayam -HPCL</p>
-                                    </a>
-        
-                                </div>
-                            </div>
-        
-                            <!-- another row -->
-                            <div class="flex1" style=" display: flex;">
-                                <div class="flex2">
-                                    <a href="damercherla.html"><img
-                                            src="asset/img/ourprojects/HPCL, Damercherla/damercherlamain.jpeg"
-                                            class="commercial" alt="">
-                                        <p>Damercherla -HPCL</p>
-                                    </a>
-                                    <a href="tptyairport.html"><img
-                                            src="asset/img/ourprojects/HPCL, TPTY Airport/tptymain.jpeg" class=""
-                                            alt="">
-                                        <p>Tirupathi Airport</p>
-                                    </a>
-        
-                                </div>
-                                <div class="flex2">
-                                   
-                                    <a href="rft.html"> <img
-                                        src="asset/img/ourprojects/Root Fry Technoligies-10KWp, Tiruchanuru/rftmain.jpeg"
-                                        class="" alt="">
-                                    <p>Root Fry Technologies</p>
-                                </a>
-        
-                                <a href="vizag.html"><img src="asset/img/ourprojects/Vizag 3KWp/vizag2mian.jpeg"
-                                    class="" alt="">
-                                <p>Vizag</p>
-                            </a>  
-        
-                                </div>
-                            </div>
-                            <!-- another row -->
-                            <div class="flex1">
-                                     <div class="flex2">
-                                <img src="asset/img/ourprojects/sustangfoundation.jpeg" class="" alt=""
-                                    style="margin: 10px;">
-        
-        
-        
-                                <img src="asset/img/ourprojects/pavan ply woods.jpg" class="" alt=""
-                                    style="margin: 10px;">
-                            </div>
-        
-        
-        
-                            <div class="flex2">
-        
-                                <img src="asset/img/ourprojects/omshantifoundationtpty.jpg" class="" alt=""
-                                    style="margin: 10px;">
-        
-                                <img src="asset/img/ourprojects/hospital.jpeg"
-                                    class="" alt="" style="margin: 10px;">
-        
-        
-                            </div>
-                            </div>
-                       
-        
-        
-                        </div>
-        
-                        </div>
-        
+                <div class="nande">
+
+                    <div class="number" style="margin-right: 30px; margin-bottom: 10px;">
+                        <label for="num">PH:Number</label>
+                        <input type="text" placeholder="YOUR MOBILE NUMBER" name="num" id="num" required style="    width: 264px;
+                    padding: 10px;">
                     </div>
+                    <div class="city" style="margin-bottom: 10px;">
+                        <label for="city">City</label>
+                        <select name="city" id="city" style="    width: 264px;
+                                            padding: 10px;">
+                            <option value="none" selected></option>
+
+                            <option value="others">not yet</option>
+                        </select>
+                    </div>
+
                 </div>
-            </div>
-        <!-- </div>    -->
 
+                <div class="nande">
+                    <div class="snf" style="margin-right: 30px; margin-bottom: 10px;">
 
+                        <label for="snf">Solar Need For</label>
+                        <select name="snf" id="snf" style="    width: 264px;
+                    padding: 10px;">
+                            <option value="none" selected></option>
+                            <option value="voi ">Villa Or Individual House</option>
+                            <option value="foa">Flat or Apartment</option>
+                            <option value="bissines">Business</option>
+                        </select>
 
+                    </div>
+                    <div class="smaeb" style="
+                margin-bottom: 10px;">
+                        <label for="smaeb" style="font-size: 15px; padding-left: 0px;">Your Average Monthly
+                            Electricity
+                            Bill</label>
+                        <select name="smaeb" id="smaeb" style="  width: 264px;
+                    padding: 10px;">
+                            <option value="none" selected></option>
+                            <option value="lt ">Less Than ₹1500</option>
+                            <option value="mt">More Than ₹1500</option>
+                            <option value="suc">Under Construction</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="nande">
+                    <div class="textarea">
+                        <label for="text">Your Comments</label>
+                        <textarea name="text" id="text" cols="45" rows="5"></textarea>
+                    </div>
+
+                </div>
+                <div class="submit">
+                    <input type="reset" value="Reset " style="padding: 5px 25px;
+font-size: 15px;
+font-family: 'Open Sans';
+border-radius: 20px;
+margin-right: 15px;">
+                    <input type="submit" value="Submit" style="padding: 5px 25px;
+font-size: 15px;
+font-family: 'Open Sans';
+border-radius: 20px;">
+                </div>
+            </form>
+        </div>
+
+      
         <div class="footer-3">
             <div class="custom_container">
                 <div class="footer-disclaimer">
@@ -706,8 +510,10 @@
             </div>
 
         </div>
-    </div>
 
+
+
+    </div>
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=626000583f2b6c3e8b663940"
         type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
@@ -738,31 +544,6 @@
       
               window.onscroll = calcScrollValue;
               window.onload = calcScrollValue;
-
-
-
-
-            //   tab container
-
-            function openTab(evt, tabName) {
-    var i, tabContent, tab;
-
-    tabContent = document.getElementsByClassName("tab-content");
-    for (i = 0; i < tabContent.length; i++) {
-        tabContent[i].style.display = "none";
-    }
-
-    tab = document.getElementsByClassName("tab");
-    for (i = 0; i < tab.length; i++) {
-        tab[i].className = tab[i].className.replace(" active", "");
-    }
-
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
-// By default, display the first tab
-document.getElementById("tab1").style.display = "block";
       </script>
 </body>
 

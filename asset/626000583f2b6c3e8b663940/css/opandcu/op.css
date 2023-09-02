@@ -48,10 +48,6 @@ input{
            border: 1px solid white;
            font-weight: 750;
   }
-  .tab:hover{
-    background-color: #d6ffcd;
-    color: #424141;
-  }
   .opimages{
     text-align: center;
     margin-bottom: 20px;
@@ -67,9 +63,6 @@ input{
          text-decoration: underline ;
   }
  
-  /* .images  img:hover{
-    filter: brightness(0.7);
-  }  */
   .images a img{
     width: 300px;
     height: 300px;
@@ -114,11 +107,15 @@ input{
 .flex2 a p:hover{
    color:#cbc6c6 ;
 }
-.buttons{
+#mydiv{
   text-align: center;
     margin-top: 20px;
     margin-bottom: -15px;
    font-weight: 800;
+}
+.active, .btn:hover{
+  background-color: #3a3a3a;
+  color: white;
 }
   /* medias */
 
