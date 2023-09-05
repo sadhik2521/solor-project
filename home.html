@@ -63,7 +63,7 @@
 
     body {
         min-height: 100vh;
-        display: flex;
+        /* display: flex; */
         align-items: center;
         justify-content: center;
         background-color: #EFEFEF;
@@ -124,9 +124,10 @@
         filter: drop-shadow(2px 4px 6px black);
     }
 
-     img:hover{
-     transform: translateZ(8px);
-} 
+    img:hover {
+        transform: translateZ(8px);
+    }
+
     .clientsslide::before,
     .clientsslide::after {
         background: linear-gradient(to right, rgb(236 255 207) 0%, rgba(255, 255, 255, 0) 100%);
@@ -136,6 +137,7 @@
         width: 10%;
         z-index: 2;
     }
+    
 
     .clientsslide::after {
         right: 0;
@@ -231,14 +233,11 @@
 
                     <img src="asset/img/sym.png" alt="" style="    
                  max-width: 18%;
-    /* vertical-align: middle; */
     display: inline-block;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
-    /* padding-left: 1px; */
     padding: 5px;
-    /* left: 10px; */
+    margin-right: 0px;
     margin-left: 5px;
     width: 200px;
     height: 65px;
@@ -337,10 +336,17 @@
                 </div>
             </div>
         </nav>
-
+<style>
+     @media (max-width :1000px) {
+            .w-slider-mask{
+                top: -13px;
+            } 
+   }
+   
+</style>
         <div data-delay="4000" data-animation="slide" class="slider-3 w-slider" data-autoplay="true" data-easing="ease"
             data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
-            data-duration="500" data-infinite="true">
+            data-duration="500" data-infinite="true" >
             <div class="w-slider-mask">
                 <div class="w-slide">
                     <div class="hero-slide-container">
