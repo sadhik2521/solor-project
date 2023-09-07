@@ -3,11 +3,11 @@
     padding: 0px;
 }
 body{
-    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");
-    height: 100vh;
-    background-size: cover;
-   background-position: center;
-   }
+    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");  
+      /* height: 100vh; */
+      background-size: cover;
+     background-position: center;
+     }
 #cpcontainer{
     background-image:
      linear-gradient(40deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
@@ -54,8 +54,6 @@ width: 100%;
     font-family: 'lato';
     width: 100%;
 } */
-
-
 
 
 .aboutids p{
@@ -165,3 +163,135 @@ margin-top: -25px;
 
 }
 /* medias */
+
+@media screen and (max-width: 1880px) {
+    .vshead h2{
+        font-size: 71px;
+    }
+
+} 
+@media screen and (max-width: 1280px) {
+    .vshead h2{
+        font-size: 71px;
+    }    
+    .vshead{
+        padding-left: 118% ;
+    }
+
+} 
+@media screen and (max-width: 1215px) {
+    .vshead h2{
+        font-size: 71px;
+    }
+    #cpcontainer{
+        height: 525px;
+    }
+
+} 
+@media screen and (max-width: 1133px) {
+    .vshead h2{
+        font-size: 71px;
+    }
+    #cpcontainer{
+        height: 488px;
+    }
+    .vshead{
+        padding-left: 112% ;
+    }
+
+} 
+@media screen and (max-width: 1100px) {
+    .vshead h2{
+        font-size: 71px;
+    }
+    #cpcontainer{
+        height: 475px;
+    }
+    .vshead{
+        padding-left: 110% ;
+    }
+
+} 
+@media screen and (max-width: 1099px) {
+    .vshead h2{
+        font-size: 71px;
+    }
+    #cpcontainer{
+        height: 420px;
+    }
+    .vshead{
+        padding-left: 106% ;
+    }
+    .vshead h2{
+        font-size: 71px;
+    }
+
+} 
+@media screen and (max-width: 1000px) {
+  
+    #cpcontainer{
+        height: 372px;
+    }
+    .vshead{
+        padding-top: 45% ;
+    }
+    .vshead h2{
+        font-size: 71px;
+    }
+
+} 
+@media screen and (max-width: 950px) {
+    #cpcontainer{
+        height: 340px;
+    }
+    .vshead{
+        padding-top: 41% ;
+        padding-left: 105% ;
+    }
+    .vshead h2{
+        font-size: 69px;
+    }
+
+} 
+@media screen and (max-width: 937px) {
+    .vshead{
+        padding-left: 101%;
+    }
+} 
+@media screen and (max-width: 889px) {
+    .vshead h2{
+        font-size: 70px;
+    }
+    #cpcontainer{
+        height: 315px;
+    }
+} 
+@media screen and (max-width: 853px) {
+    .vshead h2{
+        font-size: 60px;
+    }
+    #cpcontainer{
+        height: 310px;
+    }
+    .vshead{
+        padding-left: 103%;
+    }
+} 
+@media screen and (max-width: 830px) {
+   
+    #cpcontainer{
+        height: 300px;
+    }
+} 
+@media screen and (max-width: 750px) {
+    .vshead{
+        padding-left: 100%;
+         padding-top: 46%;
+    }
+} 
+@media screen and (max-width: 722px) {
+    .vshead{
+        padding-left: 98%;
+         padding-top: 50%;
+    }
+}
