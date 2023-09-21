@@ -68,6 +68,12 @@
         padding-right: 28px;
        }
 }
+      @media screen and (max-width: 1900px) {
+        .images a img {
+            width: 275px;
+            height: 290px;
+} 
+} 
 </style>
 
 <body class="body" style="    background-color:#88ff88;">
@@ -76,32 +82,50 @@
         </span>
     </div>
     <div>
+        <style>
+            .since{
+                color: rgb(49, 166, 212); display: flex; 
+                font: 1em sans-serif;
+                flex-direction: column;
+                 font-size: 10px;
+                 padding-left: 90px;
+            }
+            .logog img{
+                max-width: 18%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+    width: 200px;
+    height: 65px;
+            }
+             @media screen and (max-width: 421px) {
+                .logog p span{
+                    font-size: 10px;
+                }     
+                .logog p{
+                    line-height: 15px;
+                }
+                .logog img{
+                           height: 55px;
+                }
+                .since{
+                    padding-left: 60px;
+                }
+             }
+        </style>
         <nav class="wrappernav">
             <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease"
                 data-easing2="ease" role="banner" class="navbar w-nav">
                 <div class="logog" style="display: flex;">
 
-                    <img src="asset/img/sym.png" alt="" style="    
-                 max-width: 18%;
-    /* vertical-align: middle; */
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
-    /* padding-left: 1px; */
-    padding: 5px;
-    /* left: 10px; */
-    margin-left: 5px;
-    width: 200px;
-    height: 65px;
-                ">
+                    <img src="asset/img/sym.png" alt="" >
 
 
                     <p style="padding-top: 20px; padding-left: 7px;"> <span style="color: orange">INDO</span> <span
-                            style="color: rgb(0, 151, 0);">GREEN</span> <span style="color: rgb(49, 166, 212);  ">SOLAR
-                            <span
-                                style="color: rgb(49, 166, 212); display: flex; flex-direction: column; font-size: 10px; padding-left: 90px;">since
-                                2012</span></span></p>
+                            style="color: rgb(0, 151, 0);">GREEN</span> 
+                            <span style="color: rgb(49, 166, 212);  ">SOLAR<span class="since"  >since 2012</span></span></p>
 
                 </div>
                 <div class="w-layout-grid navgrid">
@@ -223,15 +247,16 @@
         <div class="op">
             <div id="optitle">
                 <div class="titleh1">
-                    <h1>Our Projects</h1>
+                    <h1>Our Esteemed Projects</h1>
                 </div>
             </div>
         
            <div class="tab-container">
                 <div id="mydiv">
                     <button class="tab" onclick="openTab(event, 'tab1')">All</button>
-                    <button class="tab " onclick="openTab(event, 'tab2')">Domestic</button>
                     <button class="tab" onclick="openTab(event, 'tab3')">Commercial & Industrial</button>
+                    <button class="tab " onclick="openTab(event, 'tab2')">Domestic</button>
+                    <button class="tab" onclick="openTab(event, 'tab4')">Petrol Pumps</button>
                 </div>
         
         
@@ -245,16 +270,16 @@
                             <div class="flex1" style=" display: flex;">
                                 <div class="flex2">
         
-                                    <a href="chandragiri.html">
-                                        <img src="asset/img/ourprojects/Chandragiri-6KWp/chandragirimain.jpeg" class=""
+                                    <a href="koduru.html">
+                                        <img src="asset/img/ourprojects/all/1MWp, Koduru/IMG-20181115-WA0061.jpg" class=""
                                             alt="">
-                                        <p>Chandragiri</p>
+                                        <p>Koduru</p>
                                     </a>
         
                                     <a href="chennupati.html"> <img
-                                            src="asset/img/ourprojects/Chennupati BPCL, 20KWp, Vijaywada/Chennupatimain.jpeg"
+                                            src="asset/img/ourprojects/all/BPCL-chennupati,vijayawada/Chennupatimain.jpeg"
                                             class="" alt="">
-                                        <p>Chennupati -HPCL</p>
+                                        <p>Chennupati -BPCL</p>
                                     </a>
         
         
@@ -262,15 +287,15 @@
                                 </div>
                                 <div class="flex2">
                                     <a href="hpclvizag.html"><img
-                                            src="asset/img/ourprojects/HPCL, Vizag, 5KWp/vizagmian.jpg" class="" alt="">
+                                            src="asset/img/ourprojects/all/HPCL, Vizag, 5KWp/vizagmian.jpg" class="" alt="">
                                         <p>Vizag -HPCL</p>
                                     </a>
         
         
-                                    <a href="mantralayam.html"> <img
-                                            src="asset/img/ourprojects/HPCL- Mantralayam/mantralayammain.jpeg" class=""
+                                    <a href="venkatagiri.html"> <img
+                                            src="asset/img/ourprojects/all/15Kwp, LKR/WhatsApp Image 2023-09-11 at 15.33.17.jpeg" class=""
                                             alt="">
-                                        <p>Mantralayam -HPCL</p>
+                                        <p>Venkatagiri</p>
                                     </a>
         
                                 </div>
@@ -281,33 +306,33 @@
         
                             <div class="flex1" style="display: flex;  justify-content: center;">
                                 <div class="flex2">
-                                    <a href="pgs.html"><img src="asset/img/ourprojects/PGS/pgsmain.jpeg" class=""
+                                    <a href="pgs.html"><img src="asset/img/ourprojects/all/PGS/pgsmain.jpeg" class=""
                                             alt="">
-                                        <p>PGS</p>
+                                        <p>Tirupathi</p>
                                     </a>
         
         
-                                    <a href="rft.html"> <img
-                                            src="asset/img/ourprojects/Root Fry Technoligies-10KWp, Tiruchanuru/rftmain.jpeg"
+                                    <a href="hyderabadcountvillas.html"> <img
+                                            src="asset/img/ourprojects/all/100KWp, Hill county villas 20No.s Hyderabad/IMG_20220620_174217.jpg"
                                             class="" alt="">
-                                        <p>Root Fry Technologies</p>
+                                        <p>Hyderabad</p>
                                     </a>
                                 </div>
         
         
         
                                 <div class="flex2">
-                                    <a href="kbreddy.html"> <img src="asset/img/ourprojects/kbreddy/kbreddymain.jpg"
+                                    <a href="hyd50.html"> <img src="asset/img/ourprojects/all/250KWp - 50 Number Villas, Hyd/IMG_20211203_123332.jpg"
                                             class="" alt="">
-                                        <p>KB Reddy -Chandragiri</p>
+                                        <p>Hyderabad</p>
                                     </a>
         
         
         
-                                    <a href="km.html"><img
-                                            src="asset/img/ourprojects/Krishna Murthy-5KWp, TPTY/kmmain.jpg" class=""
+                                    <a href="vijayawada250.html"><img
+                                            src="asset/img/ourprojects/all/250KWp - Viajayawada/IMG_20221111_102259.jpg" class=""
                                             alt="">
-                                        <p>Krisna Murthy -Tirupathi</p>
+                                        <p>Vijayawada</p>
                                     </a>
         
                                 </div>
@@ -316,15 +341,15 @@
                             </div>
                             <div class="flex1" style="display: flex;  justify-content: center;">
                                 <div class="flex2">
-                                    <a href="damercherla.html"><img
-                                            src="asset/img/ourprojects/HPCL, Damercherla/damercherlamain.jpeg"
+                                    <a href="bpcltptyairport.html"><img
+                                            src="asset/img/ourprojects/all/BPCL, AIrport, TPTY/WhatsApp Image 2023-09-11 at 15.37.25 (1).jpeg"
                                             class="commercial" alt="">
-                                        <p>Damercherla -HPCL</p>
+                                        <p>Tirupathi Airport -BPCL</p>
                                     </a>
                                     <a href="tptyairport.html"><img
-                                            src="asset/img/ourprojects/HPCL, TPTY Airport/Screenshot (175).png" class=""
+                                            src="asset/img/ourprojects/all/HPCL, TPTY Airport/tptymain.jpeg" class=""
                                             alt="">
-                                        <p>Tirupathi Airport</p>
+                                        <p>Tirupathi Airport -HPCL</p>
                                     </a>
         
                                 </div>
@@ -333,17 +358,18 @@
         
                                 <div class="flex2">
         
-                                    <a href="sk.html" class="">
-                                        <img src="asset/img/ourprojects/Satish Kumar- 10KWp, TPTY/skmain.jpg"
+                                    <!-- <a href="ama    .html" class=""> -->
+                                    <a href="amaravati=.html" class="">
+                                        <img src="asset/img/ourprojects/all/Hospital-40KWp, Amaravathi/WhatsApp Image 2023-05-15 at 12.08.08 (8).jpeg"
                                             class="domestic">
-                                        <p>Satish Kumar -Tirupathi</p>
+                                        <p>Amaravati</p>
                                     </a>
         
         
         
-                                    <a href="vizag.html"><img src="asset/img/ourprojects/Vizag 3KWp/vizag2mian.jpeg"
+                                    <a href="novijayawada.html"><img src="asset/img/ourprojects/all/Nityam oil- 30KWp Vijayawada/IMG_20211227_154831.jpg"
                                             class="" alt="">
-                                        <p>Vizag</p>
+                                        <p>Vijayawada</p>
                                     </a>
         
                                 </div>
@@ -351,54 +377,30 @@
         
                             </div>
                             <div class="flex1" style="display: flex;  justify-content: center;">
-                                <div class="flex2">
-                                    <img src="asset/img/ourprojects/sustangfoundation.jpeg" class="" alt=""
-                                        style="margin: 10px;">
-        
-        
-        
-                                    <img src="asset/img/ourprojects/pavan ply woods.jpg" class="" alt=""
-                                        style="margin: 10px;">
-                                </div>
-        
-        
+                               
         
                                 <div class="flex2">
         
-                                    <img src="asset/img/ourprojects/omshantifoundationtpty.jpg" class="" alt=""
-                                        style="margin: 10px;">
-        
-                                    <img src="asset/img/ourprojects/hospital.jpeg"
-                                        class="" alt="" style="margin: 10px;">
-        
-        
-                                </div>
-        
-        
-                            </div>
-                            <div class="flex1" style="display: flex;  justify-content: center;">
-        
-                                <div class="flex2">
-                                    <img src="asset/img/ourprojects/IMG_20230629_123139898_HDR.jpg" class="" alt=""
-                                        style="margin: 10px;">
+                                    <a href="ppwtirupati.html" class="">
+                                        <img src="asset/img/ourprojects/all/pawanplywoods/IMG_20230715_095729328_HDR.jpg"
+                                            class="domestic">
+                                        <p>Tirupathi </p>
+                                    </a>
         
         
         
-                                    <img src="asset/img/ourprojects/IMG_20230630_155334593_HDR.jpg" class="" alt=""
-                                        style="margin: 10px;">
+                                    <a href="madanapalle.html"><img src="asset/img/ourprojects/all/SWAASTHYA Hospital- 25KWp, madanapalli,/IMG20230810125640.jpg"
+                                            class="" alt="">
+                                        <p>Madanapalle</p>
+                                    </a>
         
-                                </div>
-        
-                                <div class="flex2">
-                                    <img src="asset/img/ourprojects/IMG-20230618-WA0005.jpg" alt=""
-                                        style="margin: 10px;">
-                                    <img src="asset/img/ourprojects/IMG_20230505_180118949.jpg" alt=""
-                                        style="margin: 10px;">
+
+
                                 </div>
         
         
                             </div>
-        
+                           
         
                         </div>
         
@@ -414,31 +416,88 @@
                             
                                 <div class="flex1">
                                            <div class="flex2">
-                                            <a href="chandragiri.html">
-                                                <img src="asset/img/ourprojects/Chandragiri-6KWp/chandragirimain.jpeg" class=""
+                                            <a href="venkatagiri.html">
+                                                <img src="asset/img/ourprojects/domestic/15Kwp, LKR/WhatsApp Image 2023-09-11 at 15.33.17.jpeg" class=""
+                                                    alt="">
+                                                <p>Vijayawada</p>
+                                            </a>
+        
+                                            <a href="hyderabadcountvillas.html" class="">
+                                                <img src="asset/img/ourprojects/domestic/100KWp, Hill county villas 20No.s Hyderabad/IMG_20220620_174217.jpg"
+                                                    class="domestic">
+                                                <p>Hyderabad</p>
+                                            </a>
+                                           </div>
+                                           <div class="flex2">
+                                            <a href="hyd50.html"> <img src="asset/img/ourprojects/domestic/250KWp - 50 Number Villas, Hyd/IMG_20211203_123332.jpg"
+                                                    class="" alt="">
+                                                <p>Hyderabad</p>
+                                            </a>
+        
+        
+        
+                                            <a href="chandragiri.html"><img
+                                                    src="asset/img/ourprojects/domestic/Chandragiri-6KWp/chandragirimain.jpeg" class=""
                                                     alt="">
                                                 <p>Chandragiri</p>
                                             </a>
         
-                                            <a href="sk.html" class="">
-                                                <img src="asset/img/ourprojects/Satish Kumar- 10KWp, TPTY/skmain.jpg"
+                                        </div>
+                                </div>
+                                <div class="flex1">
+                                           <div class="flex2">
+                                            <a href="kbreddy.html">
+                                                <img src="asset/img/ourprojects/domestic/kbreddy/kbreddymain.jpg" class=""
+                                                    alt="">
+                                                <p>KB Reddy</p>
+                                            </a>
+        
+                                            <a href="km.html" class="">
+                                                <img src="asset/img/ourprojects/domestic/Krishna Murthy-5KWp, TPTY/KMMAIN.jpg"
                                                     class="domestic">
-                                                <p>Satish Kumar -Tirupathi</p>
+                                                <p>Tirupathi</p>
                                             </a>
                                            </div>
+
+
                                            <div class="flex2">
-                                            <a href="kbreddy.html"> <img src="asset/img/ourprojects/kbreddy/kbreddymain.jpg"
+                                            <a href="miligilihyd.html"> <img src="asset/img/ourprojects/domestic/Miligiri Farms, yenakepallly 10KWp/IMG_20220525_153226.jpg"
                                                     class="" alt="">
-                                                <p>KB Reddy -Chandragiri</p>
+                                                <p>Hyderabad</p>
                                             </a>
         
         
         
-                                            <a href="km.html"><img
-                                                    src="asset/img/ourprojects/Krishna Murthy-5KWp, TPTY/kmmain.jpg" class=""
+                                            <a href="ppwtirupati.html"><img
+                                                    src="asset/img/ourprojects/domestic/pawanplywoods/IMG_20230715_095729328_HDR.jpg" class=""
                                                     alt="">
-                                                <p>Krisna Murthy -Tirupathi</p>
+                                                <p>Tirupathi</p>
                                             </a>
+        
+                                        </div>
+                                </div>
+                                <div class="flex1">
+                                           <div class="flex2">
+                                            <a href="rft.html">
+                                                <img src="asset/img/ourprojects/domestic/Root Fry Technoligies-10KWp, Tiruchanuru/rftmain.jpeg" class=""
+                                                    alt="">
+                                                <p>Root Fry Technology</p>
+                                            </a>
+        
+                                            <a href="sk.html" class="">
+                                                <img src="asset/img/ourprojects/domestic/Satish Kumar- 10KWp, TPTY/skmain.jpg"
+                                                    class="domestic">
+                                                <p>Tirupathi</p>
+                                            </a>
+                                           </div>
+
+
+                                           <div class="flex2">
+                                            <a href="vizag.html"> <img src="asset/img/ourprojects/domestic/Vizag 3KWp/vizag2mian.jpeg"
+                                                    class="" alt="">
+                                                <p> Vizag</p>
+                                            </a>
+        
         
                                         </div>
                                 </div>
@@ -456,29 +515,124 @@
                             <div class="flex1" style=" display: flex;">
                                 <div class="flex2">
         
-                                    <a href="pgs.html"><img src="asset/img/ourprojects/PGS/pgsmain.jpeg" class=""
-                                        alt="">
-                                    <p>PGS</p>
-                                </a>
+                                    <a href="koduru.html">
+                                        <img src="asset/img/ourprojects/Commmerccial _ Industrial/1MWp, Koduru/IMG-20181115-WA0061.jpg" class=""
+                                            alt="">
+                                        <p>Koduru</p>
+                                    </a>
         
-                                    <a href="chennupati.html"> <img
-                                            src="asset/img/ourprojects/Chennupati BPCL, 20KWp, Vijaywada/Chennupatimain.jpeg"
+                                    <a href="pchyd.html"> <img
+                                            src="asset/img/ourprojects/Commmerccial _ Industrial/45KWp- Hyderbad/20220621_11032PMByGPSMapCamera.jpg"
                                             class="" alt="">
-                                        <p>Chennupati -HPCL</p>
+                                        <p>Hyderabad</p>
                                     </a>
         
         
         
                                 </div>
                                 <div class="flex2">
-                                    <a href="hpclvizag.html"><img
-                                            src="asset/img/ourprojects/HPCL, Vizag, 5KWp/vizagmian.jpg" class="" alt="">
-                                        <p>Vizag -HPCL</p>
+                                    <a href="vijayawada250.html"><img
+                                            src="asset/img/ourprojects/Commmerccial _ Industrial/250KWp - Viajayawada/IMG_20221111_102259.jpg" class="" alt="">
+                                        <p>Vijayawada</p>
+                                    </a>
+        
+        
+                                    <a href="gkltirupati.html"> <img
+                                            src="asset/img/ourprojects/Commmerccial _ Industrial/Gopi krishna Lodge- 40Kwp , TPTY/IMG_20220315_170622.jpg" class=""
+                                            alt="">
+                                        <p>Tirupathi</p>
+                                    </a>
+        
+                                </div>
+                            </div>
+        
+                            <!-- another row -->
+                            <div class="flex1" style=" display: flex;">
+                                <div class="flex2">
+                                    <a href="amaravati=.html"><img
+                                            src="asset/img/ourprojects/Commmerccial _ Industrial/Hospital-40KWp, Amaravathi/WhatsApp Image 2023-05-15 at 12.08.08 (8).jpeg"
+                                            class="commercial" alt="">
+                                        <p>Amaravati</p>
+                                    </a>
+                                    <a href="novijayawada.html"><img
+                                            src="asset/img/ourprojects/Commmerccial _ Industrial/Nityam oil- 30KWp Vijayawada/IMG_20211227_154831.jpg" class=""
+                                            alt="">
+                                        <p>Vijayawada</p>
+                                    </a>
+        
+                                </div>
+                                <div class="flex2">
+                                  
+        
+                                <a href="pgs.html"><img src="asset/img/ourprojects/Commmerccial _ Industrial/PGS/pgsmain.jpeg"
+                                    class="" alt="">
+                                <p>Tirupathi</p>
+                            </a>  
+
+                                <a href="pg50.html"><img src="asset/img/ourprojects/Commmerccial _ Industrial/PG, 50Kwp, TPTY/IMG-20181022-WA0031.jpg"
+                                    class="" alt="">
+                                <p>Tirupathi</p>
+                            </a>  
+        
+                                </div>
+                            </div>
+                            <!-- another row -->
+                            <div class="flex1">
+                                     <div class="flex2">
+
+                                        <a href="rbvijaya.html"><img src="asset/img/ourprojects/Commmerccial _ Industrial/Rudhrabhoomi, 10Kwp Vijayawada/IMG_20220225_144903.jpg"
+                                            class="" alt="">
+                                        <p>Vijayawada</p>
+                                    </a>  
+        
+                                        <a href="madanapalle.html"><img src="asset/img/ourprojects/Commmerccial _ Industrial/SWAASTHYA Hospital- 25KWp, madanapalli,/IMG20230810125640.jpg"
+                                            class="" alt="">
+                                        <p>Mandanapalle</p>
+                                    </a>  
+
+                            </div>
+        
+        
+                            </div>
+                       
+        
+        
+                        </div>
+        
+                        </div>
+        
+                    </div>
+                <div id="tab4" class="tab-content">
+                    <div class="opimages">
+                        <div class="images" style="text-align: center;">
+        
+                            
+                            <div class="flex1" style=" display: flex;">
+                                <div class="flex2">
+        
+                                    <a href="khammam.html"><img src="asset/img/ourprojects/petrolpumps/BPCL, 15KWp, Sattupally/IMG_20220610_140731.jpg" class=""
+                                        alt="">
+                                    <p>Khammam</p>
+                                </a>
+        
+                                    <a href="bpcltptyairport.html"> <img
+                                            src="asset/img/ourprojects/petrolpumps/BPCL, AIrport, TPTY/WhatsApp Image 2023-09-11 at 15.37.25 (1).jpeg"
+                                            class="" alt="">
+                                        <p>Tirupati Airport -BPCL</p>
+                                    </a>
+        
+        
+        
+                                </div>
+                                <div class="flex2">
+                                    <a href="chennupati.html"><img
+                                            src="asset/img/ourprojects/petrolpumps/BPCL-chennupati,vijayawada/Chennupatimain.jpeg" class="" alt="">
+                                        <p>Chennupathi -HPCL</p>
                                     </a>
         
         
                                     <a href="mantralayam.html"> <img
-                                            src="asset/img/ourprojects/HPCL- Mantralayam/mantralayammain.jpeg" class=""
+                                            src="asset/img/ourprojects/petrolpumps/HPCL- Mantralayam/mantralayammain.jpeg" class=""
                                             alt="">
                                         <p>Mantralayam -HPCL</p>
                                     </a>
@@ -490,28 +644,28 @@
                             <div class="flex1" style=" display: flex;">
                                 <div class="flex2">
                                     <a href="damercherla.html"><img
-                                            src="asset/img/ourprojects/HPCL, Damercherla/damercherlamain.jpeg"
+                                            src="asset/img/ourprojects/petrolpumps/HPCL, Damercherla/damercherlamain.jpeg"
                                             class="commercial" alt="">
                                         <p>Damercherla -HPCL</p>
                                     </a>
-                                    <a href="tptyairport.html"><img
-                                            src="asset/img/ourprojects/HPCL, TPTY Airport/Screenshot (175).png" class=""
+                                    <a href="nellore.html"><img
+                                            src="asset/img/ourprojects/petrolpumps/HPCL, Muthukuru-8KWp/IMG_20211012_171213.jpg" class=""
                                             alt="">
-                                        <p>Tirupathi Airport</p>
+                                        <p>Nellore</p>
                                     </a>
         
                                 </div>
                                 <div class="flex2">
                                    
-                                    <a href="rft.html"> <img
-                                        src="asset/img/ourprojects/Root Fry Technoligies-10KWp, Tiruchanuru/rftmain.jpeg"
+                                    <a href="khammamhpcl.html"> <img
+                                        src="asset/img/ourprojects/petrolpumps/HPCL, Sattupally/IMG_20220203_144743.jpg"
                                         class="" alt="">
-                                    <p>Root Fry Technologies</p>
+                                    <p>Khammam</p>
                                 </a>
         
-                                <a href="vizag.html"><img src="asset/img/ourprojects/Vizag 3KWp/vizag2mian.jpeg"
+                                <a href="tptyairport.html"><img src="asset/img/ourprojects/petrolpumps/HPCL, TPTY Airport/Screenshot (175).png"
                                     class="" alt="">
-                                <p>Vizag</p>
+                                <p>Tirupati Airport -HPCL</p>
                             </a>  
         
                                 </div>
@@ -519,27 +673,21 @@
                             <!-- another row -->
                             <div class="flex1">
                                      <div class="flex2">
-                                <img src="asset/img/ourprojects/sustangfoundation.jpeg" class="" alt=""
-                                    style="margin: 10px;">
-        
-        
-        
-                                <img src="asset/img/ourprojects/pavan ply woods.jpg" class="" alt=""
-                                    style="margin: 10px;">
+                             
+
+                                        <a href="hpclvizag.html"> <img
+                                            src="asset/img/ourprojects/petrolpumps/HPCL, Vizag, 5KWp/vizag2.jpg"
+                                            class="" alt="">
+                                        <p>Vizag</p>
+                                    </a>
+            
+                                    <a href="yerragondlapalem.html"><img src="asset/img/ourprojects/petrolpumps/Teja HPCL, 7KWp Yerragondlapalem/IMG_20221014_133941_1.jpg"
+                                        class="" alt="">
+                                    <p>Yerragondlapalem</p>
+                                </a> 
+
                             </div>
         
-        
-        
-                            <div class="flex2">
-        
-                                <img src="asset/img/ourprojects/omshantifoundationtpty.jpg" class="" alt=""
-                                    style="margin: 10px;">
-        
-                                <img src="asset/img/ourprojects/hospital.jpeg"
-                                    class="" alt="" style="margin: 10px;">
-        
-        
-                            </div>
                             </div>
                        
         
@@ -705,19 +853,23 @@
                </div>
                   
                   </div>
-
-                <div class="footer_copyright">
+                  <div class="footer_copyright">
                     <div class="footer-disclaimer copy"></div>
                     <div class="copy_and_legal">
                         <div class="div-block-2">
-                            <div class="text-block-7 copy" style="color: white;">Todos los derechos reservados
-                                Ecocentro Solar SA de CV
-                            </div>
+                            <div class="text-block-7 copy" style="color: white;">INDO GREEN SOLAR- Go Green, Go Renewable</div>
                         </div>
                     </div>
+                    <style>
+                         .designername{
+                                  color: white;
+                                  text-align: end;
+                         }
+                    </style>
+                           <div class="designername">
+                                       <p>Designed by Sk.Jafar Sadhik</p>
+                           </div>
                 </div> 
-
-                
                   
             </div>
 

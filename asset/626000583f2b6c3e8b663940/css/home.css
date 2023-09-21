@@ -13,6 +13,9 @@
       Start of custom Webflow CSS
       ========================================================================== */
 
+#w-node-_7d8d9e01-ff1c-0bd8-32b3-7f03af8a9d31-2666394d img{
+   max-width: 43%;
+}
 
 html {
   font-family: sans-serif;
@@ -31,9 +34,26 @@ body {
    background-position: center;
 }
 
-
-
-
+/* 
+@media screen and (max-width: 1250px) {
+  #w-node-_7d8d9e01-ff1c-0bd8-32b3-7f03af8a9d25-2666394d {
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-span: 5;
+    grid-column-end: 13;
+    -ms-grid-column: 8;
+    grid-column-start: 9;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    margin-left: -420px;
+}
+#w-node-_7d8d9e01-ff1c-0bd8-32b3-7f03af8a9d31-2666394d img{
+  max-width: 53%;
+}
+}
+ */
 
 
 
@@ -2456,7 +2476,7 @@ textarea.w-select {
   top: 100%;
   left: 0;
   right: 0;
-  background: #C8C8C8;
+  background: #302f2f;
   text-align: center;
   overflow: visible;
   min-width: 200px
@@ -14649,7 +14669,7 @@ textarea.w-select {
 
   .hero-full-title._3 {
     width: 90%;
-    margin-top: 150px;
+    margin-top: 20px;
   }
 
   .hero-full-title._2 {
@@ -16185,7 +16205,7 @@ textarea.w-select {
   #services {
     flex-direction: column;
   }
-
+     
   #services .box {
     padding: 14px;
     margin: 2px 0px;
@@ -17507,7 +17527,7 @@ textarea.w-select {
   }
 
   .grid-buttons.inner-padding-small {
-    justify-items: stretch;
+   text-align: center;
   }
 
   .menu-button {
@@ -17566,7 +17586,7 @@ textarea.w-select {
   }
 
   .heading-xlarge._16-ch.inner-padding-xsmall.center {
-    font-size: 2.2em;
+    font-size: 2.1em;
   }
 
   .heading-xlarge._16-ch.inner-padding-xsmall.center.ci {
@@ -17677,7 +17697,7 @@ textarea.w-select {
 
   .hero-full-title._3 {
     width: 80%;
-    margin-top: 200px;
+    margin-top: 20px;
   }
 
   .hero-full-title._2 {
@@ -30663,12 +30683,6 @@ textarea.w-select {
       place-items: center;
       font-size: 25px;
   }
-
-
-
-
-
-
 
 
 
@@ -70492,4 +70506,24 @@ audio,
     text-align: center;
   }
 
-  .wrapper.footer-wrapper {
+  .wrapper.footer-wrapper {*/
+
+@media screen and (max-width: 1250px) {
+  #w-node-_7d8d9e01-ff1c-0bd8-32b3-7f03af8a9d25-2666394d {
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-span: 5;
+    grid-column-end: 13;
+    -ms-grid-column: 8;
+    grid-column-start: 9;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    margin-left: -420px;
+}
+#w-node-_7d8d9e01-ff1c-0bd8-32b3-7f03af8a9d31-2666394d img{
+  max-width: 53%;
+}
+}
+

@@ -4,7 +4,7 @@ body{
     background-size: cover;
    background-position: center;
    }
-#aarcontainer{
+/* #aarcontainer{
     background-image:
      linear-gradient(18deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, -0.45)), 
     url("../../../img/aboutus/Achievements-\ Main\ Image.png") ;
@@ -36,8 +36,31 @@ body{
     100%{
         background-position: 0 0;
     }
+} */
+
+
+
+#eemtitle {
+    background-image:
+        linear-gradient(40deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url('../../../img/aboutus/Screenshot\ \(206\).png');
+    background-position: 0px 0px, 0px 0px, 50% 50%;
+    background-size: auto, auto, cover;
+    height: 343px;
+    margin-top: -40px;
+    max-width: 100%;
 }
 
+.titleh1 {
+    text-align: center;
+}
+
+.titleh1 h1 {
+    padding-top: 160px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 70px;
+}
 
 .vshead h2{
     margin: 15px 0px ;

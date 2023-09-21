@@ -7,7 +7,7 @@ body{
 #optitle{
     background-image:
      linear-gradient(40deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
-    url("../../../img/ourprojects/ourprojectsmain.jpg") ;
+    url("../../../img/ourprojects/top-view-desk-dark-concept-with-copy-space.jpg") ;
     background-position: 0px 0px ,0px 0px, 50% 50%;
     background-size: auto ,auto, cover;
     height: 343px;
@@ -21,7 +21,7 @@ body{
     padding-top: 150px;
     color: white;
     font-family: 'Open Sans';
-    font-size: 80px;
+    font-size: 65px;
 }
 
 /* 
@@ -119,13 +119,8 @@ input{
 }
   /* medias */
 
-  @media screen and (max-width: 1300px) {
-    .titleh1 h1{
-      padding-top: 150px;
-      color: red;
-      font-family: 'Open Sans';
-      font-size: 80px;
-  }
+   @media screen and (max-width: 1300px) {
+       
   .flex1{
     flex-direction: column;
     justify-content: center;
@@ -133,10 +128,56 @@ input{
 }
 
   @media screen and (max-width: 660px) {
-    .titleh1 h1{
-      color: rgb(0, 0, 0);
-  }
   .flex2{
     flex-direction: column;
   }
 }
+  @media screen and (max-width: 700px) {
+    .images a img {
+      width: 285px;
+      height: 285px;
+    }
+}
+@media screen and (max-width: 991px) {
+  #optitle{
+   margin-top: -90px;
+  }
+}
+  @media screen and (max-width: 800px) {
+    .titleh1 h1 {
+      padding-top: 160px;
+      font-size: 60px;
+  }
+}
+  @media screen and (max-width: 700px) {
+    #optitle {
+      height: 310px;
+  }
+  .titleh1 h1 {
+    padding-top: 149px;
+    font-size: 53px;
+}
+}
+  @media screen and (max-width: 650px) {
+  .titleh1 h1 {
+    font-size: 50px;
+}
+} 
+@media screen and (max-width: 601px) {
+    .titleh1 h1 {
+      padding-top: 121px;
+      font-size: 44px;
+      line-height: 56px;
+  }
+  #optitle {
+    height: 280px;
+}
+}
+  @media screen and (max-width: 558px) {
+    .titleh1 h1 {
+      padding-top: 125px;
+      font-size: 50px;
+      line-height: 56px;
+  }
+}
+ 

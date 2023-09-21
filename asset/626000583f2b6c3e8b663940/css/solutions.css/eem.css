@@ -12,7 +12,7 @@ body {
     background-position: 0px 0px, 0px 0px, 50% 50%;
     background-size: auto, auto, cover;
     height: 343px;
-    margin-top: -22px;
+    margin-top: -40px;
     max-width: 100%;
 }
 
@@ -269,3 +269,54 @@ button:hover{
     box-shadow: 0 0 0 4px black, 
                 0 0 0 7px #fff;
 }
+
+
+
+/* head media */
+@media screen and (max-width: 991px) {
+    #eemtitle{
+     margin-top: -48px;
+    }
+ }
+   @media screen and (max-width: 700px) {
+     .images a img {
+       width: 285px;
+       height: 285px;
+     }
+ }
+   @media screen and (max-width: 560px) {
+     #eemtitle{
+              height: 320px;
+     }
+     .titleh1 h1 {
+       font-size: 60px;
+     }
+ }
+   @media screen and (max-width: 480px) {
+     #eemtitle{
+              height: 287px;
+     }
+     .titleh1 h1 {
+       font-size: 50px;
+       padding-top: 136px ;
+     }
+ }
+   @media screen and (max-width: 400px) {
+     #eemtitle{
+              height: 246px;
+     }
+     .titleh1 h1 {
+       font-size: 43px;
+       padding-top: 119px;
+     }
+ }
+   @media screen and (max-width: 360px) {
+     #eemtitle{
+              height: 240px;
+     }
+     .titleh1 h1 {
+       font-size: 40px;
+     padding-top: 115px;
+     }
+ }
+ 
