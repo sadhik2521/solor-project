@@ -1,6 +1,6 @@
 
 body{
-    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh;
+    /* background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh; */
     background-size: cover;
    background-position: center;
    }
@@ -31,7 +31,7 @@ body{
   margin: 0px;
   font-size: 4rem;
   letter-spacing: 1px;
-  font-family: 'open sans';
+  font-family: math;
 }
 .omhead{
     text-align: center;
@@ -39,7 +39,8 @@ body{
 }
 .omhead h3{
      font-size: 40px;   
-     font-family: 'lato';
+     font-family: math;
+     color: #4e4e4e;
      margin-top: 30px;
 }
 .ompara {
@@ -47,6 +48,7 @@ body{
 }
 .ompara p{
     padding: 6px 85px;
+    color: #4e4e4e;
     text-align: justify;
     font-size: 18px;
      line-height: 25px;
@@ -59,9 +61,8 @@ body{
 }
 .omimg img{
     max-width: 65%;
-    border-top-right-radius: 35px;
-    box-shadow: 0px 0px 15px 0px rgb(0 0 0);
-        filter: drop-shadow(2px 4px 6px black);
+border-radius: 30px;
+ filter: drop-shadow(2px 4px 6px black);
     margin-left: -173px;
 }
 .oam{
@@ -132,7 +133,7 @@ font-size: 35px;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 35px;
-    background-color: #a1f8a1;
+    background-color: #ffffff;
 }
 .oam h3{
  font-family: math;

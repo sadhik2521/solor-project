@@ -1,7 +1,8 @@
 body{
-    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh;
+    /* background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh; */
     background-size: cover;
    background-position: center;
+   background-color: #cacaca;
    }
 /* .wrappernav{
     background-color: black;
@@ -52,13 +53,15 @@ body{
     text-align: center;
     margin: 22px 0px;
     padding-top: 20px;
+    margin-top: -85px;
 }
 .swph3 h3{
 font-size: 35px;
-color: #e5d9b6;
+color: #4e4e4e;
+font-family: math;
 }
 .firstpara{
-    background-color: #a1f8a1;
+    background-color: #ffffff;
     border-radius: 30px;
     margin: 50px 40px;
     margin-top: 20px;
@@ -76,4 +79,6 @@ color: #e5d9b6;
 }
 .firstpara img{
     width: 85%;
+    border-radius: 30px;
+    filter: drop-shadow(2px 4px 6px black);
 }

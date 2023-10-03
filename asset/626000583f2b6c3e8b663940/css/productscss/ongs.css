@@ -1,5 +1,5 @@
 body{
-    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh;
+    /* background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh; */
     background-size: cover;
    background-position: center;
    }
@@ -27,7 +27,7 @@ body{
 .titleh1 h1 {
     padding-top: 160px;
     color: white;
-    font-family: 'Open Sans';
+    font-family: math;
     font-size: 70px;
 }
 .ongshead h1{
@@ -54,7 +54,7 @@ body{
     display: flex;
     place-items: center;
     margin-top: 15px;
-    background-color: #a1f8a1;
+    background-color: #ffffff;
     padding: 25px;
     border-radius: 10px;
     margin-right: 27px;
@@ -63,9 +63,10 @@ body{
     display: contents;
 }
 .mapimg img{
-    max-width: 50%;
-    border-top-right-radius: 30px;
+    max-width: 45%;
+    border-radius: 30px;
     margin-left: 32px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .mts{
     margin-top: 40px;
@@ -81,13 +82,14 @@ body{
     line-height: 27px;
 }
 .mtshead h2{
-    font-family: inherit;
-    color: #e5d9b6;
+    font-family: math;
+    color: #4e4e4e;
     font-size: 34px;
 }
 .head{
-    text-align: center;
-    color: #e5d9b6;
+    text-align: center; 
+     font-family: math;
+    color: #4e4e4e;
 }
 .gts.head{
     font-size: 49px;
@@ -117,11 +119,12 @@ body{
     display: contents;
 }
 .machineimg img{
-    max-width: 50%;
-   border-top-left-radius: 30px;
+    max-width: 45%;
+   border-radius: 30px;
+   filter: drop-shadow(2px 4px 6px black);
 }
 .gtsmatter{
-    background-color: #a1f8a1;
+    background-color: #ffffff;
     display: flex;
     padding: 30px;
     margin-left: 25px;
@@ -132,4 +135,25 @@ body{
 .pics{
   padding-top: 20px;
     display: flex;
+}
+
+@media screen and (max-width: 991px) {
+    #offgstitle {
+        margin-top: -90px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .titleh1 h1 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 421px) {
+    #offgstitle {
+        margin-top: -110px;
+    }
+}
+@media screen and (max-width: 412px) {
+    #offgstitle {
+        margin-top: -129px;
+    }
 }

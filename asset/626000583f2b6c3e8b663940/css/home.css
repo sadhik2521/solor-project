@@ -4643,7 +4643,7 @@ textarea.w-select {
 }
 
 .social-link:hover {
-  background-color: #019b23;
+  background-color: #515151;
 }
 
 .text-block-7 {
@@ -4687,7 +4687,8 @@ textarea.w-select {
 .footer-3 {
   margin-top: 0px;
   padding: 30px 60px 20px;
-  background-color: #77bf58;
+  background-color: #464646;
+  /* background-color: #77bf58; */
 }
 
 .image-22 {

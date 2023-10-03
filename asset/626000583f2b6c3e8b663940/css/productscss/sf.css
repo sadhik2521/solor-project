@@ -1,5 +1,5 @@
 body{
-    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh;
+    /* background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh; */
     background-size: cover;
    background-position: center;
    }
@@ -24,7 +24,7 @@ body{
 .titleh1 h1 {
     padding-top: 160px;
     color: white;
-    font-family: 'Open Sans';
+    font-family: math;
     font-size: 70px;
 }
 
@@ -74,13 +74,14 @@ body{
 .sfcontent h4{
     font-size: 33px;
     margin-bottom: 10px;
+    font-family: math;
 }
 .sfcontent{
     margin-top: 40px;
 }
 .matter{
     padding: 18px 50px;
-    background-color: #a1f8a1;
+    background-color: #ffffff;
     margin: 28px;
     border-radius: 10px;
 
@@ -119,7 +120,7 @@ body{
    border-radius: 10px;
 }
 .points{
-    background-color: #a1f8a1;
+    background-color: #ffffff;
     margin: 25px;
     padding: 45px;
     padding-top: 15px;
@@ -128,6 +129,7 @@ body{
     padding-bottom: 15px;
 }
 .points h5{
+    font-family: math;
     font-size: 25px;
 }
 .points p{
@@ -140,4 +142,5 @@ body{
     text-align: center;
     font-size: 45px;
     margin-bottom: 25px;
+    font-family: math;
 }

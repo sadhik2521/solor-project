@@ -1,5 +1,5 @@
 body{
-    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");
+    /* background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg"); */
     height: 100vh;
     background-size: cover;
    background-position: center;
@@ -23,7 +23,7 @@ body{
 .titleh1 h1 {
     padding-top: 160px;
     color: white;
-    font-family: 'Open Sans';
+    font-family: math;
     font-size: 70px;
 }
 
@@ -43,7 +43,7 @@ body{
    padding-left: 30px;
    font-size: 40px;
    margin-bottom: 0px;
-   font-family: revert;
+   font-family: math;
 }
 
 .mission{
@@ -54,7 +54,7 @@ body{
     padding-left: 30px;
     font-size: 40px;
     margin-bottom: 0px;
-    font-family: revert;
+    font-family: math;
  }
 
 .ov{
@@ -64,7 +64,7 @@ body{
 .ov h3{
     padding-left: 30px;
     font-size: 40px;
-  font-family: revert; 
+  font-family: math; 
      margin-bottom: 0px;
  }
 .pops{
@@ -74,7 +74,7 @@ body{
 .pops h3{
      margin-bottom: 0px;
     padding-left: 40px;
-    font-family: revert;
+    font-family: math;
 }
 
  .pops p {
@@ -110,7 +110,7 @@ body{
 }  */
 
 #VANDS{
-    background-color: #a9ffa9;
+    background-color: #ffffff;
     margin: 16px;
     border-radius: 20px;
 }

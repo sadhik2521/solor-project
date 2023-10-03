@@ -1,5 +1,5 @@
 body{
-    background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh;
+    /* background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg");    height: 100vh; */
     background-size: cover;
    background-position: center;
    }
@@ -25,7 +25,7 @@ body{
   margin: 0px;
   font-size: 4rem;
   letter-spacing: 1px;
-  font-family: 'open sans';
+  font-family: math;
 }
 .sdimg{
     text-align: center;
@@ -46,23 +46,25 @@ body{
 .sdhead h3{
    font-size: 46px;
    margin-top: 35px;
-   font-family: 'Open Sans';
+   font-family: math;
+   color: #4e4e4e;
 }
 .sdpara{
     /* background-color: #a1f8a1; */
     padding: 0px 48px;
     text-align: justify;
     line-height: 27px;
-    font-family: 'Open Sans';
+    font-family: math;
+    color: #4e4e4e;
     font-size: 20px;
 }
 .sdpara p{
     margin-bottom: 17px;
-    color: #e5d9b6;
+    color: #4e4e4e;
 }
 
 .cducontainer{
-    background-color: #a1f8a1;
+    background-color: #ffffff;
      padding: 5px;
     margin: 30px 15px;
     border-radius: 10px;
@@ -71,9 +73,11 @@ body{
 .cducontainer li{
     font-size: 25px;
     margin-top: 25px;
+    font-family: math;
 }
 .cadwuhead h2{
     font-size: 40px;
+    font-family: math;
     line-height: 36px;
   padding-left: 30px;
   margin-bottom: 19px;
@@ -116,6 +120,7 @@ body{
 }
 .secondul h5{
     font-size: 30px;
+    font-family: math;
 }
 
 .starter{
