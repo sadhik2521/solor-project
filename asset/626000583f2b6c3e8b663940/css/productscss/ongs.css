@@ -135,7 +135,79 @@ body{
 .pics{
   padding-top: 20px;
     display: flex;
+    justify-content: center;
 }
+/* body medias */
+@media screen and (max-width: 951px){
+    .pics {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mapimg img {
+        max-width: 70%;
+         margin-top: 32px;
+         margin-left: 0px;
+        border-radius: 25px;
+    }
+    .machineimg img {
+        max-width: 70%;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+}
+@media screen and (max-width: 550px){
+    .mapimg img {
+        max-width: 80%;
+        border-radius: 20px;
+    }
+    .machineimg img {
+        max-width: 80%;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 405px){
+    #offgstitle {
+    height: 305px;
+}
+}
+@media screen and (max-width: 699px){
+    .paras2 p {
+        font-size: 18px;
+    }
+    .paras2 {
+         padding-left: 10px;
+        padding-right: 10px;
+    }
+    .gtsmatter {
+         padding: 20px;
+    }
+.paras {
+    font-size: 18px;
+}
+}
+@media screen and (max-width: 625px){
+.paras2 ul {
+    padding-left: 16px;
+}
+.paras2 ul li {
+    font-size: 17px;
+    line-height: 25px;
+}
+}
+@media screen and (max-width: 499px){
+.paras {
+    font-size: 17px;
+}
+}
+@media screen and (max-width: 461px){
+    .paras2 span strong{
+        font-size: 20px;
+        line-height: 30px;
+    }
+.gtsmatter {
+    padding: 15px;
+}
+}
+
 
 @media screen and (max-width: 991px) {
     #offgstitle {

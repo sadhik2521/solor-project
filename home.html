@@ -394,7 +394,7 @@
                                 <h1 class="heading-xlarge _16-ch inner-padding-xsmall center" style="font-size: 
                             3.2rem;">Tired of expensive electricity bills.</h1>
                                 <div class="text-block-5 _2">
-                                    <span class="new" style="color: #b3aeae; font-size: 18px;">Generate your own
+                                    <span class="new" style="color: rgb(231, 231, 231); font-weight: 350; font-size: 18px;">Generate your own
                                         eletricity
                                         for the next 30 years.</span> <br>
                                     <span class="text-span-4">Find out how with south india number 1 residental &
@@ -653,7 +653,8 @@
 
             <style>
                 .part {
-                    margin: auto;
+                    /* margin: auto; */
+                    margin: 0px 65px ;
                     text-align: center;
                 }
 
@@ -670,30 +671,27 @@
                     display: flex;
                     justify-content: center;
                 }
-
-                .kmf1,
-                .kmf2 {
-                    display: flex;
-                }
             </style>
 
             <div class="counter">
                 <div class="counter-section">
                     <div class="row">
-                        <div class="part">
+                        <div class="kmfb1">
+                         <div class="part">
                             <h2><span id="count1"></span> MW+</h2>
                             <p>
                                 Total Portfolio
                             </p>
-                        </div>
-                        <div class="part">
+                        </div> 
+                          <div class="part">
                             <h2><span id="count2"></span>+</h2>
                             <p>
                                 Satisfied Customers
                             </p>
                         </div>
-
-                        <div class="part">
+                        </div>
+                        <div class="kmfb2">
+                           <div class="part">
                             <h2><span id="count3">+</span>+</h2>
                             <p>
                                 Installed Plants
@@ -704,10 +702,20 @@
                             <p>
                                 Locations
                             </p>
+                        </div> 
                         </div>
+                        
+
+                        
                     </div>
                 </div>
             </div>
+            <style>
+                .kmfb2,
+                .kmfb1{
+                    display: flex;
+                }
+            </style>
             <script>
                 document.addEventListener("DOMContentLoaded", () => {
                     function counter(id, start, end, duration) {

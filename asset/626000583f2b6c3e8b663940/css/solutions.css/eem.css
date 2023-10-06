@@ -54,7 +54,7 @@ body {
 }
 .bulletpoints{
     padding: 40px;
-    width: 80%;
+    width: 90%;
     padding-top: 20px;
 }
 .bulletpoints ul li{
@@ -271,6 +271,76 @@ button:hover{
 }
 
 
+/* bodymedia */
+@media screen and (max-width: 900px) {
+    .matter p {
+      padding: 10px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+ }
+ @media screen and (max-width: 530px) {
+    .bulletpoints ul img {
+        width: 19%;
+    }
+    ul {
+        padding-left: 0px;
+    }
+    .bulletpoints ul p {
+     margin-left: 15px;
+ }
+ }
+ 
+@media screen and (max-width: 1000px) {
+    .matter1 h3 {
+        line-height: 40px;
+    }
+ }
+@media screen and (max-width: 475px) {
+    .gsweeh2 p {
+       line-height: 42px;
+    }
+ }
+@media screen and (max-width: 518px) {
+    .gsweeh2 p {
+        font-size: 38px;
+    }
+ }
+@media screen and (max-width: 551px) {
+    .eepimg img {
+        width: 93%;
+    }
+ }
+@media screen and (max-width: 635px) {
+    .eepimg img {
+        width: 85%;
+    }
+ }
+@media screen and (max-width: 839px) {
+    .eepimg img {
+        width: 75%;
+    }
+ }
+@media screen and (max-width: 819px) {
+    .bulletpoints {
+        padding: 15px;
+        width: 100%;
+    }
+ }
+@media screen and (max-width: 631px) {
+    ul{
+        padding-left: 13px;
+    }
+    .bulletpoints ul p {
+        font-size: 20px;
+    }
+ }
+
+@media screen and (max-width: 1030px) {
+    .bulletpoints ul li {
+        line-height: 29px;
+    }
+ }
 
 /* head media */
 @media screen and (max-width: 991px) {
@@ -283,6 +353,22 @@ button:hover{
        width: 285px;
        height: 285px;
      }
+     .paras p {
+        font-size: 16px;
+     }
+     .para1 ul li {
+         font-size: 16px;
+    }
+    .para3 h2 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .para2 p {
+        font-size: 16px;
+    }
+    .gitbtn button {
+         padding: 10px 10px;
+    }
  }
    @media screen and (max-width: 560px) {
      #eemtitle{

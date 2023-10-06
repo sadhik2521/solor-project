@@ -77,7 +77,7 @@ body{
     font-family: math;
 }
 .sfcontent{
-    margin-top: 40px;
+    margin-top: -55px;
 }
 .matter{
     padding: 18px 50px;
@@ -143,4 +143,85 @@ body{
     font-size: 45px;
     margin-bottom: 25px;
     font-family: math;
+}
+@media screen and (max-width: 991px) {
+    
+   #offgstitle {
+    margin-top: -90px;
+}
+}
+@media screen and (max-width: 500px) {
+    #offgstitle {
+        height: 270px;
+    }
+    .titleh1 h1 {
+        padding-top: 125px;
+        font-size: 61px;
+    }
+}
+@media screen and (max-width: 415px) {
+    .titleh1 h1 {
+        padding-top: 121px;
+        font-size: 57px;
+    }
+    #offgstitle {
+        height: 245px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .matter p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .pics .fence {
+        max-width: 70%;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .pics .solarbox {
+        max-width: 70%;
+        padding-right: 0px;
+    }
+    .pics {
+       flex-direction: column;
+       align-items: center;
+    }
+}
+@media screen and (max-width: 550px) {
+    .pics .fence {
+        max-width: 80%;
+    }
+    .pics .solarbox {
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 460px) {
+    .pics .fence {
+        max-width: 90%;
+    }
+    .pics .solarbox {
+        max-width: 90%;
+    }
+    .points h5 {
+        line-height: 30px;
+    }
+    .sfcontent h4 {
+        font-size: 31px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .bsf h2 {
+       font-size: 42px;
+    }
+    .points p {
+        line-height: 30px;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 595px){
+.bsf h2 {
+    font-size: 40px;
+    line-height: 41px;
+}
 }

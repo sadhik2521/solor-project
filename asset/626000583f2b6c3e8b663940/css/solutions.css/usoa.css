@@ -58,6 +58,40 @@ body{
     font-family: 'open sans';
     margin-top: 20px;
     border-radius: 20px;
+} 
+.paras{
+  max-width: 52%;
+  padding: 5px;
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'Open Sans';
+  padding-top: 38px;
+  line-height: 26px;
+}
+.paras p{
+  margin-bottom: 15px;
+}
+.maincontent{
+background-color: #fcfcfc;
+  display: flex;
+  padding: 0px 40px;
+ margin-top:15px ;
+  margin-left:30px ;
+  margin-right:30px ;
+  margin-bottom: 30px;
+  border-radius: 20px;
+
+}
+.bcoswhimg{
+  text-align: center;
+  place-items: center;
+  place-content: center;
+  margin-left: 54px;
+  margin-top: 19px;
+ 
+}
+.bcoswhimg img{    
+border-top-right-radius: 30px;
 }
 .heads{
     margin-bottom: 23px;
@@ -75,7 +109,47 @@ body{
     line-height: 25px;
     text-align: justify;
 }
-
+.bcoswhimg img{
+  max-width: 70%;
+}
+/* body media */
+@media screen and (max-width: 1100px) {
+  .bcoswhimg img {
+    max-width: 50%;
+}
+.bcoswhimg {
+  margin-left: 0px;
+}
+.paras {
+  max-width: 100%;
+}
+.maincontent{
+  flex-direction: column-reverse;
+}
+}
+@media screen and (max-width: 1100px){
+.bcoswhimg img {
+    max-width: 55%;
+}
+}
+@media screen and (max-width: 530px){
+  .heads h2 {
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 500px){
+  .heads h2 {
+    font-size: 27px;
+}
+  .heads h3 {
+    font-size: 21px;
+}
+}
+@media screen and (max-width: 510px){
+  .paras {
+    font-size: 16px;
+}
+}
 /* head media */
 @media screen and (max-width: 991px) {
     #usaoatitle{
@@ -117,38 +191,3 @@ body{
  }
  
 
- 
-.paras{
-  max-width: 52%;
-  padding: 5px;
-  font-size: 18px;
-  text-align: justify;
-  font-family: 'Open Sans';
-  padding-top: 38px;
-  line-height: 26px;
-}
-.paras p{
-  margin-bottom: 15px;
-}
-.maincontent{
-background-color: #fcfcfc;
-  display: flex;
-  padding: 0px 40px;
- margin-top:15px ;
-  margin-left:30px ;
-  margin-right:30px ;
-  margin-bottom: 30px;
-  border-radius: 20px;
-
-}
-.bcoswhimg{
-  text-align: center;
-  place-items: center;
-  place-content: center;
-  margin-left: 54px;
-  margin-top: 19px;
- 
-}
-.bcoswhimg img{    
-border-top-right-radius: 30px;
-}

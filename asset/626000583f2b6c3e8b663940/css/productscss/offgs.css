@@ -98,3 +98,52 @@ body{
         margin-top: -90px;
     }
 }
+/* body media */
+@media screen and (max-width: 1199px) {
+    .offgsmatter {
+       flex-direction: column;
+    }
+    .inverter{
+        text-align: center;
+    }
+    .inverter img{
+        width: 40%;
+    }
+    .paras3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+    }
+    .paras3 p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 799px) {
+    .inverter img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .inverter img{
+        width: 57%;
+    }
+    .paras3 p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 450px) {
+#offgstitle {
+   
+    height: 285px;
+}
+.titleh1 h1 {
+    padding-top: 140px;
+    font-size: 63px;
+}
+}
+@media screen and (max-width: 499px) {
+    .inverter img{
+        width: 65%;
+        border-radius: 20px;
+    }
+}
