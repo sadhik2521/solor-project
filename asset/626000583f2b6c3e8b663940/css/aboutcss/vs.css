@@ -100,17 +100,81 @@ body{
     animation-duration: 4s;
     animation-name: sliden;
  }
-/* @keyframes sliden {
-    from{
-        margin-left: 70%;
-    }
-    to{
-        margin-left: 0%;
-    }
-}  */
 
 #VANDS{
     background-color: #ffffff;
     margin: 16px;
     border-radius: 20px;
+}
+/* medias */
+@media screen and (max-width: 1000px) {
+    .pops h3 {
+          padding-left: 10px;
+    }
+    .paras {
+        padding-top: 3px;
+    }
+    .pops p {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 35px;
+    }
+}
+@media screen and (max-width: 991px) {
+    #eemtitle {
+        margin-top: -90px;
+    }
+}
+@media screen and (max-width: 930px) {
+  #VANDS ul{
+    padding-left: 20px;
+  }
+  .vision h3 {
+    padding-left: 0px;
+}
+.mission h3 {
+    padding-left: 0px;
+}
+.ov h3 {
+    padding-left: 0px;
+}
+}
+@media screen and (max-width: 650px) {
+    .titleh1 h1 {
+        padding-top: 147px;
+        font-size: 60px;
+        margin: 20px;
+    }
+    #eemtitle{ 
+        height: 303px;
+    }
+}
+@media screen and (max-width: 600px) {
+    li {
+        font-size: 18px;
+        line-height: 29px;
+
+    }
+    .vision h3 {
+         font-size: 38px;
+    }
+    .mission h3 {
+        font-size: 38px;
+    }
+    .ov h3 {
+           font-size: 38px;
+    }
+}
+@media screen and (max-width: 564px) {
+    .titleh1 h1 {
+         font-size: 58px;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 525px) {
+    .titleh1 h1 {
+        margin: 10px;
+        line-height: 60px;
+        padding-top: 117px;
+    }
 }

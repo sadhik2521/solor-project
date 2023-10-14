@@ -59,7 +59,6 @@ body{
     margin-top: 40px;
     margin-left: 35px;
     font-family: 'Open Sans';
-    text-align: justify;
 }
 .matter p{
     font-size: 18px;
@@ -109,7 +108,6 @@ body{
 .points ul li{
     font-size: 25px;
     line-height: 45px;
-    text-align: justify;
 }
 .bnfimg{
     text-align: center;
@@ -119,4 +117,180 @@ body{
     border-radius: 30px;
     filter: drop-shadow(2px 4px 6px black);
 
+}
+.cslsl .matter{
+    width: 60%; 
+     margin-top: 25px;
+    margin-left: 35px;
+    font-family: 'Open Sans';
+}
+.cslsl .img img{
+    text-align: center;
+    margin-left: 40px;
+     max-width: 76%;
+}
+@media screen and (max-width: 1180px) {
+    #offgstitle { 
+         margin-top: -90px;
+    }
+    .cslsl .img img{
+        margin-left: 0px;
+        margin-left: 0px;
+        max-width: 50%;
+        margin-top: 15px;
+    }
+  
+    .cslsl .img {
+    text-align: center;
+    }
+    .cslsl{
+        flex-direction: column;
+    }
+    .cslsl .matter{
+        font-family: 'Open Sans';
+        width: 100%; 
+         margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .points ul li {
+        font-size: 23px;
+        line-height: 41px;
+    }
+}
+@media screen and (max-width: 991px) {
+    #offgstitle { 
+         margin-top: -90px;
+    }
+}
+@media screen and (max-width: 600px){
+.cslsl .img img {
+    max-width: 70%;
+}
+.points ul li {
+    font-size: 20px;
+    line-height: 35px;
+}
+.bosh2 h2 {
+    margin-bottom: 5px;
+}
+.bos { 
+    margin: 30px 40px;
+}
+}
+@media screen and (max-width: 761px){
+    .bosh2 h2 {
+        line-height: 45px;
+    }
+    .points ul{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 750px) {
+   .matter h2 {
+        font-size: 31px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .matter p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .titleh1 h1 {
+        padding-top: 146px;
+        font-size: 65px;
+    }
+    #offgstitle {
+        height: 300px;
+        margin-top: -90px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .ssl {
+        margin-top: 50px;
+    }
+    .seperate {
+        margin-left: 8px;
+    }
+    .cslsl {
+        margin-left: 8px;
+    }
+.matter h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+}
+@media screen and (max-width: 620px) {
+    .matter p {
+        font-size: 16px;
+    }
+    .matter p {
+        line-height: 28px;
+    }
+    .matter h4 {
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 600px){
+.matter ul{
+    padding-left: 20px;
+}
+.cslsl ul li {
+    font-size: 17px;
+}
+}
+@media screen and (max-width: 590px){
+#offgstitle {
+    height: 275px;
+}
+.titleh1 h1 {
+    padding-top: 140px;
+    font-size: 61px;
+}
+}
+@media screen and (max-width: 588px){
+    .matter h2 {
+        font-size: 31px;
+        line-height: 37px;
+        margin-top: 20px;
+    
+}
+@media screen and (max-width: 550px){
+    .cslsl .img img {
+        max-width: 93%;
+    }
+#offgstitle {
+    height: 269px;
+}
+.titleh1 h1 {
+    padding-top: 133px;
+    font-size: 59px;
+    margin: 10px;
+}
+}
+@media screen and (max-width: 500px){
+    #offgstitle {
+        height: 300px;
+    }
+    .titleh1 h1 {
+        padding-top: 120px;
+        line-height: 60px;
+    }
+    .seperate {
+        padding: 15px;
+    }
+    .matter p {
+        line-height: 23px;
+    }
+    .cslsl img {
+        max-width: 85%;
+    }
+}
+@media screen and (max-width: 400px){
+.titleh1 h1 {
+    font-size: 55px;
+}
 }

@@ -22,7 +22,7 @@ body{
 }
 .omtitle{
     text-align: center;
-    padding-top: 18%;
+    padding-top: 235px;
      color: white;
     padding-left: 0%;
 }
@@ -129,7 +129,7 @@ font-size: 35px;
     display: flex;
     margin: 33px;
     flex-direction: column;
-    padding-left: 120px;
+    padding-left: 55px;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 35px;
@@ -141,6 +141,7 @@ font-size: 30px;
 }
 .tss{
     max-width: 100%;
+    margin: 10px;
 }
 .tss p{
   font-size: 15px;
@@ -160,5 +161,61 @@ font-size: 30px;
     padding-right: 5px;
 }
 .osi{
+    margin: 10px;
 max-width: 45%;
+}
+@media screen and (max-width: 1100px) {
+    .ommainpart {
+        flex-direction: column;
+    }
+    .ompara {
+        margin-top: 10px;
+    }
+    .ompara p {
+        padding: 6px 40px;
+    }
+    .omimg img {
+        max-width: 33%;
+        margin-left: 0;
+    }
+    .osi {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 990px) {
+    .oam h3 {
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 781px) {
+    #omcontainer {
+        margin-top: -70px;
+    }
+}
+@media screen and (max-width: 700px){
+.omimg img {
+    max-width: 55%;
+    margin-left: 0;
+}
+}
+@media screen and (max-width: 550px){
+    .oam {
+        padding-left: 25px;
+    }
+}
+@media screen and (max-width: 472px) {
+    .omhead h3 {
+       line-height: 45px;
+    }
+}
+@media screen and (max-width: 450px){
+.omimg img {
+    max-width: 60%;
+    margin-left: 0;
+}
+}
+@media screen and (max-width: 421px) {
+    #omcontainer {
+        margin-top: -90px;
+    }
 }

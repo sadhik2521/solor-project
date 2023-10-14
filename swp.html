@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Sat Mar 25 2023 15:35:10 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-domain="ecoeco.webflow.io" data-wf-page="626000583f2b6c1d1966393f" data-wf-site="626000583f2b6c3e8b663940"
     data-wf-status="1">
@@ -76,32 +76,58 @@
         </span>
     </div>
     <div>
+        <style>
+            .since {
+                color: rgb(49, 166, 212);
+                display: flex;
+                font: 1em sans-serif;
+                flex-direction: column;
+                font-size: 10px;
+                padding-left: 90px;
+            }
+
+            .logog img {
+                max-width: 18%;
+                margin-right: 0;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                margin-left: 5px;
+                width: 200px;
+                height: 65px;
+            }
+
+            @media screen and (max-width: 421px) {
+                .logog p span {
+                    font-size: 10px;
+                }
+
+                .logog p {
+                    line-height: 15px;
+                }
+
+                .logog img {
+                    height: 55px;
+                }
+
+                .since {
+                    padding-left: 60px;
+                }
+            }
+        </style>
         <nav class="wrappernav">
             <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease"
                 data-easing2="ease" role="banner" class="navbar w-nav">
                 <div class="logog" style="display: flex;">
 
-                    <img src="asset/img/sym.png" alt="" style="    
-                 max-width: 18%;
-    /* vertical-align: middle; */
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
-    /* padding-left: 1px; */
-    padding: 5px;
-    /* left: 10px; */
-    margin-left: 5px;
-    width: 200px;
-    height: 65px;
-                ">
+                    <img src="asset/img/sym.png" alt="">
 
 
                     <p style="padding-top: 20px; padding-left: 7px;"> <span style="color: orange">INDO</span> <span
-                            style="color: rgb(0, 151, 0);">GREEN</span> <span style="color: rgb(49, 166, 212);  ">SOLAR
-                            <span
-                                style="color: rgb(49, 166, 212); display: flex; flex-direction: column; font-size: 10px; padding-left: 90px;">since
-                                2012</span></span></p>
+                            style="color: rgb(0, 151, 0);">GREEN</span>
+                        <span style="color: rgb(49, 166, 212);  ">SOLAR<span class="since">since 2012</span></span>
+                    </p>
 
                 </div>
                 <div class="w-layout-grid navgrid">
@@ -169,7 +195,6 @@
                             <a href="cu.html" class="link-block-7 w-inline-block" style="margin-right: 0px;">
                                 <div class="label-dropdown">Contact Us</div>
                             </a>
-
                         </div>
 
                     </nav>
@@ -188,8 +213,6 @@
                 </div>
             </div>
         </nav>
-        </nav>
-
         <div id="offgscontainer">
             <div id="offgstitle">
                 <div class="titleh1">
@@ -206,7 +229,7 @@
                         System</h3>
                 </div>
                 <div class="firstpara">
-                    <div class="hold1" style="display: flex;">
+                    <div class="hold1">
                         <p>Agricultural technology is changing rapidly. Farm
                             machinery, farm building and production facilities are
                             constantly being improved. Agricultural applications
@@ -224,11 +247,11 @@
                             <img src="asset/img/products/solarpump2.jpg" alt="">
                         </div>
                     </div>
-                    <div class="hold2" style="display: flex; margin-top: 20px;">
+                    <div class="hold2" >
                         <div class="img" style="text-align: center;">
-                            <img src="asset/img/products/wpmap.png" alt="" style="width: 80%;">
+                            <img src="asset/img/products/wpmap.png" alt="" >
                         </div>
-                        <p style="width: 75%;">Water pumping is one of the simplest and most
+                        <p>Water pumping is one of the simplest and most
                             appropriate uses for photovoltaic. From crop irrigation to
                             stock watering to domestic uses, photovoltaic-powered
                             pumping systems meet a broad range of water needs.

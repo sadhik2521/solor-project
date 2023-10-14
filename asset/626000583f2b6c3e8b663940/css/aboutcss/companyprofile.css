@@ -1,15 +1,16 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     /* background: url("../../../img/");   */
-    
-      /* height: 100vh; */
-      background-size: cover;
-     background-position: center;
-     background-color: #cacaca;
-     }
+
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center;
+    background-color: #cacaca;
+}
 
 
 #cptitle {
@@ -35,7 +36,7 @@ body{
 }
 
 
-.aboutids p{
+.aboutids p {
     padding: 40px;
     font-size: 1.3rem;
     line-height: 30px;
@@ -44,20 +45,21 @@ body{
     color: #4e4e4e;
 }
 
-.matters{
+.matters {
     padding: 30px;
     margin-top: -30px;
     color: #4e4e4e;
 }
+
 .matter1 {
-   display: flex;
+    display: flex;
 
 }
 
 
 
 
-.matter1 p{
+.matter1 p {
     padding: 0px 30px 30px 30px;
     line-height: 25px;
     text-align: justify;
@@ -67,30 +69,34 @@ body{
 
 }
 
-.content1{
+.content1 {
     display: flex;
     flex-direction: column;
 }
-.serve{
+
+.serve {
     margin-top: -35px;
 }
-.serve p{
+
+.serve p {
     line-height: 25px;
     text-align: justify;
     font-family: math;
     word-spacing: 3px;
     font-size: 1rem;
 }
-.delvir{
-margin-top: -25px;
+
+.delvir {
+    margin-top: -25px;
 }
 
 
-.matter2{
+.matter2 {
     margin-top: 45px;
     display: flex;
 }
-.content2{
+
+.content2 {
     padding: 115px 30px 30px 30px;
     line-height: 25px;
     text-align: justify;
@@ -100,11 +106,12 @@ margin-top: -25px;
 
 }
 
-.matter3{
+.matter3 {
     display: flex;
     margin-top: 50px;
 }
-.content3{
+
+.content3 {
     padding: 90px 30px 30px 30px;
     line-height: 25px;
     text-align: justify;
@@ -115,19 +122,22 @@ margin-top: -25px;
 }
 
 
-.aboutmd{
+.aboutmd {
     margin-top: 50px;
 }
-.aboutmd h2{
+
+.aboutmd h2 {
     text-align: center;
     font-size: 3rem;
     font-family: fantasy;
     letter-spacing: 4px;
 }
-.mdcontent{
+
+.mdcontent {
     display: flex;
 }
-.content4{
+
+.content4 {
     padding: 46px 92px 30px 30px;
     line-height: 25px;
     text-align: justify;
@@ -136,188 +146,257 @@ margin-top: -25px;
     font-size: 1rem;
 
 }
+
+.matter1 img {
+    width: 43%;
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 6px black);
+    border-top-left-radius: 37px;
+    border-bottom-right-radius: 37px;
+    border-bottom-left-radius: 37px;
+}
+
+.content1 {
+    position: relative;
+    padding: 0 20px;
+}
+
+.serve h4 {
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+    color: #2a2a2a;
+}
+
+.delivr h4 {
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+    color: #2a2a2a;
+}
+
+.matter2 img {
+    width: 38%;
+    filter: drop-shadow(2px 4px 6px black);
+    border-top-right-radius: 37px;
+    border-bottom-right-radius: 37px;
+    border-bottom-left-radius: 37px;
+}
+.matter3 img{
+    width: 40%;
+    filter: drop-shadow(2px 4px 6px black);
+    border-top-left-radius: 37px;
+     border-bottom-right-radius: 37px;
+     border-bottom-left-radius: 37px;
+}
+.mdcontent .img img{
+    width: 100%;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0);
+    filter: drop-shadow(2px 4px 6px black);
+    border-top-right-radius: 43px; 
+}
 /* medias */
+
+@media screen and (max-width: 1200px) {
+    .mdcontent {
+        flex-direction: column-reverse;
+    }
+    .mdcontent .img{
+        text-align: center;
+    }
+    .mdcontent .img img{
+        width: 35%;
+    }
+    .content4 {
+        padding: 30px 30px 30px 30px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .matter1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .matter1 img {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .content1 {
+        padding: 0;
+    }
+
+    .matter2 {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .content2 {
+        padding: 30px 30px 30px 30px;
+    }
+    .matter2 img {
+        width: 60%;
+    }
+    .matter3 {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content3 {
+        padding: 30px 30px 30px 30px;
+    }
+    .matter3 img{
+        width: 60%;
+    }
+    .aboutmd {
+        margin-top: -20px;
+    }
+}
 
 @media screen and (max-width: 991px) {
     #cptitle {
         margin-top: -90px;
     }
-} 
+}
+@media screen and (max-width: 991px) {
+    .mdcontent .img img{
+        width: 45%; 
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .matter1 img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .matter1 p {
+        padding: 0px 15px 30px 15px;
+    }
+
+    .serve h4 {
+        padding: 0px 0px 0px 15px;
+    }
+
+    .delivr h4 {
+        padding: 0px 0px 0px 15px;
+
+    }
+    .content2 {
+        padding: 30px 15px 30px 15px;
+    }
+    .matter2 img {
+        width: 80%;
+    }
+    .matter3 img{
+        width: 80%;
+    }
+    .content3 {
+        padding: 30px 15px 30px 15px;
+    }
+    .content4 {
+        padding: 30px 15px 30px 15px;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .titleh1 h1 {
         padding-top: 149px;
         font-size: 63px;
     }
+    .mdcontent .img img{
+        width: 55%; 
+    }
     #cptitle {
         height: 310px;
     }
-} 
+
+    .aboutids p {
+        padding: 35px;
+        font-size: 1.1rem;
+        line-height: 28px;
+
+    }
+}
+
 @media screen and (max-width: 559px) {
     .titleh1 h1 {
         padding-top: 139px;
         font-size: 58px;
     }
+
     #cptitle {
         height: 300px;
     }
-} 
+
+    .matter1 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .matter1 p {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .serve h4 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .delivr h4 {
+        padding: 0px 0px 0px 0px;
+
+    }
+    .content2 {
+        padding: 30px 0px 30px 0px;
+    }
+    .matter2 img {
+        width: 95%;
+    }
+    .matter3 img{
+        width: 95%;
+    }
+    .content3 {
+        padding: 30px 0px 30px 0px;
+    }
+    .content4 {
+        padding: 30px 0px 30px 0px;
+    }
+    .mdcontent .img img{
+        width: 75%; 
+    }
+}
+
 @media screen and (max-width: 489px) {
     .titleh1 h1 {
         padding-top: 120px;
         font-size: 50px;
     }
+
     #cptitle {
         height: 260px;
     }
-} 
+}
+
 @media screen and (max-width: 430px) {
     .titleh1 h1 {
         padding-top: 108px;
         font-size: 45px;
     }
+
     #cptitle {
         height: 242px;
     }
-} 
+}
+
 @media screen and (max-width: 390px) {
     .titleh1 h1 {
         padding-top: 105px;
         font-size: 40px;
     }
+
     #cptitle {
         height: 226px;
     }
-} 
-
-
-/* @media screen and (max-width: 1880px) {
-    .vshead h2{
-        font-size: 71px;
-    }
-
-} 
-@media screen and (max-width: 1280px) {
-    .vshead h2{
-        font-size: 71px;
-    }    
-    .vshead{
-        padding-left: 118% ;
-    }
-
-} 
-@media screen and (max-width: 1215px) {
-    .vshead h2{
-        font-size: 71px;
-    }
-    #cpcontainer{
-        height: 525px;
-    }
-
-} 
-@media screen and (max-width: 1133px) {
-    .vshead h2{
-        font-size: 71px;
-    }
-    #cpcontainer{
-        height: 488px;
-    }
-    .vshead{
-        padding-left: 112% ;
-    }
-
-} 
-@media screen and (max-width: 1100px) {
-    .vshead h2{
-        font-size: 71px;
-    }
-    #cpcontainer{
-        height: 475px;
-    }
-    .vshead{
-        padding-left: 110% ;
-    }
-
-} 
-@media screen and (max-width: 1099px) {
-    .vshead h2{
-        font-size: 71px;
-    }
-    #cpcontainer{
-        height: 420px;
-    }
-    .vshead{
-        padding-left: 106% ;
-    }
-    .vshead h2{
-        font-size: 71px;
-    }
-
-} 
-@media screen and (max-width: 1000px) {
-  
-    #cpcontainer{
-        height: 372px;
-    }
-    .vshead{
-        padding-top: 45% ;
-    }
-    .vshead h2{
-        font-size: 71px;
-    }
-
-} 
-@media screen and (max-width: 950px) {
-    #cpcontainer{
-        height: 340px;
-    }
-    .vshead{
-        padding-top: 41% ;
-        padding-left: 105% ;
-    }
-    .vshead h2{
-        font-size: 69px;
-    }
-
-} 
-@media screen and (max-width: 937px) {
-    .vshead{
-        padding-left: 101%;
-    }
-} 
-@media screen and (max-width: 889px) {
-    .vshead h2{
-        font-size: 70px;
-    }
-    #cpcontainer{
-        height: 315px;
-    }
-} 
-@media screen and (max-width: 853px) {
-    .vshead h2{
-        font-size: 60px;
-    }
-    #cpcontainer{
-        height: 310px;
-    }
-    .vshead{
-        padding-left: 103%;
-    }
-} 
-@media screen and (max-width: 830px) {
-   
-    #cpcontainer{
-        height: 300px;
-    }
-} 
-@media screen and (max-width: 750px) {
-    .vshead{
-        padding-left: 100%;
-         padding-top: 46%;
-    }
-} 
-@media screen and (max-width: 722px) {
-    .vshead{
-        padding-left: 98%;
-         padding-top: 50%;
-    }
-} */
+}

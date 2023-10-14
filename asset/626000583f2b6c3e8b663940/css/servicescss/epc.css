@@ -15,9 +15,8 @@ body{
 }
 .epctitle{
     text-align: center;
-    padding-top: 18%;
+    padding-top: 232px;
      color: white;
-    padding-left: 29%;
 }
 .epctitle h2{
   line-height: 0px;
@@ -30,7 +29,7 @@ body{
 .epchead{
     text-align: center;
     font-size: 30px;
-    padding: 10px;
+    padding: 10px 20px;
     font-family: revert;
 }
 .epchead h3{
@@ -90,4 +89,57 @@ font-size: 35px;
 
     max-width: 45%;
     padding-left: 50px;
+}
+@media screen and (max-width: 991px) {
+    #epccontainer {
+         margin-top: -65px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .epcpara p {
+        padding: 6px 40px;
+        line-height: 27px;
+    }
+    .csase {
+        flex-direction: column;
+        padding-left: 60px;
+    }
+    .simpleepc {
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .completeservices {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 781px) {
+    .epchead h3 {
+     line-height: 40px;
+    }
+    .points ul li {
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .epcimg img {
+        max-width: 70%;
+    }
+    .csase {
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .epcpara p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .epcimg img {
+        max-width: 80%;
+        border-radius: 25px;
+    }
+    .csase {
+        padding-left: 30px;
+    }
 }

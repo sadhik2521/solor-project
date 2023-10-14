@@ -13,17 +13,15 @@ body{
     margin-top: -30px;
     max-width: 100%;
 }
-.sdtitle{
+.sdtitle {
     text-align: center;
-    padding-top: 18%;
-     color: white;
-    padding-left: 5%;
+    padding-top: 252px;
+    color: white;
 }
 .sdtitle h2{
   line-height: 0px;
-    
-  margin: 0px;
-  font-size: 4rem;
+  margin: 10px;
+  font-size: 65px;
   letter-spacing: 1px;
   font-family: math;
 }
@@ -93,6 +91,7 @@ body{
     margin-bottom: 10px;
     line-height: 22px;
     font-size: 19px;
+    text-align: justify;
     font-family: math;
 }
 .secondul{
@@ -104,12 +103,13 @@ body{
 .seperate p{
     margin-top: 15px;
     font-size: 16px;
+    text-align: justify;
 }
 .secondul ul{
     margin-top: 27px;
     margin-bottom: 10px;
     padding-left: 64px;
-    padding-right: 57px;
+    padding-right: 54px;
 }
 .secondul ul p{
     margin-top: 12px;
@@ -117,6 +117,7 @@ body{
     line-height: 22px;
     font-size: 19px;
     font-family: math;
+    text-align: justify;
 }
 .secondul h5{
     font-size: 30px;
@@ -125,4 +126,64 @@ body{
 
 .starter{
     font-weight: 800;
+}
+@media screen and (max-width: 1000px) {
+    .sdimg img {
+        max-width: 75%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .sdtitle {
+        padding-top: 217px;
+    }
+    #sdcontainer {
+        height: 400px;
+        margin-top: -65px;
+    }
+}
+@media screen and (max-width: 965px) {
+    .secondul h5 {
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .sdtitle {
+        padding-top: 194px;
+    }
+    #sdcontainer {
+        height: 350px;
+    }
+    .sdimg img {
+        max-width: 90%;
+    }
+    .cadwuhead h2 {
+        font-size: 36px;
+    }
+    .cducontainer li {
+        font-size: 24px;
+    }
+    .firstul ul p {
+        font-size: 18px;
+    }
+    .firstul ul {
+        padding-left: 35px;
+        padding-right: 34px;
+    }
+    .secondul ul {
+        padding-left: 35px;
+        padding-right: 34px;
+    }
+}
+@media screen and (max-width: 524px) {
+    .sdtitle {
+        padding-top: 112px;
+    }
+    .sdtitle h2 {
+        line-height: 70px;
+    }
+}
+@media screen and (max-width: 516px) {
+    .cadwuhead h2 {
+        line-height: 40px;
+    }
 }

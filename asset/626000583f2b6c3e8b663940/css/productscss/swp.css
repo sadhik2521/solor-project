@@ -26,10 +26,18 @@ body{
 .titleh1 h1 {
     padding-top: 160px;
     color: white;
-    font-family: 'Open Sans';
+    font-family: math;
     font-size: 70px;
 }
-
+.hold1,
+.hold2{
+    display: flex;
+}.hold2 p{
+    width: 75%;
+}
+.hold2 .img img{
+    width: 80%;
+}
 .swp{
     margin-top: 100px;
 }
@@ -65,7 +73,6 @@ font-family: math;
     border-radius: 30px;
     margin: 50px 40px;
     margin-top: 20px;
-    margin-left: 60px;
     padding: 30px;
     padding-bottom: 0px;
 }
@@ -73,7 +80,6 @@ font-family: math;
     width: 55%;
     font-size: 18px;
     line-height: 25px;
-    text-align: justify;
     font-family: 'Open Sans';
     padding: 20px;
 }
@@ -81,4 +87,102 @@ font-family: math;
     width: 85%;
     border-radius: 30px;
     filter: drop-shadow(2px 4px 6px black);
+    margin-bottom: 30px;
 }
+
+/* medias */
+@media screen and (max-width: 1200px) {
+    .hold1{
+        flex-direction: column-reverse;
+    }
+    .hold2{
+        flex-direction: column;
+    }
+    .firstpara p {
+        width: 100%;
+        line-height: 30px;
+    }
+    .firstpara img {
+        width: 60%;
+    }
+    .hold2 .img img {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 991px) {
+    #offgstitle { 
+         margin-top: -90px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .firstpara img {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .firstpara img {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    .firstpara p {
+        padding: 10px;
+    }
+    .firstpara {
+         padding: 20px;
+    }
+    .hold2 .img img {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 665px) {
+    .titleh1 h1 {
+        padding-top: 153px;
+        font-size: 65px;
+    }
+    #offgstitle {
+       height: 310px;
+    }
+    .swph3 h3 {
+        line-height: 38px;
+    }
+    .firstpara img {
+        width: 80%;
+    }
+    .firstpara p {
+     font-size: 17px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .hold2 .img img {
+        width: 80%;
+    }
+    .titleh1 h1 {
+        padding-top: 150px;
+        font-size: 62px;
+        margin: 10px;
+    }
+    #offgstitle {
+        height: 300px;
+     }
+}
+@media screen and (max-width: 544px) {
+    .titleh1 h1 {
+        padding-top: 120px;
+        font-size: 62px;
+        margin: 10px;
+        line-height: 60px;
+    }
+    .firstpara p {
+        font-size: 14px;
+       }
+}
+@media screen and (max-width: 510px) {
+    .firstpara img {
+        width: 90%;
+border-radius: 20px;
+    }
+    .hold2 .img img {
+        width: 90%;
+    }
+}
+

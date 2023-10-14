@@ -185,7 +185,7 @@
     #contacus label {
         color: #ebf4e8;
         margin-bottom: 0px;
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 15px;
         padding-bottom: 3px;
     }
@@ -207,6 +207,37 @@
         background-position: 0px 0px, 0px 0px, 50% 50%;
         background-size: auto, auto, cover;
         padding-bottom: 19px;
+    }
+
+    #contct {
+        margin: auto;
+        width: 565px;
+
+    }
+
+    /* contactus medias */
+    @media screen and (max-width: 600px) {
+        .nande {
+            flex-direction: column;
+
+        }
+
+        #contacus h2 {
+            padding-left: 20px;
+        }
+
+        #contct {
+            margin: auto;
+            width: 340px;
+            text-align: center;
+        }
+
+        .nande .name,
+        .nande .number,
+        .nande .snf {
+            margin-right: 0px;
+        }
+
     }
 
     /* f00ter */
@@ -394,7 +425,9 @@
                                 <h1 class="heading-xlarge _16-ch inner-padding-xsmall center" style="font-size: 
                             3.2rem;">Tired of expensive electricity bills.</h1>
                                 <div class="text-block-5 _2">
-                                    <span class="new" style="color: rgb(231, 231, 231); font-weight: 350; font-size: 18px;">Generate your own
+                                    <span class="new"
+                                        style="color: rgb(231, 231, 231); font-weight: 350; font-size: 18px;">Generate
+                                        your own
                                         eletricity
                                         for the next 30 years.</span> <br>
                                     <span class="text-span-4">Find out how with south india number 1 residental &
@@ -520,7 +553,7 @@
                 }
 
                 .image {
-                    max-width: 100%;
+                    max-width: 50%;
                 }
             }
         </style>
@@ -572,9 +605,9 @@
                 <div class="wct">
                     <h1 class="heading-xlarge _16-ch inner-padding-xsmall center">WELCOME TO INDO GREEN SOLAR </h1>
                     <p class="p-small-size white-70 center">
-                    <h3><span class="text-span-7">Indo Green Solar - Top Solar EPC
+                    <h3><span class="text-span-7" style="color: white;">Indo Green Solar - Top Solar EPC
                             Company in South India.</span></h3>
-                    <span class="text-span-70">Loans And Easy Emi Option
+                    <span class="text-span-70" style="color: white;">Loans And Easy Emi Option
                         Available For Solar Power Plants. </span>
                     <br>
 
@@ -585,7 +618,7 @@
                         everyone we work with.
                     </span></p>
                     <div class="rmbutton">
-                    <button><a href="companyprofile.html" style="padding: 9px;
+                        <button><a href="companyprofile.html" style="padding: 9px;
                     border-radius: 18px;
                     background-color: black;
                     color: white;
@@ -636,25 +669,33 @@
             alt="" class="enphaseplatinuminstaller" /> 
     </div> -->
 
-        <div class="black-background" style="margin-bottom: 25px;
-    margin-bottom: 25px;
-    background-color: #77bf58;
-    height: 245px;
-    border-radius: 5px;
-    padding-top: 10px;
-    margin-top: 25px;
-    margin-left: 13px;
-    margin-right: 13px;">
-            <h2 class="special" style="    text-align: center;
-        color: white;
-       font-size: 40px;
-        margin: 0px;
-        padding: 20px;">Key Milestone</h2>
+        <div class="black-background">
+            <h2 class="special" style="    ">Key Milestone</h2>
 
             <style>
+                .black-background {
+                    margin-bottom: 25px;
+                    margin-bottom: 25px;
+                    background-color: #77bf58;
+                    height: 245px;
+                    border-radius: 5px;
+                    padding-top: 10px;
+                    margin-top: 25px;
+                    margin-left: 13px;
+                    margin-right: 13px;
+                }
+
+                .special {
+                    text-align: center;
+                    color: white;
+                    font-size: 40px;
+                    margin: 0px;
+                    padding: 20px;
+                }
+
                 .part {
                     /* margin: auto; */
-                    margin: 0px 65px ;
+                    margin: 0px 65px;
                     text-align: center;
                 }
 
@@ -671,51 +712,72 @@
                     display: flex;
                     justify-content: center;
                 }
-            </style>
 
+                .kmfb2,
+                .kmfb1 {
+                    display: flex;
+                }
+
+                @media screen and (max-width:1100px) {
+
+                    .kmfb2,
+                    .kmfb1 {
+                        flex-direction: column;
+                    }
+
+                    .black-background {
+                        height: 300px;
+                    }
+                }
+
+                @media screen and (max-width:500px) {
+                    .row {
+                        flex-direction: column;
+                    }
+
+                    .black-background {
+                        height: 486px;
+                    }
+                }
+            </style>
             <div class="counter">
                 <div class="counter-section">
                     <div class="row">
                         <div class="kmfb1">
-                         <div class="part">
-                            <h2><span id="count1"></span> MW+</h2>
-                            <p>
-                                Total Portfolio
-                            </p>
-                        </div> 
-                          <div class="part">
-                            <h2><span id="count2"></span>+</h2>
-                            <p>
-                                Satisfied Customers
-                            </p>
-                        </div>
+                            <div class="part">
+                                <h2><span id="count1"></span> MW+</h2>
+                                <p>
+                                    Total Portfolio
+                                </p>
+                            </div>
+                            <div class="part">
+                                <h2><span id="count2"></span>+</h2>
+                                <p>
+                                    Satisfied Customers
+                                </p>
+                            </div>
                         </div>
                         <div class="kmfb2">
-                           <div class="part">
-                            <h2><span id="count3">+</span>+</h2>
-                            <p>
-                                Installed Plants
-                            </p>
+                            <div class="part">
+                                <h2><span id="count3">+</span>+</h2>
+                                <p>
+                                    Installed Plants
+                                </p>
+                            </div>
+                            <div class="part">
+                                <h2><span id="count4"></span>+</h2>
+                                <p>
+                                    Locations
+                                </p>
+                            </div>
                         </div>
-                        <div class="part">
-                            <h2><span id="count4"></span>+</h2>
-                            <p>
-                                Locations
-                            </p>
-                        </div> 
-                        </div>
-                        
 
-                        
+
+
                     </div>
                 </div>
             </div>
-            <style>
-                .kmfb2,
-                .kmfb1{
-                    display: flex;
-                }
-            </style>
+
             <script>
                 document.addEventListener("DOMContentLoaded", () => {
                     function counter(id, start, end, duration) {
@@ -993,47 +1055,87 @@
 
         <!-- contactusmedias -->
         <style>
-            @media screen and (max-width: 799px) {}
-        </style>
+            .nande input {
+                width: 264px;
+                padding: 10px;
+            }
 
+            .nande select {
+                width: 264px;
+                padding: 10px;
+            }
+
+            .name {
+                margin-right: 30px;
+                margin-bottom: 10px;
+            }
+
+            .mail {
+                margin-bottom: 10px;
+            }
+
+            .number {
+                margin-right: 30px;
+                margin-bottom: 10px;
+            }
+
+            .city {
+                margin-bottom: 10px;
+            }
+
+            .snf {
+                margin-right: 30px;
+                margin-bottom: 10px;
+            }
+
+            .smaeb {
+                margin-bottom: 10px;
+            }
+        </style>
+        <style>
+            #contacus h2 {
+                line-height: 36px;
+                padding-top: 20px;
+                padding-left: 70px;
+                color: #77bf58;
+                padding-bottom: 10px;
+                font-family: system-ui;
+            }
+
+            @media screen and (max-width: 600px) {
+                #contacus h2 {
+                    padding-left: 20px;
+                }
+
+            }
+        </style>
         <div id="contacus" style="margin-left: 13px; margin-bottom: 13px; margin-right: 13px; border-radius: 10px;">
-            <h2 style="
-            line-height: 36px;
-              padding-top: 20px;
-             padding-left: 70px; 
-            color: #77bf58;
-            padding-bottom: 10px;
-            font-family: system-ui;
-            "> <span class="s2" style="font-size: 2.5rem;">Are You Ready</span> <br>
+            <h2><span class="s2" style="font-size: 2.5rem;">Are You Ready</span> <br>
                 <span class="s1" style="font-size: 2.3rem;">To Start a Project With Us.Enquire Now..</span>
             </h2>
-            <form id="contct" style="margin: auto; width: 565px;">
+            <form id="contct">
 
                 <div class="nande">
-                    <div class="name" style="margin-right: 30px; margin-bottom: 10px;">
+                    <div class="name">
                         <label for="name">Name</label>
-                        <input type="text" placeholder="ENTER YOUR NAME" name="name" id="name" required style="    width: 264px;
-                        padding: 10px;">
+                        <input type="text" placeholder="ENTER YOUR NAME" name="name" id="name" required>
                     </div>
-                    <div class="mail" style="margin-bottom: 10px;">
+                    <div class="mail">
                         <label for="mail">Email</label>
-                        <input type="email" placeholder="ENTER YOUT EMAIL" class="mail" id="mail" required style="    width: 264px;
-                        padding: 10px;">
+                        <input type="email" placeholder="ENTER YOUT EMAIL" class="mail" id="mail" required>
                     </div>
 
 
                 </div>
                 <div class="nande">
 
-                    <div class="number" style="margin-right: 30px; margin-bottom: 10px;">
+                    <div class="number">
                         <label for="num">PH:Number</label>
-                        <input type="text" placeholder="YOUR MOBILE NUMBER" name="num" id="num" required style="    width: 264px;
-                        padding: 10px;">
+                        <input type="text" placeholder="YOUR MOBILE NUMBER" name="num" id="num" required>
                     </div>
-                    <div class="city" style="margin-bottom: 10px;">
+                    <div class="city">
                         <label for="city">City</label>
-                        <select name="city" id="city" style="    width: 264px;
-                            padding: 6px ; padding-left: 12px;">
+                        <select name="city" id="city">
                             <option value="none" selected></option>
 
                             <option value="others">vizag</option>
@@ -1085,11 +1187,10 @@
                 </div>
 
                 <div class="nande">
-                    <div class="snf" style="margin-right: 30px; margin-bottom: 10px;">
+                    <div class="snf">
 
                         <label for="snf">Solar Need For</label>
-                        <select name="snf" id="snf" style="    width: 264px;
-                        padding: 10px;">
+                        <select name="snf" id="snf">
                             <option value="none" selected></option>
                             <option value="voi ">Home</option>
                             <option value="foa"> Apartment</option>
@@ -1099,13 +1200,11 @@
                         </select>
 
                     </div>
-                    <div class="smaeb" style="
-                    margin-bottom: 10px;">
-                        <label for="smaeb" style="font-size: 15px; padding-left: 0px;">Your Average Monthly
+                    <div class="smaeb">
+                        <label for="smaeb">Your Average Monthly
                             Electricity
                             Bill</label>
-                        <select name="smaeb" id="smaeb" style="  width: 264px;
-                        padding: 10px;">
+                        <select name="smaeb" id="smaeb">
                             <option value="none" selected></option>
                             <option value="lt ">
                                 <₹1500< /option>

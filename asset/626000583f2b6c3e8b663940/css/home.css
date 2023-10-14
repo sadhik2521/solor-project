@@ -26,6 +26,12 @@ html {
 html{
   scroll-behavior: smooth;
 }
+@media (max-width: 900px) {
+  .heading-xlarge._16-ch.inner-padding-xsmall.center {
+    font-size: 3.1em;
+}
+}
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -3187,7 +3193,11 @@ textarea.w-select {
   text-align: center;
   text-transform: none;
 }
-
+@media (max-width: 900px) {
+  .heading-xlarge._16-ch.inner-padding-xsmall.center {
+    font-size: 3.1em;
+}
+}
 .heading-xlarge._16-ch.inner-padding-xsmall.center.wrapper-black.nospace {
   margin-top: 0px;
   margin-bottom: -6px;
@@ -3852,7 +3862,7 @@ textarea.w-select {
 
 .hpmeapra {
   text-align: center;
-  color: #696969;
+  color: #b5b5b5;
   width: 103%;
 }
 
@@ -5456,7 +5466,7 @@ textarea.w-select {
 .container-3 {
   position: inherit;
   z-index: 2;
-  max-width: 1380px;
+  max-width: 1495px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-right: 30px;
@@ -15526,7 +15536,7 @@ textarea.w-select {
   }
 
   .bg-slider {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)), url("./../../img/Tried\ of\ electricity\ bills.png");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)), url("./../../img/scroll.jpg");
     background-position: 0px 0px, 0px 0px, 50% 50%;
   }
   .nav-link {

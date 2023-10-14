@@ -1,42 +1,10 @@
-body{
+body {
     /* background: url("../../../img/vecteezy_premium-rectangular-gradient-green-background_7271110.jpg"); */
     height: 100vh;
     background-size: cover;
-   background-position: center;
-   }
-/* #aarcontainer{
-    background-image:
-     linear-gradient(18deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, -0.45)), 
-    url("../../../img/aboutus/Achievements-\ Main\ Image.png") ;
-    background-position: 0px 0px ,0px 0px, 50% 50%;
-    background-size: auto ,auto, cover;
-    height: 462px;
-    margin-top: 0px;
-    max-width: 100%;
-    position: relative;
-    top: 0px;
-    left: 0px;
+    background-position: center;
 }
-.vshead{
-    position: absolute;
-    text-align: center;
-    padding-top: 36%;
-    padding-left: 129% ;
-    transform: translate(-50%, -50%);
-    -webkit-text-stroke: 1px #fff;
-    color: transparent;
-    background-image: linear-gradient(#fff, #fff);
-  -webkit-background-clip: text;
-  background-position: -750px 0;
-  background-repeat: no-repeat;
-  width: 175%;
-  animation: backcolor 4s linear infinite ;
-}
-@keyframes backcolor {
-    100%{
-        background-position: 0 0;
-    }
-} */
+
 
 
 
@@ -62,14 +30,15 @@ body{
     font-size: 70px;
 }
 
-.vshead h2{
-    margin: 15px 0px ;
+.vshead h2 {
+    margin: 15px 0px;
     font-size: 4.2rem;
     font-family: 'lato';
     width: 117%;
     line-height: 70px;
 }
-.headline{
+
+.headline {
     text-align: center;
     font-family: math;
     color: #4e4e4e;
@@ -78,18 +47,105 @@ body{
     margin-top: 40px;
 }
 
-.msmehead{
-     text-align: center;
-     margin-bottom: 30px;
-     font-family: math;
-     color: #4e4e4e;
-} 
-.achievecontent{
+.msmehead {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: math;
+    color: #4e4e4e;
+}
+
+.achievecontent {
     margin-bottom: 30px;
     color: #e5d9b6;
     font-family: 'Lato';
 
 }
-.achieveimgs img:hover{
+
+.achieveimgs img:hover {
     transform: scale(1.1);
+}
+
+.certificate {
+    text-align: center;
+}
+
+.certificate img {
+    max-width: 90%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.achieveimgs{
+    text-align: center;
+}
+.achieveimgs img{
+    max-width: 45%;
+     border-radius: 20px; 
+     margin: 20px;
+        transition: transform 0.4s; 
+            filter: drop-shadow(2px 4px 6px black);
+}
+/* medias */
+@media screen and (max-width: 991px) {
+    #eemtitle {
+        margin-top: -90px;
+    }
+
+    .titleh1 h1 {
+        font-size: 68px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 888px) {
+    .titleh1 h1 {
+        line-height: 70px;
+    }
+
+    .titleh1 h1 {
+        padding-top: 110px;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 70px;
+    }
+
+    .headline {
+        font-size: 40px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 827px) {
+    .achieveimgs img {
+        max-width: 65%;
+    }
+    
+    
+}
+@media screen and (max-width: 650px) {
+    .headline {
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .titleh1 h1 {
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .achieveimgs img {
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .headline {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .titleh1 h1 {
+        font-size: 53px;
+    }
 }

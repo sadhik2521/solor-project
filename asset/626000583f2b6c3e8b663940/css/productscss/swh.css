@@ -102,6 +102,7 @@ border-top-right-radius: 30px;
     font-size: 18px;
     font-family: 'Open Sans';
     line-height: 27px;
+    margin: 10px;
     padding-top: 60px;
 }
 .benifitimg{
@@ -122,4 +123,111 @@ border-top-right-radius: 30px;
 }
 .benifits{
     margin-top: 40px;
+}
+@media screen and (max-width: 1290px) {
+    .paras {
+        max-width: 100%;
+    }
+    .maincontent {
+        flex-direction: column-reverse;
+    }
+    .bcoswhimg { 
+        margin-left: 0px;
+    }
+    .ulcontent {
+         flex-direction: column;
+    }
+    .benifitimg img {
+        width: 40%;
+    }
+    .benifitimg {
+        text-align: center;
+    }
+    .ulcontent ul {
+        line-height: 40px;
+        padding-top: 30px;
+        padding-left: 75px;
+    }
+}
+@media screen and (max-width: 990px) {
+    #offgstitle {
+        margin-top: -90px;
+     } 
+     .benifitimg img {
+        width: 45%;
+    }
+    .ulcontent ul {
+        line-height: 37px;
+        padding-top: 14px;
+        padding-left: 60px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .benifitimg img {
+        width: 53%;
+    }
+}
+@media screen and (max-width: 799px) {
+    .benifitimg img {
+        width: 60%;
+    }
+    .ulcontent ul {
+        padding-top: 0px;
+        padding-left: 36px;
+    }
+}
+@media screen and (max-width: 650px){
+  .benifitimg img {
+    width: 66%;
+}  
+.ulcontent ul {
+    font-size: 17px;
+   line-height: 31px;
+}
+.paras {
+   font-size: 16px;
+}
+}
+
+@media screen and (max-width: 599px) {
+    .benifitimg img {
+        width: 78%;
+    }
+    .ulcontent ul {
+        padding-top: 0px;
+        padding-left: 25px;
+    }
+}
+@media screen and (max-width: 499px) {
+    .benifitimg img {
+        width: 92%;
+    }
+    .ulcontent ul {
+        font-size: 16px;
+        line-height: 29px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+        #offgstitle {
+            height: 300px;
+        }     
+        .titleh1 h1 {
+            font-size: 60px;
+            padding-top: 146px;
+            margin: 0 10px;
+            line-height: 60px;
+        }
+
+}
+@media screen and (max-width: 555px) {
+        .titleh1 h1 {
+             padding-top: 121px;
+        }
+
+}
+@media screen and (max-width: 449px){
+.titleh1 h1 {
+    font-size: 57px;
+}
 }

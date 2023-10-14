@@ -76,32 +76,58 @@
         </span>
     </div>
     <div>
+        <style>
+            .since {
+                color: rgb(49, 166, 212);
+                display: flex;
+                font: 1em sans-serif;
+                flex-direction: column;
+                font-size: 10px;
+                padding-left: 90px;
+            }
+
+            .logog img {
+                max-width: 18%;
+                margin-right: 0;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                margin-left: 5px;
+                width: 200px;
+                height: 65px;
+            }
+
+            @media screen and (max-width: 421px) {
+                .logog p span {
+                    font-size: 10px;
+                }
+
+                .logog p {
+                    line-height: 15px;
+                }
+
+                .logog img {
+                    height: 55px;
+                }
+
+                .since {
+                    padding-left: 60px;
+                }
+            }
+        </style>
         <nav class="wrappernav">
             <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease"
                 data-easing2="ease" role="banner" class="navbar w-nav">
                 <div class="logog" style="display: flex;">
 
-                    <img src="asset/img/sym.png" alt="" style="    
-                 max-width: 18%;
-    /* vertical-align: middle; */
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
-    /* padding-left: 1px; */
-    padding: 5px;
-    /* left: 10px; */
-    margin-left: 5px;
-    width: 200px;
-    height: 65px;
-                ">
+                    <img src="asset/img/sym.png" alt="">
 
 
                     <p style="padding-top: 20px; padding-left: 7px;"> <span style="color: orange">INDO</span> <span
-                            style="color: rgb(0, 151, 0);">GREEN</span> <span style="color: rgb(49, 166, 212);  ">SOLAR
-                            <span
-                                style="color: rgb(49, 166, 212); display: flex; flex-direction: column; font-size: 10px; padding-left: 90px;">since
-                                2012</span></span></p>
+                            style="color: rgb(0, 151, 0);">GREEN</span>
+                        <span style="color: rgb(49, 166, 212);  ">SOLAR<span class="since">since 2012</span></span>
+                    </p>
 
                 </div>
                 <div class="w-layout-grid navgrid">
@@ -118,25 +144,20 @@
                                     <div class="icon w-icon-dropdown-toggle"></div>
                                     <div class="label-dropdown">About Us</div>
                                 </div>
-                                <nav class="dropdown-list w-dropdown-list"><a
-                                        href="companyprofile.html"
-                                        class="dropdown-link w-dropdown-link">Company Profile</a><a
-                                        href="vs.html"
+                                <nav class="dropdown-list w-dropdown-list"><a href="companyprofile.html"
+                                        class="dropdown-link w-dropdown-link">Company Profile</a><a href="vs.html"
                                         class="dropdown-link w-dropdown-link">Vision And Strategy</a><a
-                                        href="acheivment.html"
-                                        class="dropdown-link w-dropdown-link">Achievement</a></nav>
+                                        href="acheivment.html" class="dropdown-link w-dropdown-link">Achievement</a>
+                                </nav>
                             </div>
                             <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
                                 <div class="dropdown-toggle w-dropdown-toggle">
                                     <div class="icon w-icon-dropdown-toggle"></div>
                                     <div class="label-dropdown">Services</div>
                                 </div>
-                                <nav class="dropdown-list w-dropdown-list"><a
-                                        href="epc.html"
-                                        class="dropdown-link w-dropdown-link">EPC</a><a
-                                        href="om.html"
-                                        class="dropdown-link w-dropdown-link">O&M</a><a
-                                        href="sd.html"
+                                <nav class="dropdown-list w-dropdown-list"><a href="epc.html"
+                                        class="dropdown-link w-dropdown-link">EPC</a><a href="om.html"
+                                        class="dropdown-link w-dropdown-link">O&M</a><a href="sd.html"
                                         class="dropdown-link w-dropdown-link">SD</a></nav>
                             </div>
                             <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
@@ -144,36 +165,26 @@
                                     <div class="icon w-icon-dropdown-toggle"></div>
                                     <div class="label-dropdown">Products</div>
                                 </div>
-                                <nav class="dropdown-list w-dropdown-list"><a
-                                    href="ongs.html"
-                                    class="dropdown-link w-dropdown-link">On-Grid Solar </a><a
-                                    href="offgs.html"
-                                    class="dropdown-link w-dropdown-link">Off-Grid Solar</a><a
-                                    href="sf.html"
-                                    class="dropdown-link w-dropdown-link">Solar Fencing</a><a
-                                    href="swh.html"
-                                    class="dropdown-link w-dropdown-link">Solar Water Heaters</a><a
-                                    href="ssl.html"
-                                    class="dropdown-link w-dropdown-link">Solar Street Lights</a><a
-                                    href="swp.html"
-                                    class="dropdown-link w-dropdown-link">Solar Water Pumps</a>
+                                <nav class="dropdown-list w-dropdown-list"><a href="ongs.html"
+                                        class="dropdown-link w-dropdown-link">On-Grid Solar </a><a href="offgs.html"
+                                        class="dropdown-link w-dropdown-link">Off-Grid Solar</a><a href="sf.html"
+                                        class="dropdown-link w-dropdown-link">Solar Fencing</a><a href="swh.html"
+                                        class="dropdown-link w-dropdown-link">Solar Water Heaters</a><a href="ssl.html"
+                                        class="dropdown-link w-dropdown-link">Solar Street Lights</a><a href="swp.html"
+                                        class="dropdown-link w-dropdown-link">Solar Water Pumps</a>
 
-                            </nav>
+                                </nav>
                             </div>
                             <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
                                 <div class="dropdown-toggle w-dropdown-toggle">
                                     <div class="icon w-icon-dropdown-toggle"></div>
                                     <div class="label-dropdown">Solutions</div>
                                 </div>
-                                <nav class="dropdown-list w-dropdown-list"><a
-                                        href="capex.html"
-                                        class="dropdown-link w-dropdown-link">Capex Model</a><a
-                                        href="opex.html"
-                                        class="dropdown-link w-dropdown-link">Opex Model</a><a
-                                        href="usoa.html"
+                                <nav class="dropdown-list w-dropdown-list"><a href="capex.html"
+                                        class="dropdown-link w-dropdown-link">Capex Model</a><a href="opex.html"
+                                        class="dropdown-link w-dropdown-link">Opex Model</a><a href="usoa.html"
                                         class="dropdown-link w-dropdown-link">Utility Scale & Open Access</a><a
-                                        href="eem.html"
-                                        class="dropdown-link w-dropdown-link">Easy Emi Model</a>
+                                        href="eem.html" class="dropdown-link w-dropdown-link">Easy Emi Model</a>
                                 </nav>
                             </div>
 
@@ -201,22 +212,6 @@
                     </div>
                 </div>
             </div>
-        </nav>
-                    <div id="w-node-_2b87a6a7-ab64-98a6-91ec-0552edceff20-1966393f"
-                        data-w-id="2b87a6a7-ab64-98a6-91ec-0552edceff20" class="menu-button w-nav-button">
-                        <div class="menu-mobile">
-                            <div data-w-id="2b87a6a7-ab64-98a6-91ec-0552edceff22" data-is-ix2-target="1"
-                                data-animation-type="lottie"
-                                data-src="https://assets.website-files.com/61def978d1b34e4afd65364d/61def978d1b34ef6006536de_lf30_editor_0dtgjm93.json"
-                                data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                                data-default-duration="1.5015014403440954" data-duration="0"
-                                data-ix2-initial-state="25">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
         </nav>
 
 
