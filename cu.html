@@ -273,12 +273,12 @@
                             style="margin-left: 13px; margin-bottom: 13px; margin-right: 13px; border-radius: 10px;">
                             
                             <h2 >Contact With Us Now... </h2>
-                            <form id="contct"  action="https://formsubmit.co/shaiksadhik2521@gmail.com" method="POST">
+                            <form id="contct"  action="https://formsubmit.co/indogreensolar22@gmail.com" method="POST">
                                 <div class="nande">
                                     <div class="number">
                                         <label for="num">Name</label>
                                         <div>
-                                            <input type="text" placeholder="ENTER YOUR NAME" name="name" id="num"
+                                            <input type="text" placeholder="ENTER YOUR NAME" name="name" id="Name"
                                                 required >
                                         </div>
 
@@ -286,7 +286,7 @@
                                     <div class="number">
                                         <label for="num">Email</label>
                                         <div>
-                                            <input type="text" placeholder="ENTER YOUR EMAIL" name="email" id="num"
+                                            <input type="text" placeholder="ENTER YOUR EMAIL" name="email" id="Email"
                                                 required >
                                         </div>
 
@@ -297,7 +297,7 @@
                                     <div class="number">
                                         <label for="num">PH:Number</label>
                                         <div>
-                                            <input type="text" placeholder="YOUR MOBILE NUMBER" name="text" id="num"
+                                            <input type="text" placeholder="YOUR MOBILE NUMBER" name="text" id="contact"
                                                 required>
                                         </div>
 
@@ -403,11 +403,45 @@
 <div class="sar">
      <div class="submit" style="padding: 10px; padding-bottom: 0px; text-align: center; display: inline;">
                                     <input type="reset" value="Reset ">
-                                    <input type="submit" value="Submit" id="submit">
+                                    <input type="submit" value="Submit" id="submit" onclick="send()">
                                 </div>
 </div>
                                 
                             </form>
+                            <script src="https://smtpjs.com/v3/smtp.js">
+                            </script>
+                           
+                           <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+                                 function send() {
+            var name = document.getElementById("Name").value;
+            var email = document.getElementById("Email").value;
+            var contact = document.getElementById("contact").value;
+            var city = document.getElementById("city").value;
+            var solar need for = document.getElementById("snf").value;
+            var monthly average electricity bill = document.getElementById("smaeb").value;
+
+            var body = "Name: " + name + "<br/> Email:" + email + "<br/> contact :" + contact + "<br/> Message:" + mess + "<br/> city :" + city + "<br/> solar need for :" + solar need for + "<br/> monthly average electricity bill :" + monthly average electricity bill;
+
+            console.log(body);
+
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "indogreensolar22@gmail.com",
+                Password: "684F7F335441D8CA0E48B9F695E009E24B1D",
+                To: 'indogreensolar22@gmail.com',
+                From: "indogreensolar22@gmail.com",
+                Subject: sub,
+                Body:body
+            }).then(
+                message => {
+                    if(message=='OK'){
+                        swal("Good job!", "You clicked the button!", "success");
+                    }
+                }
+            );
+        }
+                            </script>
                         </div>
 
                     </div>
