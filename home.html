@@ -1111,7 +1111,7 @@
             <h2><span class="s2" style="font-size: 2.5rem;">Are You Ready</span> <br>
                 <span class="s1" style="font-size: 2.3rem;">To Start a Project With Us.Enquire Now..</span>
             </h2>
-            <form id="contct">
+            <form id="contct" action="https://formsubmit.co/indogreensolar22@gmail.com" method="POST">
 
                 <div class="nande">
                     <div class="name">
@@ -1236,6 +1236,37 @@
     border-radius: 20px;">
                 </div>
             </form>
+            <script src="https://smtpjs.com/v3/smtp.js">
+            </script>
+            <script>
+                function send() {
+var name = document.getElementById("Name").value;
+var email = document.getElementById("Email").value;
+var contact = document.getElementById("contact").value;
+var city = document.getElementById("city").value;
+var solarneedfor = document.getElementById("snf").value;
+var monthlyaverageelectricitybill = document.getElementById("smaeb").value;
+var mess = document.getElementById("text").value;
+
+var body = "Name: " + name + "<br/> Email:" + email + "<br/> contact :" + contact +  "<br/> city :" + city + "<br/> snf :" + solarneedfor + "<br/> smaeb :" + monthlyaverageelectricitybill + "<br/> text :" + mess;
+
+console.log(body);
+
+Email.send({
+SecureToken :"978bede9-ae33-4774-bb8c-7c822f6ca9ac",
+To: 'indogreensolar22@gmail.com',
+From: "indogreensolar22@gmail.com",
+Subject: sub,
+Body:body
+}).then(
+message => {
+   if(message=='OK'){
+       swal("Good job!", "You clicked the button!", "success");
+   }
+}
+);
+}
+           </script>
         </div>
 
 
