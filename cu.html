@@ -350,7 +350,7 @@
                                                 <option value="others">nalgonda</option>
                                                 <option value="others">adilabad</option>
                                                 <option value="others">suryapet</option>
-                                                <option value="others">other</option>
+                                                <!-- <option value="others">other</option> -->
                                             </select>
                                         </div>
 
@@ -365,11 +365,11 @@
                                         <div>
                                             <select name="snf" id="snf">
                                                 <option value="none" selected></option>
-                                                <option value="voi ">Home</option>
-                                                <option value="foa"> Apartment</option>
-                                                <option value="bissines">Bussiness</option>
-                                                <option value="fo">Factory Outlet</option>
-                                                <option value="others">Others</option>
+                                                <option value="voi " id="snf">Home</option>
+                                                <option value="foa" id="snf"> Apartment</option>
+                                                <option value="bissines" id="snf">Bussiness</option>
+                                                <option value="fo" id="snf">Factory Outlet</option>
+                                                <option value="others" id="snf">Others</option>
 
                                             </select>
                                         </div>
@@ -418,17 +418,15 @@
             var email = document.getElementById("Email").value;
             var contact = document.getElementById("contact").value;
             var city = document.getElementById("city").value;
-            var solar need for = document.getElementById("snf").value;
-            var monthly average electricity bill = document.getElementById("smaeb").value;
+            var solarneedfor = document.getElementById("snf").value;
+            var monthlyaverageelectricitybill = document.getElementById("smaeb").value;
 
-            var body = "Name: " + name + "<br/> Email:" + email + "<br/> contact :" + contact + "<br/> Message:" + mess + "<br/> city :" + city + "<br/> solar need for :" + solar need for + "<br/> monthly average electricity bill :" + monthly average electricity bill;
+            var body = "Name: " + name + "<br/> Email:" + email + "<br/> contact :" + contact +  "<br/> city :" + city + "<br/> snf :" + solarneedfor + "<br/> smaeb :" + monthlyaverageelectricitybill;
 
             console.log(body);
 
             Email.send({
-                Host: "smtp.elasticemail.com",
-                Username: "indogreensolar22@gmail.com",
-                Password: "684F7F335441D8CA0E48B9F695E009E24B1D",
+                SecureToken :"978bede9-ae33-4774-bb8c-7c822f6ca9ac",
                 To: 'indogreensolar22@gmail.com',
                 From: "indogreensolar22@gmail.com",
                 Subject: sub,
@@ -937,7 +935,22 @@ top: -10px;
 
         window.onscroll = calcScrollValue;
         window.onload = calcScrollValue;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // Host: "smtp.elasticemail.com",
+// Username: "indogreensolar22@gmail.com",
+// Password: "684F7F335441D8CA0E48B9F695E009E24B1D",
     </script>
 </body>
 
 </html>
+
