@@ -3829,6 +3829,7 @@ textarea.w-select {
   grid-template-rows: auto auto;
   border-radius: 10px;
   background-color: rgba(0, 11, 3, 0.9);
+  margin-bottom: 35px;
 }
 
 .section-full._2 {
