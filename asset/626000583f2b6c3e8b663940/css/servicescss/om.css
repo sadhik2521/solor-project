@@ -164,6 +164,11 @@ font-size: 30px;
     margin: 10px;
 max-width: 45%;
 }
+@media screen and (max-width: 991px) {
+    #omcontainer {
+        margin-top: -106px;
+    }
+}
 @media screen and (max-width: 1100px) {
     .ommainpart {
         flex-direction: column;
@@ -189,7 +194,7 @@ max-width: 45%;
 }
 @media screen and (max-width: 781px) {
     #omcontainer {
-        margin-top: -70px;
+        margin-top: -87px;
     }
 }
 @media screen and (max-width: 700px){
@@ -216,6 +221,6 @@ max-width: 45%;
 }
 @media screen and (max-width: 421px) {
     #omcontainer {
-        margin-top: -90px;
+        margin-top: -94px;
     }
 }

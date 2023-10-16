@@ -255,12 +255,15 @@ body {
 
 @media screen and (max-width: 991px) {
     #cptitle {
-        margin-top: -90px;
+        margin-top: -106px;
     }
-}
-@media screen and (max-width: 991px) {
     .mdcontent .img img{
         width: 45%; 
+    }
+}
+@media screen and (max-width:421px) {
+    #cptitle {
+        margin-top: -117px;
     }
 }
 

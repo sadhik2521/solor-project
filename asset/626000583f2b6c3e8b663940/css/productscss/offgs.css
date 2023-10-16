@@ -93,9 +93,15 @@ body{
     border-radius: 30px;
     filter: drop-shadow(2px 4px 6px black);
 }
+
 @media screen and (max-width: 991px) {
     #offgstitle {
-        margin-top: -90px;
+        margin-top: -106px;
+    }
+}
+@media screen and (max-width: 9421px) {
+    #offgstitle {
+        margin-top: -114px;
     }
 }
 /* body media */

@@ -140,7 +140,7 @@ input{
 }
 @media screen and (max-width: 991px) {
   #optitle{
-   margin-top: -90px;
+   margin-top: -106px;
   }
 }
   @media screen and (max-width: 800px) {
@@ -181,3 +181,8 @@ input{
   }
 }
  
+@media screen and (max-width: 421px){
+  #optitle {
+    margin-top: -113px;
+}
+}

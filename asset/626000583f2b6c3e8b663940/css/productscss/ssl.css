@@ -161,7 +161,7 @@ body{
 }
 @media screen and (max-width: 991px) {
     #offgstitle { 
-         margin-top: -90px;
+         margin-top: -106px;
     }
 }
 @media screen and (max-width: 600px){
@@ -205,7 +205,12 @@ body{
     }
     #offgstitle {
         height: 300px;
-        margin-top: -90px;
+        margin-top: -106px;
+    }
+}
+@media screen and (max-width: 421px) {
+    #offgstitle {
+        margin-top: -114px;
     }
 }
 @media screen and (max-width: 670px) {

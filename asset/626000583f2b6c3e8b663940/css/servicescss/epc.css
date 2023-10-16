@@ -92,8 +92,14 @@ font-size: 35px;
 }
 @media screen and (max-width: 991px) {
     #epccontainer {
-         margin-top: -65px;
+        margin-top: -90px;
     }
+}
+@media screen and (max-width: 421px){
+   
+#epccontainer {
+    margin-top: -94px;
+} 
 }
 @media screen and (max-width: 1000px) {
     .epcpara p {

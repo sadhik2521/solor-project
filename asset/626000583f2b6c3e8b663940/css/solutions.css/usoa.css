@@ -153,10 +153,15 @@ border-top-right-radius: 30px;
 /* head media */
 @media screen and (max-width: 991px) {
     #usaoatitle{
-     margin-top: -90px;
+     margin-top: -106px;
     }
  }
-   
+ @media screen and (max-width: 421px){
+  
+ #usaoatitle {
+     margin-top: -114px;
+ }
+ }
    @media screen and (max-width: 900px) {
      .titleh1 h1 {
        font-size: 50px;
