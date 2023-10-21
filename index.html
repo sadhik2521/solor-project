@@ -1,1 +1,1854 @@
 
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Sat Mar 25 2023 15:35:10 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="" data-wf-page="626000583f2b6c1d1966393f" data-wf-site="626000583f2b6c3e8b663940"
+    data-wf-status="1">
+
+
+<head>
+    <meta charset="utf-8" />
+    <title> Indo Green Solar </title>
+    <link rel="icon" href="asset/img/sym.png" type="image/gif/jpg">
+    <meta
+        content=""
+        name="description" />
+    <meta content=/>
+    <meta
+        content=""
+        property="og:description" />
+    <meta
+        content=""
+        property="og:image" />
+    <meta content=>
+    <meta
+        content=/>
+    <meta
+        content= />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="asset/626000583f2b6c3e8b663940/css/home.css" rel="stylesheet" type="text/css" />
+
+
+    <script src="asset/626000583f2b6c3e8b663940/js/swiper-bundle.min.js"></script>
+    <script src="asset/626000583f2b6c3e8b663940/js/script.js"></script>
+
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script
+        type="text/javascript">WebFont.load({ google: { families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"] } });
+
+            type = "text/javascript" > !function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+
+    <script src="https://kit.fontawesome.com/e0a695ba3a.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .first {
+        padding: 2px;
+    }
+
+    /* clients */
+
+    @media screen and (max-width: 990px) {
+
+        .wrapper .carousel {
+            grid-auto-columns: calc((7% / 1) - 12px);
+        }
+
+    }
+
+    body {
+        min-height: 100vh;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        background-color: #EFEFEF;
+    }
+
+
+
+    /* slider  */
+
+    .clientsslide {
+        display: grid;
+        position: relative;
+        place-items: center;
+        height: 250xp;
+        margin: auto;
+        width: 97%;
+        overflow: hidden;
+
+    }
+
+    .slied-track {
+        display: flex;
+        animation: scroll 30s linear infinite;
+        overflow: hidden;
+    }
+
+    .slied-track:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-11px *240));
+        }
+    }
+
+    .slied {
+        background-color: white;
+        border-radius: 7px;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        perspective: 100px;
+        margin: 20px;
+    }
+
+    img {
+        /* width: 100%; */
+        transition: transform 1s;
+        margin: auto;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    img:hover {
+        transform: translateZ(8px);
+    }
+
+    .clientsslide::before,
+    .clientsslide::after {
+        background: linear-gradient(to right, rgb(236 255 207) 0%, rgba(255, 255, 255, 0) 100%);
+        content: '';
+        height: 100%;
+        position: absolute;
+        width: 10%;
+        z-index: 2;
+    }
+
+
+    .clientsslide::after {
+        right: 0;
+        top: 0;
+        transform: rotateZ(180deg);
+    }
+
+    .clientsslide::before {
+        left: 0;
+        top: 0;
+    }
+
+
+    /* slider end */
+
+
+    /* contact */
+    .nande {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    #contacus input {
+        border: 2px solid #b3adad;
+        border-radius: 25px;
+        font-size: 17px;
+    }
+
+    #contacus input:hover {
+        border: 2px solid #77bf58;
+
+    }
+
+    #contacus select:hover {
+        border: 2px solid #77bf58;
+    }
+
+    #contacus select {
+        border: 2px solid #b3adad;
+        font-size: 17px;
+
+        border-radius: 25px;
+    }
+
+    #contacus label {
+        color: #ebf4e8;
+        margin-bottom: 0px;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-bottom: 3px;
+    }
+
+    #contacus textarea {
+        border: 2px solid #b3adad;
+
+        border-radius: 10px;
+    }
+
+    #contacus textarea:hover {
+        border: 2px solid #77bf58;
+    }
+
+    #contacus {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, -0.12), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+            url(asset/img/contactusmain.png);
+        background-position: 0px 0px, 0px 0px, 50% 50%;
+        background-size: auto, auto, cover;
+        padding-bottom: 19px;
+    }
+
+    #contct {
+        margin: auto;
+        width: 565px;
+
+    }
+
+    /* contactus medias */
+    @media screen and (max-width: 600px) {
+        .nande {
+            flex-direction: column;
+
+        }
+
+        #contacus h2 {
+            padding-left: 20px;
+        }
+
+        #contct {
+            margin: auto;
+            width: 340px;
+            text-align: center;
+        }
+
+        .nande .name,
+        .nande .number,
+        .nande .snf {
+            margin-right: 0px;
+        }
+
+    }
+
+    /* f00ter */
+    .footer_nav_item.w-inline-block {
+        color: white;
+        font-size: 15px;
+    }
+
+    .footer_nav_item.w-inline-block:hover {
+        color: rgb(211, 209, 209);
+    }
+
+    /* nav medias */
+    @media screen and (max-width: 1032px) {
+        .main-navbar a {
+            margin-right: 0px;
+        }
+    }
+
+    @media screen and (max-width: 1006px) {
+        .dropdown-toggle {
+            padding-right: 28px;
+        }
+    }
+</style>
+
+<body class="body" style="    background-color: #d9d9d9;">
+    <div id="progress" style="    display: grid;
+    background: conic-gradient(rgb(202, 203, 202) 100%, rgb(215, 215, 215) 100%);">
+        <span id="progress-value">&#x1F815;
+        </span>
+    </div>
+    <div>
+        <style>
+            .since {
+                color: rgb(49, 166, 212);
+                display: flex;
+                font: 1em sans-serif;
+                flex-direction: column;
+                font-size: 10px;
+                padding-left: 90px;
+            }
+
+            .logog img {
+                max-width: 18%;
+                margin-right: 0;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                margin-left: 50px;
+                width: 200px;
+                height: 45px;
+            }
+
+            @media screen and (max-width: 421px) {
+                .logog p span {
+                    font-size: 10px;
+                }
+
+                .logog p {
+                    line-height: 15px;
+                }
+
+                .logog img {
+                    height: 55px;
+                }
+
+                .since {
+                    padding-left: 60px;
+                }
+            }
+        </style>
+        <nav class="wrappernav">
+            <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease"
+                data-easing2="ease" role="banner" class="navbar w-nav">
+                <div class="logog" style="display: flex; flex-direction: column;">
+
+                    <img src="asset/img/sym.png" alt="">
+
+
+                    <p style="padding-top: 0px; padding-left: 7px;"> <span style="color: orange">INDO</span> <span
+                            style="color: rgb(0, 151, 0);">GREEN</span>
+                        <span style="color: rgb(49, 166, 212);  ">SOLAR<span class="since">since 2012</span></span>
+                    </p>
+
+                </div>
+                <div class="w-layout-grid navgrid">
+
+                    <nav role="navigation" id="w-node-_2b87a6a7-ab64-98a6-91ec-0552edcefee3-1966393f"
+                        class="nav-menu w-nav-menu">
+                        <div class="main-navbar">
+                            <a href="home.html" class="link-block-7 w-inline-block"
+                                style="font-family: 'Open Sans', sans-serif; font-size: 15px;">
+                                Home
+                            </a>
+                            <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
+                                <div class="dropdown-toggle w-dropdown-toggle">
+                                    <div class="icon w-icon-dropdown-toggle"></div>
+                                    <div class="label-dropdown">About Us</div>
+                                </div>
+                                <nav class="dropdown-list w-dropdown-list"><a href="companyprofile.html"
+                                        class="dropdown-link w-dropdown-link">Company Profile</a><a href="vs.html"
+                                        class="dropdown-link w-dropdown-link">Vision And Strategy</a><a
+                                        href="acheivment.html" class="dropdown-link w-dropdown-link">Achievement</a>
+                                </nav>
+                            </div>
+                            <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
+                                <div class="dropdown-toggle w-dropdown-toggle">
+                                    <div class="icon w-icon-dropdown-toggle"></div>
+                                    <div class="label-dropdown">Services</div>
+                                </div>
+                                <nav class="dropdown-list w-dropdown-list"><a href="epc.html"
+                                        class="dropdown-link w-dropdown-link">EPC</a><a href="om.html"
+                                        class="dropdown-link w-dropdown-link">O&M</a><a href="sd.html"
+                                        class="dropdown-link w-dropdown-link">SD</a></nav>
+                            </div>
+                            <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
+                                <div class="dropdown-toggle w-dropdown-toggle">
+                                    <div class="icon w-icon-dropdown-toggle"></div>
+                                    <div class="label-dropdown">Products</div>
+                                </div>
+                                <nav class="dropdown-list w-dropdown-list"><a href="ongs.html"
+                                        class="dropdown-link w-dropdown-link">On-Grid Solar </a><a href="offgs.html"
+                                        class="dropdown-link w-dropdown-link">Off-Grid Solar</a><a href="sf.html"
+                                        class="dropdown-link w-dropdown-link">Solar Fencing</a><a href="swh.html"
+                                        class="dropdown-link w-dropdown-link">Solar Water Heaters</a><a href="ssl.html"
+                                        class="dropdown-link w-dropdown-link">Solar Street Lights</a><a href="swp.html"
+                                        class="dropdown-link w-dropdown-link">Solar Water Pumps</a>
+
+                                </nav>
+                            </div>
+                            <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
+                                <div class="dropdown-toggle w-dropdown-toggle">
+                                    <div class="icon w-icon-dropdown-toggle"></div>
+                                    <div class="label-dropdown">Solutions</div>
+                                </div>
+                                <nav class="dropdown-list w-dropdown-list"><a href="capex.html"
+                                        class="dropdown-link w-dropdown-link">Capex Model</a><a href="opex.html"
+                                        class="dropdown-link w-dropdown-link">Opex Model</a><a href="usoa.html"
+                                        class="dropdown-link w-dropdown-link">Utility Scale & Open Access</a><a
+                                        href="eem.html" class="dropdown-link w-dropdown-link">Easy Emi Model</a>
+                                </nav>
+                            </div>
+
+
+                            <a href="op.html" class="link-block-7 w-inline-block">
+                                <div class="label-dropdown">Our Projects</div>
+                            </a>
+                            <a href="cu.html" class="link-block-7 w-inline-block" style="margin-right: 0px;">
+                                <div class="label-dropdown">Contact Us</div>
+                            </a>
+                        </div>
+
+                    </nav>
+                    <div id="w-node-_2b87a6a7-ab64-98a6-91ec-0552edceff20-1966393f"
+                        data-w-id="2b87a6a7-ab64-98a6-91ec-0552edceff20" class="menu-button w-nav-button">
+                        <div class="menu-mobile">
+                            <div data-w-id="2b87a6a7-ab64-98a6-91ec-0552edceff22" data-is-ix2-target="1"
+                                data-animation-type="lottie"
+                                data-src="https://assets.website-files.com/61def978d1b34e4afd65364d/61def978d1b34ef6006536de_lf30_editor_0dtgjm93.json"
+                                data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
+                                data-default-duration="1.5015014403440954" data-duration="0"
+                                data-ix2-initial-state="25">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <style>
+            @media (max-width :1000px) {
+                .w-slider-mask {
+                    top: -13px;
+                }
+            }
+        </style>
+        <div data-delay="4000" data-animation="slide" class="slider-3 w-slider" data-autoplay="true" data-easing="ease"
+            data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+            data-duration="500" data-infinite="true">
+            <div class="w-slider-mask">
+                <div class="w-slide">
+                    <div class="hero-slide-container">
+                        <div class="bg-slider">
+                            <div class="home-header">
+                                <h1 class="heading-xlarge _16-ch inner-padding-xsmall center" style="font-size: 
+                            3.2rem;">Tired of expensive electricity bills.</h1>
+                                <div class="text-block-5 _2">
+                                    <span class="new"
+                                        style="color: rgb(231, 231, 231); font-weight: 350; font-size: 18px;">Generate
+                                        your own
+                                        eletricity
+                                        for the next 30 years.</span> <br>
+                                    <span class="text-span-4">Find out how with south india number 1 residental &
+                                        commercial
+                                        roof top solar installer.</span>
+                                </div>
+                                <div class="w-layout-grid grid-buttons inner-padding-small padding-top"><a
+                                        href="#contacus" class="button-2 color-line-white _2 w-inline-block"
+                                        style="padding: 10px;">
+                                        <div>GET A FREE QUOTE</div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-slide">
+                    <div class="hero-slide-container">
+                        <div class="bg-slider _2">
+                            <div class="home-header">
+                                <h1 class="heading-xlarge _16-ch inner-padding-xsmall center">SOLAR IS THE SOLUTION FOR
+                                    A
+                                    SUSTAINABLE FUTURE</h1>
+                                <div class="text-block-5 _2"><span class="text-span-4">Reducing your carbon footprint by
+                                        providing solutions with <br>
+                                        long-lasting environmental impact. </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-slide">
+                    <div class="hero-slide-container">
+                        <div class="bg-slider _35">
+                            <div class="home-header">
+                                <h1 class="heading-xlarge _16-ch inner-padding-xsmall center">CUSTOMISED SOLUTIONS FOR
+                                    INDUSTRIAL COMMERCIAL & <br>
+                                    DOMESTIC ENERGY NEEDS</h1>
+                                <div class="text-block-5 _2"><span class="text-span-4">Making optimum use of resources
+                                        for
+                                        minimum impact on the
+                                        environment.</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-slider-arrow-left">
+                <div class="w-icon-slider-left"></div>
+            </div>
+            <div class="w-slider-arrow-right">
+                <div class="w-icon-slider-right"></div>
+            </div>
+            <div class="w-slider-nav w-round"></div>
+        </div>
+        <!-- <style>
+               .wtigs{
+                 display: flex;
+               }
+        </style>
+        <div class="wtigs">
+                <div class="left">
+                     <img src="asset/img/welcomeimg.jpg" alt="">
+                </div>
+                <div class="right">
+                           <h2>welcome</h2>
+                           <h2>to solar</h2>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore sequi ad! Quis consequuntur nostrum error, asperiores, ab consequatur quas cum impedit facilis ut ipsam necessitatibus numquam cumque nemo totam?</p>
+                </div>
+        </div> -->
+        <style>
+            /* Container for the layout */
+            .wcner {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1370px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            /* Style for the left image */
+            .image {
+                border-radius: 10px;
+                flex: 1;
+                max-width: 27%;
+                /* Adjust the image width as needed */
+            }
+
+            /* Style for the right content */
+            .wct {
+                text-align: center;
+                flex: 1;
+                max-width: 73%;
+                /* Adjust the content width as needed */
+            }
+
+            .wct h3 {
+                text-align: center;
+            }
+
+
+            /* Optional: Add styling for responsiveness */
+            @media (max-width: 970px) {
+                .wcner {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .wct {
+                    max-width: 100%;
+                }
+
+                .image {
+                    max-width: 50%;
+                }
+            }
+        </style>
+        <div class="container-3 w-container"
+            style=" margin-left: 13px; margin-right: 13px; background-image:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+   url(asset/img/HD-wallpaper-best-solar-company-in-ghaziabad-solar-rooftop-solar-energy-sun-solar-energy-solar-panel.jpg); background-size: auto, auto, cover;  background-position: 0px 0px,0px 0px, 50% 50%;">
+            <!-- <div class="w-layout-grid main-grid no-gap inner-padding-small">
+               
+                <div id="w-node-_7d8d9e01-ff1c-0bd8-32b3-7f03af8a9d25-2666394d"
+                    class="grid-wrapper inner-padding-small bp">
+
+                    <h2 class="heading-large text-white _80 left">WELCOME TO <span style="color: orange">INDO</span>
+                        <span style="color: rgb(0, 151, 0);">GREEN</span> <span
+                            style="color: rgb(49, 166, 212);">SOLAR</span>
+                    </h2>
+                    <h2 class="heading-large text-white _80 left" style="font-size: 40px;">Indo Green Solar – Top Solar
+                        EPC
+                        Company in South India.</h2>
+                    <h3 style="color: white;">LOANS AND EASY EMI OPTION
+                        AVAILABLE FOR SOLAR POWER PLANTS. </h3>
+                    <p class="main-paragraph-3 bpt" style="color: #bfbfbf;">Get to know Indo Green Solar, the #1 Trusted
+                        Solar EPC player in south India with in house
+                        service team. We have been growing in both size and reputation at an astonishing rate. We lead
+                        the way in customer care and satisfaction, and we strive to provide the very best service to
+                        everyone we work with.</p>
+                    <div class="w-layout-grid grid-buttons inner-padding-small padding-top">
+                        <a href="companyprofile.html" class="button-2 color-line-white w-inline-block"
+                            style="padding: 9px; padding-right: 11px;">
+                            <div>Read More</div><img
+                                src="https://assets.website-files.com/626000583f2b6c3e8b663940/626000583f2b6c88d3663975_cta-arrow-white.svg"
+                                loading="lazy" alt="" class="icon-arrow" />
+                        </a>
+
+                    </div>
+                    
+        </div>
+                <div id="w-node-_7d8d9e01-ff1c-0bd8-32b3-7f03af8a9d31-2666394d" class="overflow-wrapper rounded"><img
+                        src="asset/img/welcomeimg.jpg" loading="lazy"
+                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 87vw, (max-width: 991px) 94vw, (max-width: 1919px) 95vw, 1320px"
+                        srcset="https://assets.website-files.com/626000583f2b6c3e8b663940/C:\Users\Admin\Documents\Projects\solar projects\NewProject\asset\img\welcomeimg.jpg 500w, 
+                    https://assets.website-files.com/626000583f2b6c3e8b663940/C:\Users\Admin\Documents\Projects\solar projects\NewProject\asset\img\welcomeimg.jpg 800w,
+                     https://assets.website-files.com/626000583f2b6c3e8b663940/C:\Users\Admin\Documents\Projects\solar projects\NewProject\asset\img\welcomeimg.jpg 1600w,
+                      https://assets.website-files.com/626000583f2b6c3e8b663940/C:\Users\Admin\Documents\Projects\solar projects\NewProject\asset\img\welcomeimg.jpg 1920w"
+                        alt="" class="full-image" ></div>
+            </div>  -->
+            <div class="wcner">
+                <img src="asset/img/welcomeimg.jpg" alt="Image" class="image">
+                <div class="wct">
+                    <h1 class="heading-xlarge _16-ch inner-padding-xsmall center">WELCOME TO INDO GREEN SOLAR </h1>
+                    <p class="p-small-size white-70 center">
+                    <h3><span class="text-span-7" style="color: white;">Indo Green Solar - Top Solar EPC
+                            Company in South India.</span></h3>
+                    <span class="text-span-70" style="color: white;">Loans And Easy Emi Option
+                        Available For Solar Power Plants. </span>
+                    <br>
+
+                    <span class="hpmeapra">
+                        Get to know Indo Green Solar, the #1 Trusted Solar EPC player in south India with in house
+                        service team. We have been growing in both size and reputation at an astonishing rate. We lead
+                        the way in customer care and satisfaction, and we strive to provide the very best service to
+                        everyone we work with.
+                    </span></p>
+                    <div class="rmbutton">
+                        <button><a href="companyprofile.html" style="padding: 9px;
+                    border-radius: 18px;
+                    background-color: black;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 16px;">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="section-full _3">
+        <div class="content">
+            <div class="hero-full-title _3">
+                <img
+                src="asset/img/626000583f2b6cb728663b04_Paneles-Solares-Merida-Cancun-EcoCentro-Panel-A4.png"
+                loading="lazy" alt="" class="icon-arrow" />
+                <h1 class="heading-xlarge _16-ch inner-padding-xsmall center">WELCOME TO INDO GREEN SOLAR </h1>
+                <p class="p-small-size white-70 center"><h3><span class="text-span-7">Indo Green Solar - Top Solar EPC 
+                    Company in South India.</span></h3><span class="text-span-70">Loans  And  Easy Emi  Option
+                        Available For  Solar  Power Plants. </span> <span class="hpmeapra">
+                            Get to know Indo Green Solar, the #1 Trusted Solar EPC player in south India with in house 
+                        service team. We have been growing in both size and reputation at an astonishing rate. We lead 
+                        the way in customer care and satisfaction, and we strive to provide the very best service to 
+                        everyone we work with.
+                        </span></p> 
+                <div class="w-layout-grid grid-buttons inner-padding-small padding-top" >
+                    <a href="about.html"
+                        class="button-2 color-line-white w-inline-block">
+                        <div>Read More</div>
+                        <img
+                            src="https://assets.website-files.com/626000583f2b6c3e8b663940/626000583f2b6c88d3663975_cta-arrow-white.svg"
+                            loading="lazy" alt="" class="icon-arrow" />
+                    </a>
+                 
+                </div>
+            </div>
+        </div>
+        <img
+            src="asset/img/626000583f2b6c63b4663abf_grid-independence-mexico-ecocentro-p-1080.png"
+            loading="lazy" data-w-id="9e75a3ce-5ab7-640b-b846-314290f49dc1"
+            sizes="(max-width: 991px) 100vw, (max-width: 1279px) 78vw, (max-width: 1919px) 79vw, 80vw"
+            srcset="asset/img/626000583f2b6c63b4663abf_grid-independence-mexico-ecocentro-p-1080.png 500w,
+             asset/img/626000583f2b6c63b4663abf_grid-independence-mexico-ecocentro-p-1080.png
+             626000583f2b6c39b7663ac4_paneles-solares-ecocentro-enphase-baterias-iq%2520copy-p-800.png 800w,
+             asset/img/626000583f2b6c63b4663abf_grid-independence-mexico-ecocentro-p-1080.png
+             626000583f2b6c39b7663ac4_paneles-solares-ecocentro-enphase-baterias-iq%2520copy-p-1080.png 1080w, 
+             asset/img/626000583f2b6c63b4663abf_grid-independence-mexico-ecocentro-p-1080.png 1800w"
+            alt="" class="enphaseplatinuminstaller" /> 
+    </div> -->
+
+        <div class="black-background">
+            <h2 class="special">Key Milestone</h2>
+
+            <style>
+                .black-background {
+                    margin-bottom: 25px;
+                    margin-bottom: 25px;
+                    background-color: #77bf58;
+                    height: 245px;
+                    border-radius: 5px;
+                    padding-top: 10px;
+                    margin-top: 25px;
+                    margin-left: 13px;
+                    margin-right: 13px;
+                }
+
+                .special {
+                    text-align: center;
+                    color: white;
+                    font-size: 40px;
+                    margin: 0px;
+                    padding: 20px;
+                }
+
+                .part {
+                    /* margin: auto; */
+                    margin: 0px 65px;
+                    text-align: center;
+                }
+
+                .part p {
+                    font-size: 19px;
+                    color: white;
+                }
+
+                .part h2 {
+                    color: white;
+                }
+
+                .row {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .kmfb2,
+                .kmfb1 {
+                    display: flex;
+                }
+
+                @media screen and (max-width:1100px) {
+
+                    .kmfb2,
+                    .kmfb1 {
+                        flex-direction: column;
+                    }
+
+                    .black-background {
+                        height: 300px;
+                    }
+                }
+
+                @media screen and (max-width:500px) {
+                    .row {
+                        flex-direction: column;
+                    }
+
+                    .black-background {
+                        height: 486px;
+                    }
+                }
+            </style>
+            <div class="counter">
+                <div class="counter-section">
+                    <div class="row">
+                        <div class="kmfb1">
+                            <div class="part">
+                                <h2><span id="count1"></span> MW+</h2>
+                                <p>
+                                    Total Portfolio
+                                </p>
+                            </div>
+                            <div class="part">
+                                <h2><span id="count2"></span>+</h2>
+                                <p>
+                                    Satisfied Customers
+                                </p>
+                            </div>
+                        </div>
+                        <div class="kmfb2">
+                            <div class="part">
+                                <h2><span id="count3">+</span>+</h2>
+                                <p>
+                                    Installed Plants
+                                </p>
+                            </div>
+                            <div class="part">
+                                <h2><span id="count4"></span>+</h2>
+                                <p>
+                                    Locations
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    function counter(id, start, end, duration) {
+                        let obj = document.getElementById(id),
+                            current = start,
+                            range = end - start,
+                            increment = end > start ? 1 : -1,
+                            step = Math.abs(Math.floor(duration / range)),
+
+                            timer = setInterval(() => {
+
+                                current += increment;
+                                obj.textContent = current;
+                                if (current == end) {
+                                    clearInterval(timer);
+                                }
+                            }, step);
+                    }
+                    counter("count1", 0, 70, 5000)
+                    counter("count2", 0, 600, 5000)
+                    counter("count3", 0, 1200, 5000)
+                    counter("count4", 0, 800, 5000)
+                });
+
+            </script>
+
+
+        </div>
+
+        <!-- style="background-image:
+   linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(52, 52, 52, 0.18) 60%, hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+  url(asset/img/tree.jpg); background-size: auto, auto, cover;  background-position: 0px 0px,0px 0px, 50% 50%;" -->
+        <div class="section-full _4">
+            <div class="w-layout-grid main-grid no-gap inner-padding-small">
+
+                <div class="content">
+                    <div class="hero-full-title _3">
+                        <!-- <img src="asset/img/626000583f2b6c382f663979_606d7f39cca14ebc69bb324e_Paneles-solares-ecocentro-logo (1).png" loading="lazy" alt="" class="image-17 white"/> -->
+                        <h1 class="heading-xlarge _16-ch inner-padding-xsmall center">THE INDO GREEN SOLAR ADVANTAGE
+                        </h1>
+                        <p class="p-small-size white-70 center" style="margin-top: 10px;">
+                            Understanding the need for solar power and its potential in minimising business costs, we
+                            offer
+                            roof-top, ground-mounted, on-grid systems for commercial buildings and solar panels for
+                            homes.
+                        </p>
+                        <div class="w-layout-grid grid-buttons inner-padding-small padding-top"
+                            style="margin-top: 18px;">
+
+                            <div style="display: flex; flex-direction: row;  margin-top: 17px; margin-right: 30px; ">
+                                <img src="asset/img/Profit-PNG-Transparent-Image.png" alt=""
+                                    style="margin-right: 10px; background: transparent;"> <br>
+                                <p style="display: flex; flex-direction: column; color: #c6c6c6;     ">
+                                    CUSTOMISED
+                                    <span class="first">Capex, Opex & EMI to ensure -40% cost-savings on power</span>
+                                </p>
+                            </div>
+                            <div
+                                style="display: flex; flex-direction: row; color: #c6c6c6;     margin-top: 17px; margin-right: 70px;">
+                                <img src="asset/img/Rocket-Transparent-Images-PNG.png" alt=""
+                                    style="margin-right: 10px; background-color: transparent;"> <br>
+                                <p style="display: flex; flex-direction: column;">
+                                    BEST-IN-INDUSTRY PROJECT EXECUTION
+                                    <span class="first">85% on-time Delivery and Sustainable Supply Chain</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- <div class="whyus" style="background-color: red; display: flex;">
+        <div class="ossol">
+                <img src="asset/img/os solutionn.jpeg" alt="" style="width: 950px; max-width: 50%; height: 190px; border-radius: 10px;">
+        </div>
+        <div class="integrity">
+         <img src="asset/img/design intigrity.jpg" alt="" style="width: 950px; max-width: 50%; height: 190px; border-radius: 10px;">
+        </div>
+        <div class="assur">
+<img src="asset/img/qassured.gif" alt="" style="width: 950px; max-width: 50%; height: 190px; border-radius: 10px;">
+        </div>
+    </div> -->
+        <section id="services-container" style="margin-top: -15px; background-color: #b1f6b1;">
+            <h1 class="h-primary center"
+                style="margin-bottom: -20px; color: white; padding-left: 20px; padding-top: 20px;">
+                Why Us :</h1>
+            <div id="services">
+                <div class="box">
+                    <img src="asset/img/os solutionn.jpeg" alt="">
+                    <h2 class="h-secondary center">One- stop Solution Provider</h2>
+                    <p class="center">From consultation, design, permits, panel installation to maintenance, we have got
+                        you covered. Our in-house team of designers and construction workers is a definite
+                        plus point to ensure a seamless solar experience.</p>
+                </div>
+                <div class="box">
+                    <img src="asset/img/design intigrity.jpg" alt="">
+                    <h2 class="h-secondary center">Design Integrity</h2>
+                    <p class="center">Our designers make a site visit first to consider the shade analysis and cost
+                        benefits
+                        of
+                        your building. This ensures peak solar performance in the proposed solar system</p>
+                </div>
+                <div class="box">
+                    <img src="asset/img/qassured.gif" alt="">
+                    <h2 class="h-secondary center">Quality Assured</h2>
+                    <p class="center">we source for only the best and trusted solar panels & equipment customised to
+                        meet your needs. Our seasoned and solar-certified team ensures that your PV system
+                        is built to the highest standard.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="client">
+
+            <h2 style="font-size: 32px;
+        line-height: 36px;
+      text-align: center;
+      color: #898989;
+        padding-top: 30px;
+       font-family: inherit;
+    ">SOME OF OUR ESTEEMED ROOFTOP SOLAR CLIENTS</h2>
+
+
+
+
+            <div class="clientsslide">
+                <div class="slied-track">
+
+
+                    <div class="slied">
+                        <img src="Our clients/Facade~975.jpg" alt="">
+                        <h2>Facade</h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/HPCL.png" alt="" style="width: 70%;">
+                        <h2 style="font-size: 25px;">HPCL</h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/logo.png" alt="" style="margin-top: 54px; width: 93%;">
+                        <h2 style="font-size: 25px; margin-top: 35px;"> MG Brothers</h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/APSPDCL-Logo.jpg" alt="">
+                        <h2></h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Bharat-Petroleum.png" alt="" style="width: 70%;">
+                        <h2 style="font-size: 25px;"></h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/c145fb77e37a599d2eb2c67a37fa9dc6.png" alt=""
+                            style="margin-top: 54px; width: 93%;">
+                        <h2 style="font-size: 25px; margin-top: 35px;"> </h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/care-and-cure-hospitals-anantapur-logo.jpg" alt="">
+                        <h2></h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Copy of swaasthya_logo.png" alt="" style="width: 70%;">
+                        <h2 style="font-size: 25px;"></h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/logo.png" alt="" style="margin-top: 54px; width: 93%;">
+                        <h2 style="font-size: 25px; margin-top: 35px;"> MG Brothers</h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Facade~975.jpg" alt="">
+                        <h2>Facade</h2>
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="" style="width: 70%;">
+
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="" style="margin-top: 54px; width: 93%;">
+
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="">
+                    </div>
+
+                    <!-- original slider starts here -->
+                    <div class="slied">
+                        <img src="Our clients/APSPDCL-Logo.jpg" alt="">
+                        <h2></h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Bharat-Petroleum.png" alt="" style="width: 70%;">
+                        <h2 style="font-size: 25px;"></h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/c145fb77e37a599d2eb2c67a37fa9dc6.png" alt="" style=" width: 93%;">
+                        <h2 style="font-size: 25px; margin-top: 35px;"> </h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/care-and-cure-hospitals-anantapur-logo.jpg" alt="">
+                        <h2></h2>
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Copy of swaasthya_logo.png" alt=""
+                            style="width: 100%; margin-left: 20px;">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Facade~975.jpg" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/HPCL.png" alt="" style="width: 70%;">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/logo.png" alt="" style="margin-top: 54px; width: 93%;">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/maxresdefault (1).jpg" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/WhatsApp Image 2023-10-16 at 21.29.14_6cd7de65.jpg" alt="" style="margin: auto;">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Original-ORC-Vector-LOGO-5-600x106.png" alt="" style="margin: auto;">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Peepal-LogoFull.png" alt="" style="width: 50%; filter: none;">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/Tamil_Nadu_Electricity_Board_(TNEB)_Logo.jpg" alt="" style="width: 75%;">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/tsf.jpg" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/roohoot-logo-retina.png" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="Our clients/TTD.png" alt="" style="width: 75%;">
+                    </div>
+
+                    <div class="slied">
+                        <img src="Our clients/unnamed (1).jpg" alt="" style="width: 72%;">
+                    </div>
+                    <!-- original slider ends -->
+                    <div class="slied">
+                        <img src="" alt="" style="width: 75%;">
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="">
+                    </div>
+                    <div class="slied">
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="slied">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contactusmedias -->
+        <style>
+            .nande input {
+                width: 264px;
+                padding: 10px;
+            }
+
+            .nande select {
+                width: 264px;
+                padding: 10px;
+            }
+
+            .name {
+                margin-right: 30px;
+                margin-bottom: 10px;
+            }
+
+            .mail {
+                margin-bottom: 10px;
+            }
+
+            .number {
+                margin-right: 30px;
+                margin-bottom: 10px;
+            }
+
+            .city {
+                margin-bottom: 10px;
+            }
+
+            .snf {
+                margin-right: 30px;
+                margin-bottom: 10px;
+            }
+
+            .smaeb {
+                margin-bottom: 10px;
+            }
+        </style>
+        <style>
+            #contacus h2 {
+                line-height: 36px;
+                padding-top: 20px;
+                padding-left: 70px;
+                color: #77bf58;
+                padding-bottom: 10px;
+                font-family: system-ui;
+            }
+
+            @media screen and (max-width: 600px) {
+                #contacus h2 {
+                    padding-left: 20px;
+                }
+
+            }
+        </style>
+        <div id="contacus" style="margin-left: 13px; margin-bottom: 13px; margin-right: 13px; border-radius: 10px;">
+            <h2><span class="s2" style="font-size: 2.5rem;">Are You Ready</span> <br>
+                <span class="s1" style="font-size: 2.3rem;">To Start a Project With Us.Enquire Now..</span>
+            </h2>
+            <form id="contct" action="https://formsubmit.co/indogreensolar22@gmail.com" method="POST">
+
+                <div class="nande">
+                    <div class="name">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="ENTER YOUR NAME" name="name" id="name" required>
+                    </div>
+                    <div class="mail">
+                        <label for="mail">Email</label>
+                        <input type="email" placeholder="ENTER YOUR EMAIL" class="mail" id="email" required>
+                    </div>
+
+
+                </div>
+                <div class="nande">
+
+                    <div class="number">
+                        <label for="num">PH:Number</label>
+                        <input type="text" placeholder="YOUR MOBILE NUMBER" name="num" id="num" required>
+                    </div>
+                    <div class="city">
+                        <label for="city">City</label>
+                        <select name="city" id="city">
+                            <option value="none" selected></option>
+
+                            <option value="others">vizag</option>
+                            <option value="others">vijayawada</option>
+                            <option value="others">guntur</option>
+                            <option value="others">nellore</option>
+                            <option value="others">kurnool</option>
+                            <option value="others">kadapa</option>
+                            <option value="others">rajhamundry</option>
+                            <option value="others">kakinada</option>
+                            <option value="others">tirupati</option>
+                            <option value="others">anantapur</option>
+                            <option value="others">ongole</option>
+                            <option value="others">eluru</option>
+                            <option value="others">nandyal</option>
+                            <option value="others">machilipatnam</option>
+                            <option value="others">adoni</option>
+                            <option value="others">tenali</option>
+                            <option value="others">poddatur</option>
+                            <option value="others">chittoor</option>
+                            <option value="others">hindupur</option>
+                            <option value="others">bheemavaram</option>
+                            <option value="others">madanapalle</option>
+                            <option value="others">guntakal</option>
+                            <option value="others">srikakulam</option>
+                            <option value="others">dharmavaram</option>
+                            <option value="others">gudivada</option>
+                            <option value="others">narsaraopet</option>
+                            <option value="others">tadpatri</option>
+                            <option value="others">tadepalligudem</option>
+                            <option value="others">chilakaluripet</option>
+                            <option value="others">sulurpet</option>
+                            <option value="others">gudur</option>
+                            <option value="others">Hyderabad</option>
+                            <option value="others">warangal</option>
+                            <option value="others">nizamabad</option>
+                            <option value="others">miriyalaguda</option>
+                            <option value="others">karimnagar</option>
+                            <option value="others">ramagundam</option>
+                            <option value="others">secundarabad</option>
+                            <option value="others">khammam</option>
+                            <option value="others">nalgonda</option>
+                            <option value="others">adilabad</option>
+                            <option value="others">suryapet</option>
+                            <option value="others">other</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="nande">
+                    <div class="snf">
+
+                        <label for="snf">Solar Need For</label>
+                        <select name="snf" id="snf">
+                            <option value="none" selected></option>
+                            <option value="voi ">Home</option>
+                            <option value="foa"> Apartment</option>
+                            <option value="bissines">Bussiness</option>
+                            <option value="fo">Factory Outlet</option>
+                            <option value="others">Others</option>
+                        </select>
+
+                    </div>
+                    <div class="smaeb">
+                        <label for="smaeb">Your Average Monthly
+                            Electricity
+                            Bill</label>
+                        <select name="smaeb" id="smaeb">
+                            <option value="none" selected></option>
+                            <option value="lt ">
+                                <₹1500< /option>
+                            <option value="mt">
+                                <₹3000< /option>
+                            <option value="suc">
+                                <₹5000< /option>
+                            <option value="suc">₹5000<< /option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="nande">
+                    <div class="textarea">
+                        <label for="text">Comments</label>
+                        <textarea name="text" id="text" cols="45" rows="5"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="submit">
+                    <input type="reset" value="Reset " style="padding: 5px 25px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    border-radius: 20px;
+    margin-right: 15px;">
+                    <input type="submit" value="Submit" style="padding: 5px 25px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    border-radius: 20px;">
+                </div>
+            </form>
+            <script src="https://smtpjs.com/v3/smtp.js">
+            </script>
+            <script>
+                function send() {
+var name = document.getElementById("Name").value;
+var email = document.getElementById("Email").value;
+var contact = document.getElementById("contact").value;
+var city = document.getElementById("city").value;
+var solarneedfor = document.getElementById("snf").value;
+var monthlyaverageelectricitybill = document.getElementById("smaeb").value;
+var mess = document.getElementById("text").value;
+
+var body = "Name: " + name + "<br/> Email:" + email + "<br/> contact :" + contact +  "<br/> city :" + city + "<br/> snf :" + solarneedfor + "<br/> smaeb :" + monthlyaverageelectricitybill + "<br/> text :" + mess;
+
+console.log(body);
+
+Email.send({
+SecureToken :"978bede9-ae33-4774-bb8c-7c822f6ca9ac",
+To: 'indogreensolar22@gmail.com',
+From: "indogreensolar22@gmail.com",
+Subject: sub,
+Body:body
+}).then(
+message => {
+   if(message=='OK'){
+       swal("Good job!", "You clicked the button!", "success");
+   }
+}
+);
+}
+           </script>
+        </div>
+
+
+
+        <div class="footer-3">
+            <div class="custom_container">
+                <div class="footer-disclaimer">
+                    <div class="imagebar" style="display: flex;">
+                        <img src="asset/img/sym.png" alt="" class="none" style="    height: 55px;
+                        width: 50px;">
+                        <p style="padding-left: 12px; padding-top: 16px;"><span style="color: orange;">INDO</span><span
+                                style="color: rgb(0, 151, 0);">
+                                GREEN</span><span style="color: rgb(49, 166, 212);">
+                                SOLAR </span><br><span style="padding-left: 80px; color: rgb(248, 74, 10);">since
+                                2012</span></p>
+                    </div>
+
+                    <div class="redessociales"><a href="https://www.facebook.com/IGS2010?mibextid=ZbWKwL"
+                            target="_blank" class="social-link w-inline-block">
+                            <img src="asset/img/facebook.png" alt="" style="max-width: 62%; filter: invert();">
+                        </a>
+
+                        <a href="https://www.linkedin.com/company/indo-green-solar2010/"
+                            class="social-link w-inline-block" target="_blank">
+                            <img src="asset/img/link.png" alt="" style="max-width: 62%; filter: invert();">
+                        </a>
+
+                        <a href="https://youtube.com/@IndoGreenSolarindogreensolar" class="social-link w-inline-block"
+                            target="_blank">
+                            <img src="asset/img/play.png" alt="" style="max-width: 62%; filter: invert();">
+                        </a>
+
+                        <a href="https://www.instagram.com/invites/contact/?i=6r3cevrrpfju&utm_content=s6czzs5"
+                            class="social-link w-inline-block" target="_blank">
+                            <img src="asset/img/instagram-png-transparent-23.png" alt=""
+                                style="max-width: 62%; filter: invert();">
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="main-content">
+                    <div class="fd1">
+                        <div class="left box">
+                            <h2 style="font-size: 17px; line-height: 35px; color: #fbfbfb;">About Indo Green Solar:</h2>
+                            <div class="content" style="display: block;">
+                                <p>Indo Green Solar is one of the leading solar EPC company in South India. We are
+                                    offering solar rooftop and ground Mount projects on Easy EMI Model to the south
+                                    Indian Customers</p>
+
+                            </div>
+                        </div>
+                        <div class="center box">
+                            <h2 style="color: #fbfbfb;">UseFull links:</h2>
+                            <div class="content" style="display: block;">
+                                <a href="companyprofile.html" class="footer_nav_item w-inline-block">
+                                    <div>company Profile</div>
+                                </a><a href="epc.html" class="footer_nav_item w-inline-block">
+                                    <div>EPC</div>
+
+
+                                </a><a href="om.html" class="footer_nav_item w-inline-block">
+                                    <div>O&M</div>
+                                </a><a href="sd.html" class="footer_nav_item w-inline-block">
+                                    <div>SD</div>
+                                </a><a href="capex.html" class="footer_nav_item w-inline-block">
+                                    <div>Capex Model</div>
+                                </a>
+                                <a href="opex.html" class="footer_nav_item w-inline-block">
+                                    <div>Opex Model</div>
+                                </a>
+                                <a href="usoa.html" class="footer_nav_item w-inline-block">
+                                    <div>Utility Scale and Open Access</div>
+                                </a>
+                                <a href="eem.html" class="footer_nav_item w-inline-block">
+                                    <div>Easy EMI Model</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fd2">
+                        <div class="center box">
+                            <h2 style="color: #fbfbfb;">Address/Contacts:</h2>
+                            <div class="sepcenpart">
+                                <div class="content" style="display: block;">
+                                    <div class="footer_nav_block">
+                                        <div class="phone" style="display: flex; margin-left: -25px;">
+                                            <i class="fa-solid fa-phone"
+                                                style="color: white; padding-top: 19px; padding-right: 10px ;"></i>
+
+                                            <div class="nums" style="color: white ; font-size: 18px; ">
+
+
+                                                <div style="margin-bottom: 6px;"> +91-9885475559</div>
+
+                                                <!-- <a href="sales@indogreensolar.com" class="footer_nav_item w-inline-block"> -->
+
+                                                <div>+91-9391924356</div>
+
+                                            </div>
+                                        </div>
+                                        <div class="mails" style="display: flex; margin-left: -25px; margin-top: 17px;">
+                                            <i class="fa-solid fa-envelope"
+                                                style="color: white; padding-top: 19px; padding-right: 10px ;"></i>
+                                            <div class="accs" style="color: white ; font-size: 18px;">
+
+
+                                                <div style="margin-bottom: 6px;">info@indogreensolar.com</div>
+
+                                                <!-- <a href="sales@indogreensolar.com" class="footer_nav_item w-inline-block"> -->
+
+                                                <div>sales@indogreensolar.com</div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="register" style="margin-top: 17px; margin-left: -25px;">
+
+                                            <div style="display: flex;"> <i class="fa-solid fa-location-dot"
+                                                    style=" font-size: 15px; color: white;padding-right: 10px; padding-top: 19px; "></i>
+                                                <div class="adre" style=" font-size: 15px; color: white;">
+                                                    20-1-91/I, opp. Sk Fast foods,<br>
+                                                    TML By-pass Road,<br>
+                                                    Tirupati, Andhra Pradesh 517501
+                                                </div>
+
+                                            </div>
+                                            <div style="display: flex;"> <i class="fa-solid fa-location-dot"
+                                                    style=" font-size: 15px; color: white;padding-right: 10px; padding-top: 38px; "></i>
+                                                <div class="adre"
+                                                    style="margin-top: 15px; font-size: 15px; color: white;">
+                                                    43-106/1-10A, Ward no-52, <br>
+                                                    Nandamuri Nagar, <br>
+                                                    Vijayawada, Andhra Pradesh 520015
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="right box">
+                            <h2 style="font-size: 17px; line-height: 35px; color: #fbfbfb;">Our Company Location:</h2>
+                            <div class="content" style="display: block;">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.247925647927!2d79.42608609939792!3d13.638928493464963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b0db8be4d59%3A0x649e7f60d94c8d0!2sIndo%20Green%20Solar!5e1!3m2!1sen!2sin!4v1694072807053!5m2!1sen!2sin"
+                                    width="310" height="220" style="border:0; border-radius: 10px;" allowfullscreen=""
+                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer_copyright">
+                    <div class="footer-disclaimer copy"></div>
+                    <div class="copy_and_legal">
+                        <div class="div-block-2">
+                            <div class="text-block-7 copy" style="color: white;">INDO GREEN SOLAR- Go Green, Go
+                                Renewable</div>
+                        </div>
+                    </div>
+                    <style>
+                        .designername{
+                                 text-align: end;
+                                 margin-top: 40px;
+                        }
+                        .designername a{
+                           text-decoration: none;
+                                 color: rgb(206, 206, 206);
+                           font-family: cursive;
+                        }
+                        .designername a:hover{
+                           color: rgb(255, 255, 255);
+                        }
+                   </style>
+                          <div class="designername" >
+                                     <a href="https://instagram.com/sadhik0000?igshid=MzMyNGUyNmU2YQ==" target="_blank">Designed by SHAIK.JAFAR SADHIK</a>
+                          </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <style>
+            .content1 {
+                position: relative;
+                margin: 130px auto;
+                text-align: center;
+                padding: 0 20px;
+            }
+
+            .content1 .text {
+                font-size: 2.5rem;
+                font-weight: 600;
+                color: #202020;
+            }
+
+            .content1 .p {
+                font-size: 2.1875rem;
+                font-weight: 600;
+                color: #202020;
+            }
+
+            footer {
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                background: #111;
+            }
+
+            .main-content {
+                display: flex;
+                font-family: sans-serif;
+            }
+
+            .main-content .box {
+                flex-basis: 50%;
+                padding: 10px 20px;
+            }
+
+            .box h2 {
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: -5px;
+            }
+
+            .box .content {
+                margin: 20px 0 0 0;
+                position: relative;
+            }
+
+            .box .content:before {
+                position: absolute;
+                content: '';
+                top: -10px;
+                height: 2px;
+                width: 100%;
+                background: #818181;
+            }
+
+            /* .box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+} */
+            .left .content p {
+                text-align: justify;
+                font-size: 14px;
+                color: white;
+                font-family: inherit;
+            }
+
+            .left .content .social {
+                margin: 20px 0 0 0;
+            }
+
+            .left .content .social a {
+                padding: 0 2px;
+            }
+
+            .left .content .social a span {
+                height: 40px;
+                width: 40px;
+                background: #1a1a1a;
+                line-height: 40px;
+                text-align: center;
+                font-size: 18px;
+                border-radius: 5px;
+                transition: 0.3s;
+            }
+
+            .left .content .social a span:hover {
+                background: #f12020;
+            }
+
+            .center .content .fas {
+                font-size: 1.4375rem;
+                background: #1a1a1a;
+                height: 45px;
+                width: 45px;
+                line-height: 45px;
+                text-align: center;
+                border-radius: 50%;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+
+            .center .content .fas:hover {
+                background: #f12020;
+            }
+
+            .center .content .text {
+                font-weight: 500;
+                padding-left: 10px;
+            }
+
+            .center .content .phone {
+                margin: 15px 0;
+            }
+
+            .right form .text {
+                font-size: 1.0625rem;
+                margin-bottom: 2px;
+                color: #656565;
+            }
+
+            .right form .msg {
+                margin-top: 10px;
+            }
+
+            .right form input,
+            .right form textarea {
+                width: 100%;
+                font-size: 1.0625rem;
+                background: #151515;
+                padding-left: 10px;
+                border: 1px solid #222222;
+            }
+
+            .right form input:focus,
+            .right form textarea:focus {
+                outline-color: #3498db;
+            }
+
+            .right form input {
+                height: 35px;
+            }
+
+            .right form .btn {
+                margin-top: 10px;
+            }
+
+            .right form .btn button {
+                height: 40px;
+                width: 100%;
+                border: none;
+                outline: none;
+                background: #f12020;
+                font-size: 1.0625rem;
+                font-weight: 500;
+                cursor: pointer;
+                transition: .3s;
+            }
+
+            .right form .btn button:hover {
+                background: #000;
+            }
+
+            .bottom center {
+                padding: 5px;
+                font-size: 0.9375rem;
+                background: #151515;
+            }
+
+            .bottom center span {
+                color: #656565;
+            }
+
+            .bottom center a {
+                color: #f12020;
+                text-decoration: none;
+            }
+
+            .bottom center a:hover {
+                text-decoration: underline;
+            }
+
+            .center a {
+                text-decoration: none;
+            }
+
+            .fd1 {
+                display: flex;
+            }
+
+            .fd2 {
+                display: flex;
+            }
+
+            @media screen and (max-width: 1100px) {
+                footer {
+                    position: relative;
+                    bottom: 0px;
+                }
+
+                .main-content {
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                }
+
+                .main-content .box {
+                    margin: 5px 0;
+                }
+
+                .fd1 {
+                    display: flex;
+                }
+
+                .fd2 {
+                    display: flex;
+                }
+
+                .sepcenpart {
+                    margin-left: 20px;
+                }
+            }
+
+            @media screen and (max-width: 1279px) {
+                .footer-3 {
+                    padding: 30px 10px 20px;
+                }
+
+                .custom_container {
+                    max-width: 1230px;
+                }
+            }
+
+            @media screen and (max-width: 820px) {
+                .fd1 {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .fd2 {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .content iframe {
+                    margin: auto;
+                    width: 100%;
+                }
+            }
+        </style>
+        <script
+            src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=626000583f2b6c3e8b663940"
+            type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous"></script>
+        <script src="https://assets.website-files.com/626000583f2b6c3e8b663940/js/webflow.5a8785acc.js"
+            type="text/javascript"></script>
+        <script>
+
+            let calcScrollValue = () => {
+                let scrollProgress = document.getElementById
+                    ("progress");
+                let progressValue = document.getElementById
+                    ("progress-value");
+                let pos = document.documentElement.scrollTop;
+                let calcHeight =
+                    document.documentElement.scrollHeight -
+                    document.documentElement.clientHeight;
+                let scrollValue = Math.round((pos * 100) / calcHeight);
+                if (pos > 100) {
+                    scrollProgress.style.display = "grid";
+                } else {
+                    scrollProgress.style.display = "none";
+                }
+                scrollProgress.addEventListener("click", () => {
+                    document.documentElement.scrollTop = 0;
+                });
+                scrollProgress.style.background = `conic-gradient(rgb(129 255 73) ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+            };
+
+            window.onscroll = calcScrollValue;
+            window.onload = calcScrollValue;
+
+
+
+
+
+            const wrapper = document.querySelector(".wrapper");
+            const carousel = document.querySelector(".carousel");
+            const firstCardWidth = carousel.querySelector(".card").offsetWidth;
+            const arrowBtns = document.querySelectorAll(".wrapper i");
+            const carouselChildrens = [...carousel.children];
+
+            let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+
+            // Get the number of cards that can fit in the carousel at once
+            let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+
+            // Insert copies of the last few cards to beginning of carousel for infinite scrolling
+            carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
+                carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+            });
+
+            // Insert copies of the first few cards to end of carousel for infinite scrolling
+            carouselChildrens.slice(0, cardPerView).forEach(card => {
+                carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+            });
+
+            // Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
+            carousel.classList.add("no-transition");
+            carousel.scrollLeft = carousel.offsetWidth;
+            carousel.classList.remove("no-transition");
+
+            // Add event listeners for the arrow buttons to scroll the carousel left and right
+            arrowBtns.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+                });
+            });
+
+            const dragStart = (e) => {
+                isDragging = true;
+                carousel.classList.add("dragging");
+                // Records the initial cursor and scroll position of the carousel
+                startX = e.pageX;
+                startScrollLeft = carousel.scrollLeft;
+            }
+
+            const dragging = (e) => {
+                if (!isDragging) return; // if isDragging is false return from here
+                // Updates the scroll position of the carousel based on the cursor movement
+                carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+            }
+
+            const dragStop = () => {
+                isDragging = false;
+                carousel.classList.remove("dragging");
+            }
+
+            const infiniteScroll = () => {
+                // If the carousel is at the beginning, scroll to the end
+                if (carousel.scrollLeft === 0) {
+                    carousel.classList.add("no-transition");
+                    carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+                    carousel.classList.remove("no-transition");
+                }
+                // If the carousel is at the end, scroll to the beginning
+                else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+                    carousel.classList.add("no-transition");
+                    carousel.scrollLeft = carousel.offsetWidth;
+                    carousel.classList.remove("no-transition");
+                }
+
+                // Clear existing timeout & start autoplay if mouse is not hovering over carousel
+                clearTimeout(timeoutId);
+                if (!wrapper.matches(":hover")) autoPlay();
+            }
+
+            const autoPlay = () => {
+                if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+                // Autoplay the carousel after every 2500 ms
+                timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
+            }
+            autoPlay();
+
+            carousel.addEventListener("mousedown", dragStart);
+            carousel.addEventListener("mousemove", dragging);
+            document.addEventListener("mouseup", dragStop);
+            carousel.addEventListener("scroll", infiniteScroll);
+            wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+            wrapper.addEventListener("mouseleave", autoPlay);
+
+
+
+
+            const privacyPolicyCheckbox = document.getElementById('privacyPolicy');
+            const form = document.getElementById('conct');
+
+            form.addEventListener('submit', function (event) {
+                if (!privacyPolicyCheckbox.checked) {
+                    event.preventDefault();
+                    alert('Please agree to the Privacy Policy');
+                }
+            });
+
+
+
+
+        </script>
+
+</body>
+
+</html>
