@@ -818,6 +818,22 @@
 <img src="asset/img/qassured.gif" alt="" style="width: 950px; max-width: 50%; height: 190px; border-radius: 10px;">
         </div>
     </div> -->
+    <style>
+        @media screen and (max-width: 580px){
+  #services .box {
+    padding: 20px;
+    margin: 2px 19px;
+        }
+      
+}
+@media screen and (max-width: 450px){
+   #services .box {
+    padding: 20px;
+    margin: 10px 2px;
+} 
+}
+
+    </style>
         <section id="services-container" style="margin-top: -15px; background-color: #b1f6b1;">
             <h1 class="h-primary center"
                 style="margin-bottom: -20px; color: white; padding-left: 20px; padding-top: 20px;">
@@ -1215,7 +1231,7 @@
                      Subject: "form from website",
                      Body: body
                  }).then(
-                     message => alert(message)
+                     message => alert("form sent successfully")
                  );
             }
         </script>
