@@ -30604,6 +30604,11 @@ textarea.w-select {
     grid-row-start: span 1;
   }
 }
+@media screen and (max-width: 500px) {
+  #services .box {
+    margin: 2px 0px;
+}
+}
 
 .content img {
   height: 50px;
