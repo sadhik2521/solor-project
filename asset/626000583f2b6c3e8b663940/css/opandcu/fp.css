@@ -14,6 +14,7 @@ body{
   margin-top: -22px;
   max-width: 100%;
 }
+
 .titleh1{
   text-align: center;
 }
@@ -23,6 +24,71 @@ body{
   font-family: 'Open Sans';
   font-size: 80px;
 }
+.fphead{
+  text-align: center;
+  margin: 50px;
+  font-size: xxx-large;
+  font-family: 'Open Sans';
+}
+.fphead h1{
+  
+  font-size: 50px;
+  line-height: 44px;
+  margin-top: 20px;
+  font-family: revert;
+}
+@media (max-width: 800px) {
+  .titleh1 h1{
+    font-size: 60px;
+  }
+   
+}
+@media (max-width: 767px) {
+ .partner-info {
+    width: 83%;
+}
+}
+
+@media (max-width: 650px){
+  .titleh1 h1 {
+    font-size: 55px;
+}
+#cutitle {
+  height: 324px;
+}
+}
+@media (max-width: 600px){
+  .titleh1 h1 {
+      font-size: 51px;
+  }
+.titleh1 h1 {
+  line-height: 60px;
+}.titleh1 h1 {
+    padding-top: 109px;
+}
+#cutitle {
+  height: 300px;
+}
+
+}
+@media (max-width: 600px){
+  .fphead h1 {
+    margin-top: -20px;
+       font-size: 45px;
+  }
+  
+}
+@media (max-width: 400px){
+.titleh1 h1 {
+    line-height: 50px;
+}
+.titleh1 h1 {
+  font-size: 48px;
+  padding-top: 101px;
+}
+}
+
+ 
   /* Google Font CDN Link */
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
   *{
@@ -469,7 +535,7 @@ font-size: 2.2rem;}
        }
        .titleh1 h1 {
          font-size: 53px;
-         padding-top: 130px;
+         padding-top: 100px;
        }
    }
      @media screen and (max-width: 360px) {
