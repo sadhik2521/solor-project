@@ -223,6 +223,7 @@
                     font-weight: bold;
                     font-size: xx-large;
                     margin: 13px;
+                    display: none;
                 }
 
                 select {
@@ -259,7 +260,7 @@
             <div class="container1" style="text-align: center;">
                 <label for="country-select">Select State & City</label>
                 <select id="country-select" onchange="populateStates()">ō
-                    <option value="">Select</option>
+                    <option value="">Select State</option>
                     <option value="usa">Andra Pradesh</option>
                     <option value="uk">Telangana</option>
                     <!-- <option value="canada">Canada</option> -->
@@ -267,7 +268,7 @@
 
                 <label for="state-select" style="display: none;">Select City</label>
                 <select id="state-select" onchange="displayPartnerInfo()">
-                    <option value="">Select</option>
+                    <option value="">Select City</option>
                 </select>
 
                 <div class="partner-info" style="border: 5px solid #d8d8d8;">
